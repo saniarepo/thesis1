@@ -1,0 +1,3515 @@
+Content-Type: multipart/related; start=<op.mhtml.1404970948283.e36ba75f17246de2@192.168.0.100>; boundary=----------lxKrnHtxJfhltemRg8xXAp
+Content-Location: http://expressjs.com/4x/api.html
+Subject: =?utf-8?Q?Express=20-=20api=20reference?=
+MIME-Version: 1.0
+
+------------lxKrnHtxJfhltemRg8xXAp
+Content-Disposition: inline; filename=api.html
+Content-Type: text/html; charset=utf-8; name=api.html
+Content-ID: <op.mhtml.1404970948283.e36ba75f17246de2@192.168.0.100>
+Content-Location: http://expressjs.com/4x/api.html
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE html><html><head><title>Express - api reference</title><link r=
+el=3D"stylesheet" href=3D"/style.css"><link rel=3D"stylesheet" href=3D"/=
+/fonts.googleapis.com/css?family=3DOpen+Sans:300,400,600,700&amp;amp;sub=
+set=3Dlatin,latin-ext"><meta http-equiv=3D"Content-Type" content=3D"text=
+/html; charset=3DUTF-8"><script src=3D"http://ajax.googleapis.com/ajax/l=
+ibs/jquery/1.11.0/jquery.min.js"></script><script src=3D"/app.js"></scri=
+pt><script src=3D"/retina.js"></script></head><body class=3D"inner"><div=
+ class=3D"bar"></div><section id=3D"content"><header><section id=3D"logo=
+"><a href=3D"/" class=3D"express">express</a><span class=3D"description"=
+>web application framework for<a href=3D"http://nodejs.org"> node</a></s=
+pan></section><nav class=3D"clearfix"><a href=3D"/">Home</a><a href=3D"/=
+4x/api.html" class=3D"active">API Reference</a><a href=3D"/guide.html">G=
+uide</a><a href=3D"/applications.html">Applications</a><a href=3D"/commu=
+nity.html">Community</a><a href=3D"/faq.html">FAQ</a><a href=3D"/3x/api.=
+html">3.x docs</a></nav></header><ul id=3D"menu"><li id=3D"app-api"><a h=
+ref=3D"#express">Application</a><ul id=3D"app-menu"><li><a href=3D"#expr=
+ess">express()</a></li><li><a href=3D"#app-settings">application setting=
+s</a></li><li><a href=3D"#app.set">app.set()</a></li><li><a href=3D"#app=
+.get">app.get()</a></li><li><a href=3D"#app.enable">app.enable()</a></li=
+><li><a href=3D"#app.disable">app.disable()</a></li><li><a href=3D"#app.=
+enabled">app.enabled()</a></li><li><a href=3D"#app.disabled">app.disable=
+d()</a></li><li><a href=3D"#app.use">app.use()</a></li><li><a href=3D"#a=
+pp.engine">app.engine()</a></li><li><a href=3D"#app.param">app.param()</=
+a></li><li><a href=3D"#app.VERB">application routing</a></li><li><a href=
+=3D"#app.all">app.all()</a></li><li><a href=3D"#app.route">app.route()</=
+a></li><li><a href=3D"#app.locals">app.locals</a></li><li><a href=3D"#ap=
+p.render">app.render()</a></li><li><a href=3D"#app.listen">app.listen()<=
+/a></li></ul></li><li id=3D"req-api"><a href=3D"#req.params">Request</a>=
+<ul id=3D"req-menu"><li><a href=3D"#req.params">req.params</a></li><li><=
+a href=3D"#req.query">req.query</a></li><li><a href=3D"#req.param">req.p=
+aram()</a></li><li><a href=3D"#req.route">req.route</a></li><li><a href=3D=
+"#req.cookies">req.cookies</a></li><li><a href=3D"#req.signedCookies">re=
+q.signedCookies</a></li><li><a href=3D"#req.get">req.get()</a></li><li><=
+a href=3D"#req.accepts">req.accepts()</a></li><li><a href=3D"#req.accept=
+sCharset">req.acceptsCharset()</a></li><li><a href=3D"#req.acceptsLangua=
+ge">req.acceptsLanguage()</a></li><li><a href=3D"#req.is">req.is()</a></=
+li><li><a href=3D"#req.ip">req.ip</a></li><li><a href=3D"#req.ips">req.i=
+ps</a></li><li><a href=3D"#req.path">req.path</a></li><li><a href=3D"#re=
+q.host">req.host</a></li><li><a href=3D"#req.fresh">req.fresh</a></li><l=
+i><a href=3D"#req.stale">req.stale</a></li><li><a href=3D"#req.xhr">req.=
+xhr</a></li><li><a href=3D"#req.protocol">req.protocol</a></li><li><a hr=
+ef=3D"#req.secure">req.secure</a></li><li><a href=3D"#req.subdomains">re=
+q.subdomains</a></li><li><a href=3D"#req.originalUrl">req.originalUrl</a=
+></li></ul></li><li id=3D"res-api"><a href=3D"#res.status">Response</a><=
+ul id=3D"res-menu"><li><a href=3D"#res.status">res.status()</a></li><li>=
+<a href=3D"#res.set">res.set()</a></li><li><a href=3D"#res.get">res.get(=
+)</a></li><li><a href=3D"#res.cookie">res.cookie()</a></li><li><a href=3D=
+"#res.clearCookie">res.clearCookie()</a></li><li><a href=3D"#res.redirec=
+t">res.redirect()</a></li><li><a href=3D"#res.location">res.location()</=
+a></li><li><a href=3D"#res.send">res.send()</a></li><li><a href=3D"#res.=
+json">res.json()</a></li><li><a href=3D"#res.jsonp">res.jsonp()</a></li>=
+<li><a href=3D"#res.type">res.type()</a></li><li><a href=3D"#res.format"=
+>res.format()</a></li><li><a href=3D"#res.attachment">res.attachment()</=
+a></li><li><a href=3D"#res.sendfile">res.sendfile()</a></li><li><a href=3D=
+"#res.download">res.download()</a></li><li><a href=3D"#res.links">res.li=
+nks()</a></li><li><a href=3D"#res.locals">res.locals</a></li><li><a href=
+=3D"#res.render">res.render()</a></li></ul></li><li id=3D"router-api"><a=
+ href=3D"#router">Router</a><ul id=3D"router-menu"><li><a href=3D"#route=
+r">Router()</a></li><li><a href=3D"#router.use">router.use()</a></li><li=
+><a href=3D"#router.param">router.param()</a></li><li><a href=3D"#router=
+.route">router.route()</a></li><li><a href=3D"#router.VERB">router.VERB(=
+)</a></li></ul></li><li id=3D"middleware-api"><a href=3D"#middleware">Mi=
+ddleware</a><ul id=3D"middleware-menu"><li><a href=3D"#basicAuth">basicA=
+uth()</a></li><li><a href=3D"#bodyParser">bodyParser()</a></li><li><a hr=
+ef=3D"#compress">compress()</a></li><li><a href=3D"#cookieParser">cookie=
+Parser()</a></li><li><a href=3D"#cookieSession">cookieSession()</a></li>=
+<li><a href=3D"#csrf">csrf()</a></li><li><a href=3D"#directory">director=
+y()</a></li></ul></li></ul><div id=3D"right"><section><h3 id=3D"express"=
+>express()</h3><p>Create an express application.
+</p><pre class=3D"js"><code>var express =3D require('express');
+var app =3D express();
+
+app.get('/', function(req, res){
+  res.send('hello world');
+});
+
+app.listen(3000);</code></pre></section><h2>Application</h2><a name=3D"a=
+pplication"></a><section><h3 id=3D"app-settings">settings</h3><p>The fol=
+lowing settings are provided to alter how Express will behave:
+</p><ul><li><code>env </code>Environment mode, defaults to <code>process=
+.env.NODE_ENV</code> (NODE_ENV environment variable) or "development"</l=
+i><li><code>trust proxy </code>Enables reverse proxy support, disabled b=
+y default</li><li><code>jsonp callback name </code>Changes the default c=
+allback name of <code>?callback=3D</code></li><li><code>json replacer </=
+code>JSON replacer callback, null by default</li><li><code>case sensitiv=
+e routing </code>Enable case sensitivity, disabled by default, treating =
+"/Foo" and "/foo" as the same</li><li><code>strict routing </code>Enable=
+ strict routing, by default "/foo" and "/foo/" are treated the same by t=
+he router</li><li><code>view cache </code>Enables view template compilat=
+ion caching, enabled in production by default</li><li><code>view engine =
+</code>The default engine extension to use when omitted</li><li><code>vi=
+ews </code>The view directory path, defaulting to "process.cwd() + '/vie=
+ws'"</li><li><code>x-powered-by </code>Enables the <code>X-Powered-By: E=
+xpress</code> HTTP header, enabled by default</li></ul></section><sectio=
+n><h3 id=3D"app.set">app.set(name, value)</h3><p>Assigns setting <code>n=
+ame</code> to <code>value</code>.
+</p><pre class=3D"js"><code>app.set('title', 'My Site');
+app.get('title');
+// =3D> "My Site"</code></pre></section><section><h3 id=3D"app.get">app.=
+get(name)</h3><p>Get setting <code>name</code> value.
+</p><pre class=3D"js"><code>app.get('title');
+// =3D> undefined
+
+app.set('title', 'My Site');
+app.get('title');
+// =3D> "My Site"</code></pre></section><section><h3 id=3D"app.enable">a=
+pp.enable(name)</h3><p>Set setting <code>name</code> to <code>true</code=
+>.
+</p><pre class=3D"js"><code>app.enable('trust proxy');
+app.get('trust proxy');
+// =3D> true</code></pre></section><section><h3 id=3D"app.disable">app.d=
+isable(name)</h3><p>Set setting <code>name</code> to <code>false</code>.=
+
+</p><pre class=3D"js"><code>app.disable('trust proxy');
+app.get('trust proxy');
+// =3D> false</code></pre></section><section><h3 id=3D"app.enabled">app.=
+enabled(name)</h3><p>Check if setting <code>name</code> is enabled.
+</p><pre class=3D"js"><code>app.enabled('trust proxy');
+// =3D> false
+
+app.enable('trust proxy');
+app.enabled('trust proxy');
+// =3D> true</code></pre></section><section><h3 id=3D"app.disabled">app.=
+disabled(name)</h3><p>Check if setting <code>name</code> is disabled.
+</p><pre class=3D"js"><code>app.disabled('trust proxy');
+// =3D> true
+
+app.enable('trust proxy');
+app.disabled('trust proxy');
+// =3D> false</code></pre></section><section><h3 id=3D"app.use">app.use(=
+[path], function)</h3><p>Use the given middleware <code>function</code>,=
+ with optional mount <code>path</code>,
+defaulting to "/".
+</p><pre class=3D"js"><code>var express =3D require('express');
+var app =3D express();
+
+// simple logger
+app.use(function(req, res, next){
+  console.log('%s %s', req.method, req.url);
+  next();
+});
+
+// respond
+app.use(function(req, res, next){
+  res.send('Hello World');
+});
+
+app.listen(3000);
+</code></pre><p>The "mount" path is stripped and is <strong>not</strong>=
+ visible
+to the middleware <code>function</code>. The main effect of this feature=
+ is that
+mounted middleware may operate without code changes regardless of its "p=
+refix"
+pathname.
+</p><p>Here's a concrete example, take the typical use-case of serving f=
+iles in ./public
+using the <code>express.static()</code> middleware:
+</p><pre class=3D"js"><code>// GET /javascripts/jquery.js
+// GET /style.css
+// GET /favicon.ico
+app.use(express.static(__dirname + '/public'));
+</code></pre><p>Say for example you wanted to prefix all static files wi=
+th "/static", you could
+use the "mounting" feature to support this. Mounted middleware functions=
+ are <strong>not</strong>
+invoked unless the <code>req.url</code> contains this prefix, at which p=
+oint
+it is stripped when the function is invoked. This affects this function =
+only,
+subsequent middleware will see <code>req.url</code> with "/static" inclu=
+ded
+unless they are mounted as well.
+</p><pre class=3D"js"><code>// GET /static/javascripts/jquery.js
+// GET /static/style.css
+// GET /static/favicon.ico
+app.use('/static', express.static(__dirname + '/public'));
+</code></pre><p>The order of which middleware are "defined" using <code>=
+app.use()</code> is
+very important, they are invoked sequentially, thus this defines middlew=
+are
+precedence. For example, usually any logging middleware is the very
+first middleware you would use:
+</p><pre class=3D"js"><code>var logger =3D require('morgan');
+
+app.use(logger());
+app.use(express.static(__dirname + '/public'));
+app.use(function(req, res){
+  res.send('Hello');
+});
+</code></pre><p>Now suppose you wanted to ignore logging requests for st=
+atic files, but to
+continue logging routes and middleware defined after <code>logger()</cod=
+e>,
+you would simply move <code>static()</code> above:
+</p><pre class=3D"js"><code>app.use(express.static(__dirname + '/public'=
+));
+app.use(logger());
+app.use(function(req, res){
+  res.send('Hello');
+});
+</code></pre><p>Another concrete example would be serving files from mul=
+tiple directories,
+giving precedence to "./public" over the others:
+</p><pre class=3D"js"><code>app.use(express.static(__dirname + '/public'=
+));
+app.use(express.static(__dirname + '/files'));
+app.use(express.static(__dirname + '/uploads'));</code></pre></section><=
+section><h3 id=3D"app.engine">app.engine(ext, callback)</h3><p>Register =
+the given template engine <code>callback</code> as <code>ext</code>
+
+By default will <code>require()</code> the engine based on the
+file extension. For example if you try to render
+a "foo.jade" file Express will invoke the following internally,
+and cache the <code>require()</code> on subsequent calls to increase
+performance.
+</p><pre class=3D"js"><code>app.engine('jade', require('jade').__express=
+);
+</code></pre><p>For engines that do not provide <code>.__express</code> =
+out of the box -
+or if you wish to "map" a different extension to the template engine
+you may use this method. For example mapping the EJS template engine to
+".html" files:
+</p><pre class=3D"js"><code>app.engine('html', require('ejs').renderFile=
+);
+</code></pre><p>In this case EJS provides a <code>.renderFile()</code> m=
+ethod with
+the same signature that Express expects: <code>(path, options, callback)=
+</code>,
+though note that it aliases this method as <code>ejs.__express</code> in=
+ternally
+so if you're using ".ejs" extensions you dont need to do anything.
+</p><p>Some template engines do not follow this convention, the
+<a href=3D"https://github.com/visionmedia/consolidate.js">consolidate.js=
+</a>
+library was created to map all of node's popular template
+engines to follow this convention, thus allowing them to
+work seemlessly within Express.
+</p><pre class=3D"js"><code>var engines =3D require('consolidate');
+app.engine('haml', engines.haml);
+app.engine('html', engines.hogan);</code></pre></section><section><h3 id=
+=3D"app.param">app.param([name], callback)</h3><p>Map logic to route par=
+ameters. For example when <code>:user</code>
+is present in a route path you may map user loading logic to automatical=
+ly
+provide <code>req.user</code> to the route, or perform validations
+on the parameter input.
+</p><p>The following snippet illustrates how the <code>callback</code>
+is much like middleware, thus supporting async operations, however
+providing the additional value of the parameter, here named as <code>id<=
+/code>.
+An attempt to load the user is then performed, assigning <code>req.user<=
+/code>,
+otherwise passing an error to <code>next(err)</code>.
+</p><pre class=3D"js"><code>app.param('user', function(req, res, next, i=
+d){
+  User.find(id, function(err, user){
+    if (err) {
+      next(err);
+    } else if (user) {
+      req.user =3D user;
+      next();
+    } else {
+      next(new Error('failed to load user'));
+    }
+  });
+});
+</code></pre><p>Alternatively you may pass only a <code>callback</code>,=
+ in which
+case you have the opportunity to alter the <code>app.param()</code> API.=
+
+For example the <a href=3D"http://github.com/visionmedia/express-params"=
+>express-params</a>
+defines the following callback which allows you to restrict parameters t=
+o a given
+regular expression. =
+
+</p><p>This example is a bit more advanced, checking if the second argum=
+ent is a regular
+expression, returning the callback which acts much like the "user" param=
+ example.
+</p><pre class=3D"js"><code>app.param(function(name, fn){
+  if (fn instanceof RegExp) {
+    return function(req, res, next, val){
+      var captures;
+      if (captures =3D fn.exec(String(val))) {
+        req.params[name] =3D captures;
+        next();
+      } else {
+        next('route');
+      }
+    }
+  }
+});
+</code></pre><p>The method could now be used to effectively validate par=
+ameters, or also
+parse them to provide capture groups:
+</p><pre class=3D"js"><code>app.param('id', /^\d+$/);
+
+app.get('/user/:id', function(req, res){
+  res.send('user ' + req.params.id);
+});
+
+app.param('range', /^(\w+)\.\.(\w+)?$/);
+
+app.get('/range/:range', function(req, res){
+  var range =3D req.params.range;
+  res.send('from ' + range[1] + ' to ' + range[2]);
+});</code></pre></section><section><h3 id=3D"app.VERB">app.VERB(path, [c=
+allback...], callback)</h3><p>The <code>app.VERB()</code> methods provid=
+e the routing functionality
+in Express, where <strong>VERB</strong> is one of the HTTP verbs, such
+as <code>app.post()</code>. Multiple callbacks may be given, all are tre=
+ated
+equally, and behave just like middleware, with the one exception that
+these callbacks may invoke <code>next('route')</code> to bypass the
+remaining route callback(s). This mechanism can be used to perform pre-c=
+onditions
+on a route then pass control to subsequent routes when there is no reaso=
+n to proceed
+with the route matched.
+</p><p>The following snippet illustrates the most simple route definitio=
+n possible. Express
+translates the path strings to regular expressions, used internally to m=
+atch incoming requests.
+Query strings are <em>not</em> considered when peforming these matches, =
+for example "GET /"
+would match the following route, as would "GET /?name=3Dtobi".
+</p><pre class=3D"js"><code>app.get('/', function(req, res){
+  res.send('hello world');
+});
+</code></pre><p>Regular expressions may also be used, and can be useful
+if you have very specific restraints, for example the following
+would match "GET /commits/71dbb9c" as well as "GET /commits/71dbb9c..4c0=
+84f9".
+</p><pre class=3D"js"><code>app.get(/^\/commits\/(\w+)(?:\.\.(\w+))?$/, =
+function(req, res){
+  var from =3D req.params[0];
+  var to =3D req.params[1] || 'HEAD';
+  res.send('commit range ' + from + '..' + to);
+});
+</code></pre><p>Several callbacks may also be passed, useful for re-usin=
+g middleware
+that load resources, perform validations, etc.
+</p><pre class=3D"js"><code>app.get('/user/:id', user.load, function(){
+  // ... =
+
+})
+</code></pre><p>If you have multiple common middleware for a route, you =
+can use the route api with <code>all</code>.
+</p><pre class=3D"js"><code>var middleware =3D [loadForum, loadThread];
+
+app.route('/forum/:fid/thread/:tid')
+.all(loadForum)
+.all(loadThread)
+.get(function() { //... });
+.post(function() { //... });
+</code></pre><p>Both middleware will be run for GET and POST requests.</=
+p></section><section><h3 id=3D"app.all">app.all(path, [callback...], cal=
+lback)</h3><p>This method functions just like the <code>app.VERB()</code=
+> methods,
+however it matches all HTTP verbs. =
+
+</p><p>This method is extremely useful for
+mapping "global" logic for specific path prefixes or arbitrary matches.
+For example if you placed the following route at the top of all other
+route definitions, it would require that all routes from that point on
+would require authentication, and automatically load a user. Keep in min=
+d
+that these callbacks do not have to act as end points, <code>loadUser</c=
+ode>
+can perform a task, then <code>next()</code> to continue matching subseq=
+uent
+routes.
+</p><pre class=3D"js"><code>app.all('*', requireAuthentication, loadUser=
+);
+</code></pre><p>Or the equivalent:
+</p><pre class=3D"js"><code>app.all('*', requireAuthentication)
+app.all('*', loadUser);
+</code></pre><p>Another great example of this is white-listed "global" f=
+unctionality. Here
+the example is much like before, however only restricting paths prefixed=
+ with
+"/api":
+</p><pre class=3D"js"><code>app.all('/api/*', requireAuthentication);</c=
+ode></pre></section><section><h3 id=3D"app.route">app.route(path)</h3><p=
+>Returns an instance of a single route which can then be used to handle =
+HTTP verbs with optional middleware. Using <code>app.route()</code> is a=
+ recommended approach to avoiding duplicate route naming and thus typo e=
+rrors.
+</p><pre class=3D"js"><code>var app =3D express();
+
+app.route('/events')
+.all(function(req, res, next) {
+  // runs for all HTTP verbs first
+  // think of it as route specific middleware!
+})
+.get(function(req, res, next) {
+  res.json(...);
+})
+.post(function(req, res, next) {
+  // maybe add a new event...
+})
+</code></pre></section><section><h3 id=3D"app.locals">app.locals</h3><p>=
+Application local variables are provided to all templates
+rendered within the application. This is useful for providing
+helper functions to templates, as well as app-level data.
+</p><pre class=3D"js"><code>app.locals.title =3D 'My App';
+app.locals.strftime =3D require('strftime');
+app.locals.email =3D 'me@myapp.com';
+</code></pre><p>The <code>app.locals</code> object is a JavaScript <code=
+>Object</code>. The
+properties added to it will be exposed as local variables within the app=
+lication.
+</p><pre class=3D"js"><code>app.locals.title
+// =3D> 'My App'
+
+app.locals.email
+// =3D> 'me@myapp.com'
+</code></pre><p>By default Express exposes only a single app-level local=
+ variable, <code>settings</code>.
+</p><pre class=3D"js"><code>app.set('title', 'My App');
+// use settings.title in a view</code></pre></section><section><h3 id=3D=
+"app.render">app.render(view, [options], callback)</h3><p>Render a <code=
+>view</code> with a callback responding with
+the rendered string. This is the app-level variant of <code>res.render()=
+</code>,
+and otherwise behaves the same way.
+</p><pre class=3D"js"><code>app.render('email', function(err, html){
+  // ...
+});
+
+app.render('email', { name: 'Tobi' }, function(err, html){
+  // ...
+});</code></pre></section><section><h3 id=3D"app.listen">app.listen()</h=
+3><p>Bind and listen for connections on the given host and port,
+this method is identical to node's <a href=3D"http://nodejs.org/api/http=
+.html#http_server_listen_port_hostname_backlog_callback">http.Server#lis=
+ten()</a>.
+</p><pre class=3D"js"><code>var express =3D require('express');
+var app =3D express();
+app.listen(3000);
+</code></pre><p>The <code>app</code> returned by <code>express()</code> =
+is in fact a JavaScript
+<code>Function</code>, designed to be passed to node's http servers as a=
+ callback
+to handle requests. This allows you to provide both HTTP and HTTPS versi=
+ons of
+your app with the same codebase easily, as the app does not inherit from=
+ these,
+it is simply a callback:
+</p><pre class=3D"js"><code>var express =3D require('express');
+var https =3D require('https');
+var http =3D require('http');
+var app =3D express();
+
+http.createServer(app).listen(80);
+https.createServer(options, app).listen(443);
+</code></pre><p>The <code>app.listen()</code> method is simply a conveni=
+ence method defined as,
+if you wish to use HTTPS or provide both, use the technique above.
+</p><pre class=3D"js"><code>app.listen =3D function(){
+  var server =3D http.createServer(this);
+  return server.listen.apply(server, arguments);
+};</code></pre></section><h2>Request</h2><a name=3D"request"></a><sectio=
+n><h3 id=3D"req.params">req.params</h3><p>This property is an object con=
+taining properties mapped to the named route "parameters".
+For example if you have the route <code>/user/:name</code>, then the "na=
+me" property
+is available to you as <code>req.params.name</code>. This object default=
+s to <code>{}</code>.
+</p><pre class=3D"js"><code>// GET /user/tj
+req.params.name
+// =3D> "tj"
+</code></pre><p>When a regular expression is used for the route definiti=
+on, capture groups
+are provided in the array using <code>req.params[N]</code>, where <code>=
+N</code>
+is the nth capture group. This rule is applied to unnamed wild-card matc=
+hes
+with string routes such as `/file/*`:
+</p><pre class=3D"js"><code>// GET /file/javascripts/jquery.js
+req.params[0]
+// =3D> "javascripts/jquery.js"</code></pre></section><section><h3 id=3D=
+"req.query">req.query</h3><p>This property is an object containing the p=
+arsed query-string,
+defaulting to <code>{}</code>.
+</p><pre class=3D"js"><code>// GET /search?q=3Dtobi+ferret
+req.query.q
+// =3D> "tobi ferret"
+
+// GET /shoes?order=3Ddesc&shoe[color]=3Dblue&shoe[type]=3Dconverse
+req.query.order
+// =3D> "desc"
+
+req.query.shoe.color
+// =3D> "blue"
+
+req.query.shoe.type
+// =3D> "converse"</code></pre></section><section><h3 id=3D"req.param">r=
+eq.param(name)</h3><p>Return the value of param <code>name</code> when p=
+resent.
+</p><pre class=3D"js"><code>// ?name=3Dtobi
+req.param('name')
+// =3D> "tobi"
+
+// POST name=3Dtobi
+req.param('name')
+// =3D> "tobi"
+
+// /user/tobi for /user/:name =
+
+req.param('name')
+// =3D> "tobi"
+</code></pre><p>Lookup is performed in the following order:</p><ul><li><=
+code>req.params</code></li><li><code>req.body</code></li><li><code>req.q=
+uery</code></li></ul><p>Direct access to <code>req.body</code>, <code>re=
+q.params</code>,
+and <code>req.query</code> should be favoured for clarity - unless
+you truly accept input from each object.</p></section><section><h3 id=3D=
+"req.route">req.route</h3><p>The currently matched <code>Route</code> co=
+ntaining
+several properties such as the route's original path
+string, the regexp generated, and so on.
+</p><pre class=3D"js"><code>app.get('/user/:id?', function(req, res){
+  console.log(req.route);
+});
+</code></pre><p>Example output from the previous snippet:
+</p><pre class=3D"js"><code>{ path: '/user/:id?',
+  keys: [ { name: 'id', optional: true } ],
+  regexp: /^\/user(?:\/([^\/]+?))?\/?$/i,
+  params: [ id: '12' ] }</code></pre></section><section><h3 id=3D"req.co=
+okies">req.cookies</h3><p>When the <code>cookieParser()</code> middlewar=
+e is used this object
+defaults to <code>{}</code>, otherwise contains the cookies sent by
+the user-agent.
+</p><pre class=3D"js"><code>// Cookie: name=3Dtj
+req.cookies.name
+// =3D> "tj"
+</code></pre><p>Please refer to <a href=3D"https://github.com/expressjs/=
+cookie-parser">cookie-parser</a> for additional documentation or any iss=
+ues and concerns.</p></section><section><h3 id=3D"req.signedCookies">req=
+.signedCookies</h3><p>When the <code>cookieParser(secret)</code> middlew=
+are is used this object
+defaults to <code>{}</code>, otherwise contains the signed cookies sent =
+by
+the user-agent, unsigned and ready for use. Signed cookies reside in a d=
+ifferent
+object to show developer intent, otherwise a malicious attack could be
+placed on `req.cookie` values which are easy to spoof. Note that signing=
+
+a cookie does not mean it is "hidden" nor encrypted, this simply prevent=
+s
+tampering as the secret used to sign is private.
+</p><pre class=3D"js"><code>// Cookie: user=3Dtobi.CP7AWaXDfAKIRfH49dQzK=
+Jx7sKzzSoPq7/AcBBRVwlI3
+req.signedCookies.user
+// =3D> "tobi"
+</code></pre><p>Please refer to <a href=3D"https://github.com/expressjs/=
+cookie-parser">cookie-parser</a> for additional documentation or any iss=
+ues and concerns.</p></section><section><h3 id=3D"req.get">req.get(field=
+)</h3><p> =
+
+Get the case-insensitive request header <code>field</code>. =
+
+The <em>Referrer</em> and <em>Referer</em> fields are interchangeable.</=
+p><pre class=3D"js"><code>req.get('Content-Type');
+// =3D> "text/plain"
+
+req.get('content-type');
+// =3D> "text/plain"
+
+req.get('Something');
+// =3D> undefined
+</code></pre><p>Aliased as <code>req.header(field)</code>.</p></section>=
+<section><h3 id=3D"req.accepts">req.accepts(types)</h3><p>Check if the g=
+iven <code>types</code> are acceptable, returning
+the best match when true, otherwise <code>undefined</code> - in which
+case you should respond with 406 "Not Acceptable".
+</p><p>The <code>type</code> value may be a single mime type string
+such as "application/json", the extension name
+such as "json", a comma-delimited list or an array. When a list
+or array is given the <em>best</em> match, if any is returned.
+</p><pre class=3D"js"><code>// Accept: text/html
+req.accepts('html');
+// =3D> "html"
+
+// Accept: text/*, application/json
+req.accepts('html');
+// =3D> "html"
+req.accepts('text/html');
+// =3D> "text/html"
+req.accepts('json, text');
+// =3D> "json"
+req.accepts('application/json');
+// =3D> "application/json"
+
+// Accept: text/*, application/json
+req.accepts('image/png');
+req.accepts('png');
+// =3D> undefined
+
+// Accept: text/*;q=3D.5, application/json
+req.accepts(['html', 'json']);
+req.accepts('html, json');
+// =3D> "json"
+</code></pre><p>Please refer to <a href=3D"https://github.com/expressjs/=
+accepts">accepts</a> for additional documentation or any issues and conc=
+erns.</p></section><section><h3 id=3D"req.acceptsCharset">req.acceptsCha=
+rset(charset)</h3><p>Check if the given <code>charset</code> are accepta=
+ble.
+</p><p>Please refer to <a href=3D"https://github.com/expressjs/accepts">=
+accepts</a> for additional documentation or any issues and concerns.</p>=
+</section><section><h3 id=3D"req.acceptsLanguage">req.acceptsLanguage(la=
+ng)</h3><p>Check if the given <code>lang</code> are acceptable.
+</p><p>Please refer to <a href=3D"https://github.com/expressjs/accepts">=
+accepts</a> for additional documentation or any issues and concerns.</p>=
+</section><section><h3 id=3D"req.is">req.is(type)</h3><p>Check if the in=
+coming request contains the "Content-Type"
+header field, and it matches the give mime <code>type</code>.
+</p><pre class=3D"js"><code>// With Content-Type: text/html; charset=3Du=
+tf-8
+req.is('html');
+req.is('text/html');
+req.is('text/*');
+// =3D> true
+
+// When Content-Type is application/json
+req.is('json');
+req.is('application/json');
+req.is('application/*');
+// =3D> true
+
+req.is('html');
+// =3D> false
+</code></pre><p>Please refer to <a href=3D"https://github.com/expressjs/=
+type-is">type-is</a> for additional documentation or any issues and conc=
+erns.</p></section><section><h3 id=3D"req.ip">req.ip</h3><p>Return the r=
+emote address, or when "trust proxy"
+is enabled - the upstream address.
+</p><pre class=3D"js"><code>req.ip
+// =3D> "127.0.0.1"</code></pre></section><section><h3 id=3D"req.ips">re=
+q.ips</h3><p>When "trust proxy" is `true`, parse
+the "X-Forwarded-For" ip address list
+and return an array, otherwise an empty
+array is returned.
+
+For example if the value were "client, proxy1, proxy2"
+you would receive the array <code>["client", "proxy1", "proxy2"]</code>
+where "proxy2" is the furthest down-stream.</p></section><section><h3 id=
+=3D"req.path">req.path</h3><p>Returns the request URL pathname.
+</p><pre class=3D"js"><code>// example.com/users?sort=3Ddesc
+req.path
+// =3D> "/users"</code></pre></section><section><h3 id=3D"req.host">req.=
+host</h3><p>Returns the hostname from the "Host" header field (void of p=
+ortno).
+</p><pre class=3D"js"><code>// Host: "example.com:3000"
+req.host
+// =3D> "example.com"</code></pre></section><section><h3 id=3D"req.fresh=
+">req.fresh</h3><p>Check if the request is fresh - aka Last-Modified and=
+/or the ETag still match,
+indicating that the resource is "fresh".
+</p><pre class=3D"js"><code>req.fresh
+// =3D> true
+</code></pre><p>Please refer to <a href=3D"https://github.com/visionmedi=
+a/node-fresh">fresh</a> for additional documentation or any issues and c=
+oncerns.</p></section><section><h3 id=3D"req.stale">req.stale</h3><p>Che=
+ck if the request is stale - aka Last-Modified and/or the ETag do not ma=
+tch,
+indicating that the resource is "stale".
+</p><pre class=3D"js"><code>req.stale
+// =3D> true</code></pre></section><section><h3 id=3D"req.xhr">req.xhr</=
+h3><p>Check if the request was issued with the "X-Requested-With"
+header field set to "XMLHttpRequest" (jQuery etc).
+</p><pre class=3D"js"><code>req.xhr
+// =3D> true</code></pre></section><section><h3 id=3D"req.protocol">req.=
+protocol</h3><p>Return the protocol string "http" or "https"
+when requested with TLS. When the "trust proxy" =
+
+setting is enabled the "X-Forwarded-Proto" header
+field will be trusted. If you're running behind
+a reverse proxy that supplies https for you this
+may be enabled.
+</p><pre class=3D"js"><code>req.protocol
+// =3D> "http"</code></pre></section><section><h3 id=3D"req.secure">req.=
+secure</h3><p>Check if a TLS connection is established. This is a short-=
+hand for:
+</p><pre class=3D"js"><code>'https' =3D=3D req.protocol;</code></pre></s=
+ection><section><h3 id=3D"req.subdomains">req.subdomains</h3><p>Return s=
+ubdomains as an array.
+</p><pre class=3D"js"><code>// Host: "tobi.ferrets.example.com"
+req.subdomains
+// =3D> ["ferrets", "tobi"]</code></pre></section><section><h3 id=3D"req=
+.originalUrl">req.originalUrl</h3><p>This property is much like <code>re=
+q.url</code>, however it retains
+the original request url, allowing you to rewrite <code>req.url</code>
+freely for internal routing purposes. For example the "mounting" feature=
+
+of <a href=3D"#app.use">app.use()</a> will rewrite <code>req.url</code> =
+to
+strip the mount point.
+</p><pre class=3D"js"><code>// GET /search?q=3Dsomething
+req.originalUrl
+// =3D> "/search?q=3Dsomething"</code></pre></section><h2>Response</h2><=
+a name=3D"response"></a><section><h3 id=3D"res.status">res.status(code)<=
+/h3><p>Chainable alias of node's <code>res.statusCode=3D</code>.
+</p><pre class=3D"js"><code>res.status(404).sendfile('path/to/404.png');=
+</code></pre></section><section><h3 id=3D"res.set">res.set(field, [value=
+])</h3><p> =
+
+Set header <code>field</code> to <code>value</code>,
+or pass an object to set multiple fields at once.</p><pre class=3D"js"><=
+code>res.set('Content-Type', 'text/plain');
+
+res.set({
+  'Content-Type': 'text/plain',
+  'Content-Length': '123',
+  'ETag': '12345'
+})
+</code></pre><p>Aliased as <code>res.header(field, [value])</code>.</p><=
+/section><section><h3 id=3D"res.get">res.get(field)</h3><p> =
+
+Get the case-insensitive response header <code>field</code>. </p><pre cl=
+ass=3D"js"><code>res.get('Content-Type');
+// =3D> "text/plain"</code></pre></section><section><h3 id=3D"res.cookie=
+">res.cookie(name, value, [options])</h3><p>Set cookie <code>name</code>=
+ to <code>value</code>, which may be a string or object converted to JSO=
+N. The <code>path</code>
+option defaults to "/".
+</p><pre class=3D"js"><code>res.cookie('name', 'tobi', { domain: '.examp=
+le.com', path: '/admin', secure: true });
+res.cookie('rememberme', '1', { expires: new Date(Date.now() + 900000), =
+httpOnly: true });
+</code></pre><p>The <code>maxAge</code> option is a convenience option f=
+or setting "expires"
+relative to the current time in milliseconds. The following is equivalen=
+t to
+the previous example.
+</p><pre class=3D"js"><code>res.cookie('rememberme', '1', { maxAge: 9000=
+00, httpOnly: true })
+</code></pre><p>An object may be passed which is then serialized as JSON=
+, which is
+automatically parsed by the <code>bodyParser()</code> middleware.
+</p><pre class=3D"js"><code>res.cookie('cart', { items: [1,2,3] });
+res.cookie('cart', { items: [1,2,3] }, { maxAge: 900000 });
+</code></pre><p>Signed cookies are also supported through this method. S=
+imply
+pass the <code>signed</code> option. When given <code>res.cookie()</code=
+>
+will use the secret passed to <code>cookieParser(secret)</code>
+to sign the value.
+</p><pre class=3D"js"><code>res.cookie('name', 'tobi', { signed: true })=
+;
+</code></pre><p>Later you may access this value through the <a href=3D"#=
+req.signedCookies">req.signedCookie</a>
+object.</p></section><section><h3 id=3D"res.clearCookie">res.clearCookie=
+(name, [options])</h3><p>Clear cookie <code>name</code>. The <code>path<=
+/code>
+option defaults to "/".
+</p><pre class=3D"js"><code>res.cookie('name', 'tobi', { path: '/admin' =
+});
+res.clearCookie('name', { path: '/admin' });</code></pre></section><sect=
+ion><h3 id=3D"res.redirect">res.redirect([status], url)</h3><p>Redirect =
+to the given <code>url</code> with optional <code>status</code> code
+defaulting to 302 "Found".
+</p><pre class=3D"js"><code>res.redirect('/foo/bar');
+res.redirect('http://example.com');
+res.redirect(301, 'http://example.com');
+res.redirect('../login');
+</code></pre><p>Express supports a few forms of redirection, first being=
+
+a fully qualified URI for redirecting to a different site:
+</p><pre class=3D"js"><code>res.redirect('http://google.com');
+</code></pre><p>The second form is the pathname-relative redirect, for e=
+xample
+if you were on <code>http://example.com/admin/post/new</code>, the =
+
+following redirect to <code>/admin</code> would land you at <code>http:/=
+/example.com/admin</code>:
+</p><pre class=3D"js"><code>res.redirect('/admin');
+</code></pre><p>This next redirect is relative to the <code>mount</code>=
+ point of the application. For example
+if you have a blog application mounted at <code>/blog</code>, ideally it=
+ has no knowledge of
+where it was mounted, so where a redirect of <code>/admin/post/new</code=
+> would simply give you
+<code>http://example.com/admin/post/new</code>, the following mount-rela=
+tive redirect would give
+you <code>http://example.com/blog/admin/post/new</code>:
+</p><pre class=3D"js"><code>res.redirect('admin/post/new');
+</code></pre><p>Pathname relative redirects are also possible. If you we=
+re
+on <code>http://example.com/admin/post/new</code>, the following redirec=
+t
+would land you at <code>http//example.com/admin/post</code>:
+</p><pre class=3D"js"><code>res.redirect('..');
+</code></pre><p>The final special-case is a <code>back</code> redirect, =
+redirecting back to
+the Referer (or Referrer), defaulting to <code>/</code> when missing.
+</p><pre class=3D"js"><code>res.redirect('back');
+
+</code></pre></section><section><h3 id=3D"res.location">res.location</h3=
+><p>Set the location header.
+</p><pre class=3D"js"><code>res.location('/foo/bar');
+res.location('foo/bar');
+res.location('http://example.com');
+res.location('../login');
+res.location('back');
+</code></pre><p>You can use the same kind of <code>urls</code> as in
+<code>res.redirect()</code>.
+</p><p>For example, if your application is mounted at <code>/blog</code>=
+,
+the following would set the <code>location</code> header to
+<code>/blog/admin</code>:
+</p><pre class=3D"js"><code>res.location('admin')</code></pre></section>=
+<section><h3 id=3D"res.send">res.send([body|status], [body])</h3><p>Send=
+ a response.
+</p><pre class=3D"js"><code>res.send(new Buffer('whoop'));
+res.send({ some: 'json' });
+res.send('<p>some html</p>');
+res.send(404, 'Sorry, we cannot find that!');
+res.send(500, { error: 'something blew up' });
+res.send(200);
+</code></pre><p>This method performs a myriad of
+useful tasks for simple non-streaming responses such
+as automatically assigning the Content-Length unless
+previously defined and providing automatic <em>HEAD</em> and
+HTTP cache freshness support.
+</p><p>When a <code>Buffer</code> is given
+the Content-Type is set to "application/octet-stream"
+unless previously defined as shown below:
+</p><pre class=3D"js"><code>res.set('Content-Type', 'text/html');
+res.send(new Buffer('<p>some html</p>'));
+</code></pre><p>When a <code>String</code> is given the
+Content-Type is set defaulted to "text/html":
+</p><pre class=3D"js"><code>res.send('<p>some html</p>');
+</code></pre><p>When an <code>Array</code> or <code>Object</code> is
+given Express will respond with the JSON representation:
+</p><pre class=3D"js"><code>res.send({ user: 'tobi' })
+res.send([1,2,3])
+</code></pre><p>Finally when a <code>Number</code> is given without
+any of the previously mentioned bodies, then a response
+body string is assigned for you. For example 200 will
+respond will the text "OK", and 404 "Not Found" and so on.
+</p><pre class=3D"js"><code>res.send(200)
+res.send(404)
+res.send(500)</code></pre></section><section><h3 id=3D"res.json">res.jso=
+n([status|body], [body])</h3><p>Send a JSON response. This method is ide=
+ntical
+to <code>res.send()</code> when an object or
+array is passed, however it may be used for
+explicit JSON conversion of non-objects (null, undefined, etc),
+though these are technically not valid JSON.
+</p><pre class=3D"js"><code>res.json(null)
+res.json({ user: 'tobi' })
+res.json(500, { error: 'message' })</code></pre></section><section><h3 i=
+d=3D"res.jsonp">res.jsonp([status|body], [body])</h3><p>Send a JSON resp=
+onse with JSONP support. This method is identical
+to <code>res.json()</code> however opts-in to JSONP callback
+support.
+</p><pre class=3D"js"><code>res.jsonp(null)
+// =3D> null
+
+res.jsonp({ user: 'tobi' })
+// =3D> { "user": "tobi" }
+
+res.jsonp(500, { error: 'message' })
+// =3D> { "error": "message" }
+</code></pre><p>By default the JSONP callback name is simply <code>callb=
+ack</code>,
+however you may alter this with the <a href=3D"#app-settings">jsonp call=
+back name</a>
+setting. The following are some examples of JSONP responses using the sa=
+me
+code:
+</p><pre class=3D"js"><code>// ?callback=3Dfoo
+res.jsonp({ user: 'tobi' })
+// =3D> foo({ "user": "tobi" })
+
+app.set('jsonp callback name', 'cb');
+
+// ?cb=3Dfoo
+res.jsonp(500, { error: 'message' })
+// =3D> foo({ "error": "message" })</code></pre></section><section><h3 i=
+d=3D"res.type">res.type(type)</h3><p>Sets the Content-Type to the mime l=
+ookup of <code>type</code>,
+or when "/" is present the Content-Type is simply set to this
+literal value.
+</p><pre class=3D"js"><code>res.type('.html');
+res.type('html');
+res.type('json');
+res.type('application/json');
+res.type('png');</code></pre></section><section><h3 id=3D"res.format">re=
+s.format(object)</h3><p>Performs content-negotiation on the request Acce=
+pt header
+field when present. This method uses <code>req.accepted</code>, an array=
+ of
+acceptable types ordered by their quality values, otherwise the
+first callback is invoked. When no match is performed the server
+responds with 406 "Not Acceptable", or invokes the <code>default</code>
+callback.
+</p><p>The Content-Type is set for you when a callback is selected,
+however you may alter this within the callback using <code>res.set()</co=
+de>
+or <code>res.type()</code> etcetera.
+</p><p>The following example would respond with <code>{ "message": "hey"=
+ }</code>
+when the Accept header field is set to "application/json" or "*/json",
+however if "*/*" is given then "hey" will be the response.
+</p><pre class=3D"js"><code>res.format({
+  'text/plain': function(){
+    res.send('hey');
+  },
+  =
+
+  'text/html': function(){
+    res.send('<p>hey</p>');
+  },
+  =
+
+  'application/json': function(){
+    res.send({ message: 'hey' });
+  }
+});
+</code></pre><p>In addition to canonicalized MIME types you may also
+use extnames mapped to these types, providing a slightly
+less verbose implementation:
+</p><pre class=3D"js"><code>res.format({
+  text: function(){
+    res.send('hey');
+  },
+  =
+
+  html: function(){
+    res.send('<p>hey</p>');
+  },
+  =
+
+  json: function(){
+    res.send({ message: 'hey' });
+  }
+});</code></pre></section><section><h3 id=3D"res.attachment">res.attachm=
+ent([filename])</h3><p>Sets the Content-Disposition header field to "att=
+achment". If
+a <code>filename</code> is given then the Content-Type will be
+automatically set based on the extname via <code>res.type()</code>,
+and the Content-Disposition's "filename=3D" parameter will be set.
+</p><pre class=3D"js"><code>res.attachment();
+// Content-Disposition: attachment
+
+res.attachment('path/to/logo.png');
+// Content-Disposition: attachment; filename=3D"logo.png"
+// Content-Type: image/png</code></pre></section><section><h3 id=3D"res.=
+sendfile">res.sendfile(path, [options], [fn]])</h3><p>Transfer the file =
+at the given <code>path</code>.</p><p>Automatically defaults the Content=
+-Type response header field based
+on the filename's extension. The callback <code>fn(err)</code> is
+invoked when the transfer is complete or when an error occurs.
+</p><p>Options:</p><ul><li><code>maxAge</code> in milliseconds defaultin=
+g to 0</li><li><code>root</code> root directory for relative filenames</=
+li></ul><p>This method provides fine-grained support for file serving
+as illustrated in the following example:
+</p><pre class=3D"js"><code>app.get('/user/:uid/photos/:file', function(=
+req, res){
+  var uid =3D req.params.uid
+    , file =3D req.params.file;
+    =
+
+  req.user.mayViewFilesFrom(uid, function(yes){
+    if (yes) {
+      res.sendfile('/uploads/' + uid + '/' + file);
+    } else {
+      res.send(403, 'Sorry! you cant see that.');
+    }
+  });
+});
+</code></pre><p>Please refer to <a href=3D"https://github.com/visionmedi=
+a/send">send</a> for additional documentation or any issues and concerns=
+.</p></section><section><h3 id=3D"res.download">res.download(path, [file=
+name], [fn])</h3><p>Transfer the file at <code>path</code> as an "attach=
+ment",
+typically browsers will prompt the user for download. The
+Content-Disposition "filename=3D" parameter, aka the one
+that will appear in the brower dialog is set to <code>path</code>
+by default, however you may provide an override <code>filename</code>.
+</p><p>When an error has ocurred or transfer is complete the optional =
+
+callback <code>fn</code> is invoked. This method uses <a href=3D"#res.se=
+ndfile">res.sendfile()</a>
+to transfer the file.
+</p><pre class=3D"js"><code>res.download('/report-12345.pdf');
+
+res.download('/report-12345.pdf', 'report.pdf');
+
+res.download('/report-12345.pdf', 'report.pdf', function(err){
+  if (err) {
+    // handle error, keep in mind the response may be partially-sent
+    // so check res.headersSent
+  } else {
+    // decrement a download credit etc
+  }
+});</code></pre></section><section><h3 id=3D"res.links">res.links(links)=
+</h3><p>Join the given <code>links</code> to populate the "Link"
+response header field.
+</p><pre class=3D"js"><code>res.links({
+  next: 'http://api.example.com/users?page=3D2',
+  last: 'http://api.example.com/users?page=3D5'
+});
+</code></pre><p>yields:</p><pre><code>Link: &lt;http://api.example.com/u=
+sers?page=3D2&gt;; rel=3D"next", =
+
+      &lt;http://api.example.com/users?page=3D5&gt;; rel=3D"last"</code>=
+</pre></section><section><h3 id=3D"res.locals">res.locals</h3><p>Respons=
+e local variables are scoped to the request, thus only
+available to the view(s) rendered during that request / response
+cycle, if any. Otherwise this API is identical to <a href=3D"#app.locals=
+">app.locals</a>.
+</p><p>This object is useful for exposing request-level information such=
+ as the
+request pathname, authenticated user, user settings etcetera.
+</p><pre class=3D"js"><code>app.use(function(req, res, next){
+  res.locals.user =3D req.user;
+  res.locals.authenticated =3D ! req.user.anonymous;
+  next();
+});</code></pre></section><section><h3 id=3D"res.render">res.render(view=
+, [locals], callback)</h3><p>Render a <code>view</code> with a callback =
+responding with
+the rendered string. When an error occurs <code>next(err)</code>
+is invoked internally. When a callback is provided both the possible err=
+or
+and rendered string are passed, and no automated response is performed.
+</p><pre class=3D"js"><code>res.render('index', function(err, html){
+  // ...
+});
+
+res.render('user', { name: 'Tobi' }, function(err, html){
+  // ...
+});</code></pre></section><h2>Router</h2><a name=3D"router"></a><section=
+><h3 id=3D"router">Router()</h3><p>A router is an isolated instance of m=
+iddleware and routes. Routers can be thought of as "mini" applications o=
+nly capable of performing middleware and routing. Every express applicat=
+ion has a builtin app router.
+</p><p>Routers behave like middleware themselves and can be ".use()'d" b=
+y the app or in other routers.
+</p><p>Create a new router by using "express.Router()"
+</p><pre class=3D"js"><code>var router =3D express.Router([options]);
+</code></pre><p>Options is an optional object to alter the route matchin=
+g behavior of the router.
+</p><ul><li><code>caseSensitive </code>Enable case sensitivity, disabled=
+ by default, treating "/Foo" and "/foo" as the same</li><li><code>strict=
+ </code>Enable strict routing, by default "/foo" and "/foo/" are treated=
+ the same by the router</li></ul><p>The router can have middleware and h=
+ttp VERB routes added just like an application.
+</p><pre class=3D"js"><code>// invoked for any requests passed to this r=
+outer
+router.use(function(req, res, next) {
+  // .. some logic here .. like any other middleware
+  next();
+});
+
+// will handle any request that ends in /events
+// depends on where the router is "use()'d"
+router.get('/events', function(req, res, next) {
+  // ..
+});
+</code></pre><p>You can then use a router for a particular root url in t=
+his way separating your routes into files or even mini apps.
+</p><pre class=3D"js"><code>// only requests to /calendar/* will be sent=
+ to our "router"
+app.use('/calendar', router);
+</code></pre></section><section><h3 id=3D"router.use">router.use([path],=
+ function)</h3><p>Use the given middleware <code>function</code>, with o=
+ptional mount <code>path</code>,
+defaulting to "/".
+</p><p>Middleware is like a plumbing pipe, requests start at the first m=
+iddleware you define and work their way "down" the middleware stack proc=
+essing for each path they match.
+</p><pre class=3D"js"><code>var express =3D require('express');
+var app =3D express();
+var router =3D express.Router();
+
+// simple logger for this router's requests
+// all requests to this router will first hit this middleware
+router.use(function(req, res, next) {
+  console.log('%s %s %s', req.method, req.url, req.path);
+  next();
+});
+
+// this will only be invoked if the path ends in /bar
+router.use('/bar', function(req, res, next) {
+  // ... maybe some additional /bar logging ...
+  next();
+});
+
+// always invoked
+router.use(function(req, res, next) {
+  res.send('Hello World');
+});
+
+app.use('/foo', router);
+
+app.listen(3000);
+</code></pre><p>The "mount" path is stripped and is <strong>not</strong>=
+ visible
+to the middleware <code>function</code>. The main effect of this feature=
+ is that
+mounted middleware may operate without code changes regardless of its "p=
+refix"
+pathname.
+</p><p>The order of which middleware are "defined" using <code>router.us=
+e()</code> is
+very important, they are invoked sequentially, thus this defines middlew=
+are
+precedence. For example usually a logger is the very
+first middleware you would use, logging every request:
+</p><pre class=3D"js"><code>var logger =3D require('morgan');
+
+router.use(logger());
+router.use(express.static(__dirname + '/public'));
+router.use(function(req, res){
+  res.send('Hello');
+});
+</code></pre><p>Now suppose you wanted to ignore logging requests for st=
+atic files, but to
+continue logging routes and middleware defined after <code>logger()</cod=
+e>,
+you would simply move <code>static()</code> above:
+</p><pre class=3D"js"><code>router.use(express.static(__dirname + '/publ=
+ic'));
+router.use(logger());
+router.use(function(req, res){
+  res.send('Hello');
+});
+</code></pre><p>Another concrete example would be serving files from mul=
+tiple directories,
+giving precedence to "./public" over the others:
+</p><pre class=3D"js"><code>app.use(express.static(__dirname + '/public'=
+));
+app.use(express.static(__dirname + '/files'));
+app.use(express.static(__dirname + '/uploads'));</code></pre></section><=
+section><h3 id=3D"router.param">router.param([name], callback)</h3><p>Ma=
+p logic to route parameters. For example when <code>:user</code>
+is present in a route path you may map user loading logic to automatical=
+ly
+provide <code>req.user</code> to the route, or perform validations
+on the parameter input.
+</p><p>The following snippet illustrates how the <code>callback</code>
+is much like middleware, thus supporting async operations, however
+providing the additional value of the parameter, here named as <code>id<=
+/code>.
+An attempt to load the user is then performed, assigning <code>req.user<=
+/code>,
+otherwise passing an error to <code>next(err)</code>.
+</p><p>It is important to realize that any route that triggered a named =
+parameter function to run will only be run if <code>next</code> was not =
+called with an error in the named parameter handler.
+</p><pre class=3D"js"><code>router.param('user', function(req, res, next=
+, id){
+  User.find(id, function(err, user){
+    if (err) {
+      return next(err);
+    }
+    else if (!user) {
+      return next(new Error('failed to load user'));
+    }
+    =
+
+    req.user =3D user;
+    next();
+  });
+});
+
+// this route uses the ":user" named parameter
+// which will cause the 'user' param callback to be triggered
+router.get('/users/:user', function(req, res, next) {
+  // req.user WILL be defined here
+  // if there was an error, normal error handling will be triggered
+  // and this function will NOT execute
+});
+</code></pre><p>Alternatively you may pass only a <code>callback</code>,=
+ in which
+case you have the opportunity to alter the <code>router.param()</code> A=
+PI.
+For example the <a href=3D"http://github.com/visionmedia/express-params"=
+>express-params</a>
+defines the following callback which allows you to restrict parameters t=
+o a given
+regular expression.
+</p><p>This example is a bit more advanced, checking if the second argum=
+ent is a regular
+expression, returning the callback which acts much like the "user" param=
+ example.
+</p><pre class=3D"js"><code>router.param(function(name, fn){
+  if (fn instanceof RegExp) {
+    return function(req, res, next, val){
+      var captures;
+      if (captures =3D fn.exec(String(val))) {
+        req.params[name] =3D captures;
+        next();
+      } else {
+        next('route');
+      }
+    }
+  }
+});
+</code></pre><p>The method could now be used to effectively validate par=
+ameters, or also
+parse them to provide capture groups:
+</p><pre class=3D"js"><code>router.param('id', /^\d+$/);
+
+router.get('/user/:id', function(req, res){
+  res.send('user ' + req.params.id);
+});
+
+router.param('range', /^(\w+)\.\.(\w+)?$/);
+
+router.get('/range/:range', function(req, res){
+  var range =3D req.params.range;
+  res.send('from ' + range[1] + ' to ' + range[2]);
+});
+</code></pre><p>The <code>router.use()</code> method also supports named=
+ parameters so that your mount points for other routers can benefit from=
+ preloading using named parameters.</p></section><section><h3 id=3D"rout=
+er.route">router.route(path)</h3><p>Returns an instance of a single rout=
+e which can then be used to handle HTTP verbs with optional middleware. =
+Using <code>router.route()</code> is a recommended approach to avoiding =
+duplicate route naming and thus typo errors.
+</p><p>Building on the <code>router.param()</code> example from before, =
+we see how <code>router.route()</code> allows us to easily specify the v=
+arious HTTP verb handlers.
+</p><pre class=3D"js"><code>var router =3D express.Router();
+
+router.param('user_id', function(req, res, next, id) {
+  // sample user, would actually fetch from DB, etc...
+  req.user =3D {
+    id: id,
+    name: 'TJ'
+  };
+  next();
+});
+
+router.route('/users/:user_id')
+.all(function(req, res, next) {
+  // runs for all HTTP verbs first
+  // think of it as route specific middleware!
+})
+.get(function(req, res, next) {
+  res.json(req.user);
+})
+.put(function(req, res, next) {
+  // just an example of maybe updating the user
+  req.user.name =3D req.params.name;
+  // save user ... etc
+  res.json(req.user);
+})
+.post(function(req, res, next) {
+  next(new Error('not implemented'));
+})
+.delete(function(req, res, next) {
+  next(new Error('not implemented'));
+})
+</code></pre><p>This apporach re-uses the single '/users/:user_id' path =
+and add handlers for the various HTTP verbs.</p></section><section><h3 i=
+d=3D"router.VERB">router.VERB(path, [callback...], callback)</h3><p>The =
+<code>router.VERB()</code> methods provide the routing functionality
+in Express, where <strong>VERB</strong> is one of the HTTP verbs, such
+as <code>router.post()</code>. Multiple callbacks may be given, all are =
+treated
+equally, and behave just like middleware, with the one exception that
+these callbacks may invoke <code>next('route')</code> to bypass the
+remaining route callback(s). This mechanism can be used to perform pre-c=
+onditions
+on a route then pass control to subsequent routes when there is no reaso=
+n to proceed
+with the route matched.
+</p><p>The following snippet illustrates the most simple route definitio=
+n possible. Express
+translates the path strings to regular expressions, used internally to m=
+atch incoming requests.
+Query strings are <em>not</em> considered when peforming these matches, =
+for example "GET /"
+would match the following route, as would "GET /?name=3Dtobi".
+</p><pre class=3D"js"><code>router.get('/', function(req, res){
+  res.send('hello world');
+});
+</code></pre><p>Regular expressions may also be used, and can be useful
+if you have very specific restraints, for example the following
+would match "GET /commits/71dbb9c" as well as "GET /commits/71dbb9c..4c0=
+84f9".
+</p><pre class=3D"js"><code>router.get(/^\/commits\/(\w+)(?:\.\.(\w+))?$=
+/, function(req, res){
+  var from =3D req.params[0];
+  var to =3D req.params[1] || 'HEAD';
+  res.send('commit range ' + from + '..' + to);
+});</code></pre></section><h2>Middleware</h2><a name=3D"middleware"></a>=
+<p>As of 4.x, Express no longer depends on Connect. All of Express' prev=
+iously included middleware are now in separate repos. Please view <a hre=
+f=3D"https://github.com/senchalabs/connect#middleware">the list of middl=
+eware</a>. The only included middleware is now <code>express.static()</c=
+ode>.</p></div></section><script>var _gaq =3D _gaq || [];
+_gaq.push(['_setAccount', 'UA-25235225-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga =3D document.createElement('script'); ga.type =3D 'text/javascr=
+ipt'; ga.async =3D true;
+  ga.src =3D ('https:' =3D=3D document.location.protocol ? 'https://ssl'=
+ : 'http://www') + '.google-analytics.com/ga.js';
+  var s =3D document.getElementsByTagName('script')[0]; s.parentNode.ins=
+ertBefore(ga, s);
+})();
+</script><a id=3D"top" href=3D"#"><img src=3D"/images/arrow.png"></a><fo=
+oter><div id=3D"footer-content">=C2=A9 2012 TJ Holowaychuk. All rights r=
+eserved.</div></footer></body></html>
+------------lxKrnHtxJfhltemRg8xXAp
+Content-Disposition: inline
+Content-Type: image/png
+Content-Location: http://expressjs.com/images/hr.png
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAA5sAAAATCAIAAACRAo5vAAAWEWlDQ1BJQ0MgUHJv
+ZmlsZQAAWIWVWAdQVEuX7juRGYYh55xzzjnnnKPAkHPOqESRpAQBJYkEQRDBRBAR
+EUEEEUEFDIAEkWQAFQRJOzzfvn+3dv/a2lPV1d+c6nu6536nb5+vAaA3IYSFBcEo
+AAgOiYqw0tficHB04kBPAxhAAgpACWAEz8gwTQsLE/BvbXsSQMf9K9HjWP9+3P9q
+lF7ekZ4AQBZEHOoV6RlMxL1ErOMZFhEFAAxBxDyxUWHHWICIaSKICyRilWPs+wcf
+P0vj8Qd7/TXGxkqbiOMAIMERCBG+AGDTiX6OGE9fYhxsHQAoqhAv/xAAKDqJWM3T
+j0B8jm6HOEYkODiUiOl5iFjA47/E8f1vMT3+iUkg+P6D//yXv4xWOzQoNILDRFuH
+Q5sQ5O8RQYjy9vp/vpv/04KDov9zvmMGcN4httbH6yY2FqANQkEQsUUADmBC/KVD
+7LUBgejzBx5ELwFEAW/gFeUdF3UcQDs0LD7C39cvikOTyKK3CIdhiKeYCIeUhKQU
+OM6JP9P8sPprJojuxb983isAqBAzCDP2L1/ABQCaBojvMftfPj5nABhFALj10jM6
+IuaP75heYqZhATmgAYyADXATVy8KpIAcUAYaQBcYAXNgAxyBK/AEfiCYuO5YcBKk
+gAyQA/JBMSgDVaAWXAM3wG3QAbrBI/AEPANjYAK8B3NgCayDDbAN9iAIQkNkEDXE
+CLFDvJAwJAUpQGqQLmQCWUGOkDvkC4VA0dBJKA3KgQqhMqgaaoRuQfegR9AQNA69
+heahVeg79BsGh+FgNDBWGB9MHKYA04QZw2xgJ2C+sHBYAiwddh52CVYDa4a1wx7B
+nsEmYHOwddgWHMBJ4XRwTrgoXAGuDTeHO8F94BHw0/BseAm8Bt4C74IPwl/B5+Cf
+4bsIFIIawYEQRSgjDBC2CE9EOOI0IhdRhriGaEf0I14h5hEbiEMkGZIFKYxUQhoi
+HZC+yFhkBrIEWY9sQw4gJ5BLyG0UCkWH4kfJowxQjqgAVCIqF1WJakX1osZRi6gt
+NBrNiBZGq6LN0QR0FDoDXYpuRj9Ev0QvoXdISEnYSaRI9EicSEJIUklKSJpIekhe
+kiyT7GEoMLwYJYw5xgsTj8nD1GG6MC8wS5g9LCWWH6uKtcEGYFOwl7At2AHsNPYH
+KSkpF6kiqSWpP2ky6SXSm6RPSedJd3FUOCGcNs4FF407j2vA9eLe4n6QkZHxkWmQ
+OZFFkZ0nayR7TDZLtoOnxovhDfFe+CR8Ob4d/xL/lRxDzkuuSe5KnkBeQn6H/AX5
+ZwoMBR+FNgWB4jRFOcU9iimKLUpqSklKc8pgylzKJsohyhUqNBUflS6VF1U6VS3V
+Y6pFajg1N7U2tSd1GnUd9QD1Eg2Khp/GkCaAJofmBs0ozQYtFa0MrR1tHG057QPa
+OTo4HR+dIV0QXR7dbbpJut/0rPSa9N70WfQt9C/pfzEwM2gweDNkM7QyTDD8ZuRg
+1GUMZCxg7GCcYUIwCTFZMsUyXWYaYPrMTMOszOzJnM18m/kdC4xFiMWKJZGllmWE
+ZYuVjVWfNYy1lPUx62c2OjYNtgC2IrYetlV2anY1dn/2IvaH7GsctByaHEEclzj6
+OTY4WTgNOKM5qzlHOfe4+LlsuVK5WrlmuLHcCtw+3EXcfdwbPOw8pjwnea7zvOPF
+8Crw+vFe5B3k/cXHz2fPd5avg2+Fn4HfkD+B/zr/tACZgLpAuECNwGtBlKCCYKBg
+peCYEExIVshPqFzohTBMWE7YX7hSeFwEKaIoEiJSIzIlihPVFI0RvS46L0YnZiKW
+KtYh9lWcR9xJvEB8UPxQQlYiSKJO4r0klaSRZKpkl+R3KSEpT6lyqdfSZNJ60knS
+ndKbMsIy3jKXZd7IUsuayp6V7ZM9kJOXi5BrkVuV55F3l6+Qn1KgUbBQyFV4qohU
+1FJMUuxW3FWSU4pSuq30TVlUOVC5SXlFhV/FW6VOZVGVS5WgWq06p8ah5q52RW1O
+nVOdoF6jvqDBreGlUa+xrCmoGaDZrPlVS0IrQqtN65e2kvYp7V4duI6+TrbOqC6V
+rq1ume6sHpeer951vQ19Wf1E/V4DpIGxQYHBlCGroadho+GGkbzRKaN+Y5yxtXGZ
+8YKJkEmESZcpzNTI9ILptBmvWYhZhzkwNzS/YD5jwW8RbnHfEmVpYVlu+clK0uqk
+1aA1tbWbdZP1to2WTZ7Ne1sB22jbPjtyOxe7Rrtf9jr2hfZzDuIOpxyeOTI5+jt2
+OqGd7JzqnbacdZ2LnZdcZF0yXCZP8J+IOzHkyuQa5PrAjdyN4HbHHelu797kvk8w
+J9QQtjwMPSo8Njy1PS96rntpeBV5rXqrehd6L/uo+hT6rPiq+l7wXfVT9yvx++yv
+7V/mvxlgEFAV8CvQPLAh8CjIPqg1mCTYPfheCFVIYEh/KFtoXOh4mHBYRthcuFJ4
+cfhGhHFEfSQUeSKyM4qGePiORAtEn4mej1GLKY/ZibWLvRNHGRcSNxIvFJ8Vv5yg
+l3A1EZHomdh3kvNkysn5U5qnqk9Dpz1O9yVxJ6UnLSXrJ19LwaYEpjxPlUgtTP2Z
+Zp/Wlc6anpy+eEb/zPUMfEZExtRZ5bNVmYhM/8zRLOms0qzDbK/s4RyJnJKc/VzP
+3OFzkucunTs673N+NE8u73I+Kj8kf7JAveBaIWVhQuHiBdML7UUcRdlFP4vdiodK
+ZEqqLmIvRl+cu2RyqbOUpzS/dL/Mr2yiXKu8tYKlIqviV6VX5cvLGpdbqlircqp+
+X/G/8qZav7q9hq+mpBZVG1P7qc6ubvCqwtXGeqb6nPqDhpCGuWtW1/ob5Rsbm1ia
+8q7DrkdfX212aR67oXOjs0W0pbqVrjXnJrgZfXPtlvutydvGt/vuKNxpuct7t6KN
+ui27HWqPb9/o8OuY63TsHL9ndK+vS7mr7b7Y/YZuzu7yB7QP8nqwPek9Rw8THm71
+hvV+fuT7aLHPre/9Y4fHr/st+0cHjAeePtF78nhQc/DhU9Wn3UNKQ/eGFYY7nsk9
+ax+RHWl7Lvu8bVRutP2F/IvOMcWxrnGV8Z6X6i8fvdJ59eS14etnE2YT45O2k2+m
+XKbm3ni9WXkb9HbzXcy7vffJ08jp7BmKmZJZltmaD4IfWufk5h7M68yPLFgvvF/0
+XFz/GPlxfyn9E9mnkmX25cYVqZXuVb3VsTXntaX1sPW9zxlfKL9UfBX4evebxreR
+DYeNpc2IzaPvuT8YfzT8lPnZt2WxNbsdvL33K3uHcefarsLu4G/738t7sfvo/UsH
+ggddh8aH00fBR0dhhAjCX6UAnNhgPj4AfG8AgMwRAOoxYl2F/1Oz/W1wYvEBI/Z2
+kC5ME66AYEBiUSRoCRJHTBr2IQ5FRsB3UGApg6iGaWRpK+gBQyDjKLMcSz7rOrsG
+Rx7nODeWR5HXkS+QP1jARVBLiFVoU/iJSKlooJiqOJn4B4lWyWQpS2lO6S8y92TP
+yFnKs8gvKbQoxilpKmOVX6lUqHqpiah9V+/QOKmppYXT+qDdo9OkW6lXoH/agGCo
+bsRgtGk8YtJiWmlWbd5tsWiFtGa0YbKlsIPb7dvvOQInjDPehewE4sSW64LbmHsv
+4Y5HvWepV7Z3vI+vr42flr9MgFAgZxBjMHkIPORn6ELYWPj9iLrI81FJ0RkxbXGI
+eO+E3pPgFN9ppSTDZOeU6NTzacXpiWdkzixm5J21yOTNIs0GObBcynMC59XyzPLt
+C5wKnS44FNkV25RYXjS7ZFyqX6ZVrlahWCl9WbRK6IpEtXFNWu3cVcP65ob1Rsom
+3uuSzco3dFpMW+1vut3yux12J/bu6bbU9jMdmZ059/K6iu9XdNc/uNsz8HCqd+7R
+ZF/rY59+hv6nAyVPYgd9np4Ysh+2fGY8ov/cYNTmRfjYlfG3r0hfi09oTxpO6b5R
+eMv7Dv9u9/3K9JuZR7O1H9LmfOdtF8wWTT+aL5l/MlpWXKFfmVvNXpNZm1u/9jnh
+i8FXkq+N3/S/LW7UbsZ9d/1h/tN0K2C7b+fs744DnaOjv/mXhCPgq4g55CJqgwSO
+kcP6kVbg5vBC5LEUT6gYqeNpXtNJ0acyzDDJMmewjLExsTtwFHB2c01zb/Fs867x
+PeevFYgQVBMiEXotXCUSICoreij2RPy8hL0ku+SyVIt0jIyqLCQ7IJctb65ArTCp
+WKrkrMyqPE3MAhc1RrUp9Ysazpp8mntaE9q3dHJ1vfVU9Cn1Pxl0GxYbxRh7m3iY
++pmFmgdbeFiaWylbC9kw2+LtYHbb9ssOk46PnVqcy12yTyS4+rs5uOsQxD0YPCHP
+Na8J736fNt96vxL/9IDQQMcgjWD+EDJiJsyHzYb/jOSMcosujXkU+yZuMf5zwu5J
+0lNspwWSOJJRyR9S2lLz0iLSXc/YZjic9c9My6rMvpHTltt+7u75W3k38hsLrhZe
+uVBeVFycV5J1MfVSfGlomW+5f0Vy5cMqwSvXavhrC+teXd1twF9jauRuEiLmgfwN
+tRadVtObjreCbmfcqb3b0zbePtux0vmjC36fvlv4gXKPxkP5Xs5HsEcLfYOP2/ob
+Bsqf5A+eeZowFDEc9SxrpHuU7sWpsZmXTK/UX9tM+EwmT1198+Ltz/dU06IzJrNh
+Hy7O3Z9/uTC7uPBx/ROSyH7K6vg65WeJL7Jf+b6Rf9vZ+LQ59X34x72f1VtJ23a/
++H9t73TvJvxW3sPt6xys/s2/GLQOq4S7IgSRaOQmahW9RrKA2STF4njJNPFO5CkU
+zZTjVEc0vLS6dAH0ZxiqGO8yDTA/ZXnCep+tmj2OQ4vjN2cdlzHXOncmDz9PH68r
+7y5fEb8E/7CAryBasEHIQGhZOENEQGRA1FMMiFWKq4i/kYgmVjetUiZSK9JpMmwy
+nbJWsp/lzsizy3cQq5YVxSQlOqXryprKL1U8Vb6qJqqh1crVZdQnNRI02TQ7tcy1
+3mr7aR/p1Oha6GH0HuufNJAxWDOsMXIxZjCeNCk2tTYjNxsyT7NQtvhp2WoVaM1v
+/dGm2vaEHaPda/s8BwOHI8c2pyBnHucZl5ITZie2XYvceN3uumu6vyPEeXB5vCF+
+R/y89X3kfRX9DP0JAcGBhCD1YIrg6ZCrocFhsmH74Y8jsiMtomij3kdXxXjF8sV+
+irscrxs/nRCUSJP46uT9Uz2n+5MeJ99LaUwtSUtLDz3jnKF7VigTmfk6qzTbKYcn
+Zy937tzz8/fyruSfLnAuVLrAdGG3aLL4dsnFi+cuFZZWl90pf1LxpnLt8t4VsmqO
+GulagzqXq6H1pxuyruU2JjcRrss345u/3/jSsnsTd4vtttQdi7uJbXfbdzoV74V1
+ld6/2d354H7P0MOtR/p99/qtB7YGS4akh1+PnBt1HzN8qflaazLoLX56fWF0bevn
+7jH/f7T7saHkALiQAoBDBgC26gAU9BN15gRRd2IBsCADwEYRwPh8AAw3AiCl+X/O
+D4h42qAAKaAEDIAd8AMJoETUx+bACfiASKK6zAOXQQvoAS/APPhJVI4skCSkD7lB
+sVAB1Aw9hT7BUDABmAksElZJ1HlHRF0XA78HP0ToIy4gFpDSyEzkB5QSqhS1R1RY
+wyTyJA0YZkwBlhSbRYolzccx4RrIZMi68ar4LnIF8vsUBhTvKaOoKKhuUOtQj9PY
+0IzTmtO+pHOj26EvZVBlmGU8xcTM1MXsyoJh6WaNYZNh+8F+myOCU5Zzn2uQu4TH
+j1eFD883x39HIFPQQ0hTmE8EL7In+lXso/iERJtkopSk1Kx0poyszDfZTrlC+XgF
+L0UTJQllehW8qphauYaw5jmtIe1vuiR6tPqMBiyGPEYyxmYm4aaXzPrNv1tyW9lb
+n7cZtEPY6zhkOI4407l4nGhy/eiOIlB6oDy2PJe8pr3XfMn9jP2LA5aDVIKLQr6G
+GYU3ReKiwqPfxerFdSaIJtaf4jhdnkyXUpCGTU85s3U2IHM9Oyc3+HxbAeUFpqIv
+JY2X3Mroyscqz1XpX9mqyaujuZpZv30tsPH79fwbuq2UNzdvf7q70r7eudy12L35
+kP6R9mPXAfdB6yH1Z+LPBV/IjYe82plCvMNMV32gnu9Zwq+cXNf80vpt77vcT71t
+7K9zO8O7K7+X9t7u3z3IP/Q4kvjr+3HMPxrgABVgBJxACEgDVWAAbIA7CAaJIAuU
+gkZwDzwDM2ADQkJMkMRf7MdDRdBNaBT6AiOHScOcYGmw27AlODvcDV4H/4yQQ6Qj
+JpCCyBTkNJH7cjRA+6EnSHRJOjHimCasILaZVIb0Ic4Ct0gWh8fgi8k5yW8S9et7
+ylgqOqoOajvqLzSnaLG0l+hE6YbpQxnoGXoZ/ZlomHqZQ1l4WKZZS9kc2BnY33JU
+cnpxSXAD7tc813nT+Vz4ZYhabk1wROgO8RTLE00TOykeJeEpqSGFkxqVzpYxlqWX
+3ZR7Kz+o0K5Yo5SrnKASo5ql1qn+S1Nay0s7R6det13vvv59gweGQ0bzJjBTITM7
+8zMWHZafrXls3Gwr7WYduBwDnNpd0CfsXcvcBtzHCX0ejZ6ZXv7eVj4Gvo5+qf69
+gWRBHsHdoUxhCeEzkVpRjTHksWFxzxI4E2NOjp2WTapLYU4tSseeScz4nEnIWshJ
+OCeRB8ufKbxVFFMic/F76a3y6Eqly7+v1NdI1VbWLdfzN/hdu9lEf73ihmrLl5ul
+txXvjLYR2vc6a7osu8GDxocmvZt9Vf0eT5Secg4jnj1/HvMCNZb9EveqZsJtyvRt
+0PuGmeU59gWLjymfelbp1/O/8m08/1G0nbtruCe1f/ng4+Hm3/wjAAZQEHc/JxAG
+ckAbWABXIveniDu/GtwFT8Escd/jID5IAzoBJULl0ANoHoYhsk6AFcPG4LRwb/gD
+BAsiGbGGdEQ+R2mjHqBV0Y9ITEhmMJFYcuxNUjscHNdBFo6XxO+QD1CUUkZTOVIb
+0hjRWtIZ0cszCDLKMrkxx7NEsXqw2bCbcZhymnKZcJvyWPG68UXynxNoEnwqtCpC
+Jiov5iNeJjEpxSTtJdMquydvofBcKUvFUQ2pnq+xr2WsnUZksEOvW7/HYNRwz9jY
+pN1MzLzZUsyq3UbbdtI+2BHr1Oxi50rpTurh5uXs/dFX2S/H/1OgVdBIiGnoy3Dn
+iJWoxBi22Nn4J4m9pyqTbJN/p1an22Wwn93IepCTe84nT7+AsfBZkU/x9sW0Usqy
+mgq5yudVPtVQTUWdwtWJhuhG5qanzUkt+jfFb+vdTWqv6czrcuymfzD1sPyR42N0
+/9UnMoP3h3SHp0biRsXH4OMbr1YmxqcK3vK/q3x/OKM7m/3h2Tz5gu3ilY+rnySX
+A1eurD5dW/uM/MLyVeKbzob9JuG71w+Ln1w/t7bObbNsN/1S/FX2a3fHfqd9l243
+Yrd9d++3xu/030N7+D3rvYt7Y/sk+xr7cfu39lcPOA8cDwoPhg8ODiUPvQ4vHj47
+PDySPPI+unQ0csx/pI+01J9bU5wWAMjZo6MffACgCwE4KDg62qs5OjqoJYqNaQB6
+g/7cB/911lAAULFxjIY5y//HXex/AHizGlCnQvneAAAACXBIWXMAAAsTAAALEwEA
+mpwYAAABbmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxu
+czp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNC40LjAiPgog
+ICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIv
+MjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjph
+Ym91dD0iIgogICAgICAgICAgICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2Rj
+L2VsZW1lbnRzLzEuMS8iPgogICAgICAgICA8ZGM6c3ViamVjdD4KICAgICAgICAg
+ICAgPHJkZjpCYWcvPgogICAgICAgICA8L2RjOnN1YmplY3Q+CiAgICAgIDwvcmRm
+OkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgrlPw1BAAAA
+4ElEQVR4nO3dQQ6CMBQEUFrx/jdu3RkUKDWamEne24H9E9xNCMkvvfcFAABi1X8/
+AAAAfEWjBQAgm0YLAEA2jRYAgGwaLQAA2TRaAACyabQAAGTTaAEAyKbRAgCQbd1e
+tNbmJ9vJsrGzHWST4fvY1k63mrU+yjwbHAReZl6Ob433sfWJM6PJg9vWvwHAL5Wl
+DH77LKqUmbnnsbFaL47VcvHW8jBhHDvOfJuts3/kJfO+3mam9ootuAAARPPVAQAA
+2TRaAACyabQAAGTTaAEAyKbRAgCQTaMFACCbRgsAQLYHE88wIf02SPcAAAAASUVO
+RK5CYII=
+
+------------lxKrnHtxJfhltemRg8xXAp
+Content-Disposition: inline; filename=style.css
+Content-Type: text/css; name=style.css
+Content-Location: http://expressjs.com/style.css
+Content-Transfer-Encoding: 8bit
+
+/* general */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 14px/1.6 "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #666;
+}
+
+h1, h2, h3 {
+  margin: 5px 0;
+  font-weight: normal;
+  color: #353535;
+  -webkit-font-smoothing: antialiased;
+}
+
+p em {
+  font-weight: bold;
+  font-style: normal;
+  color: #353535;
+}
+
+p {
+  margin: 20px 0;
+}
+
+strong {
+  color: #353535;
+}
+
+.inner {
+  margin-top: 100px;
+}
+
+#content {
+  margin-left: 80px;
+  width: 900px;
+  margin-bottom: 80px;
+}
+
+li code {
+  color: #353535;
+}
+
+section section p {
+  width: 60%;
+}
+
+h2 {
+  margin-top: 80px;
+  font-weight: bold;
+}
+
+h3 {
+  background: url(/images/hr.png) top center no-repeat;
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+/* links */
+
+a {
+  color: #259dff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+:target {
+  padding-top: 100px;
+}
+
+nav a {
+  font-size: 12px;
+  color: #7B838A;
+}
+
+/* logo */
+
+#logo {
+  margin-top: 180px;
+  margin-bottom: 180px;
+  margin-left: 80px;
+  padding-left: 40px;
+  width: 440px;
+  border-left: 1px dotted #eee;
+  -webkit-font-smoothing: antialiased;
+}
+
+#logo .express {
+  display: block;
+  font: 60px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: #353535;
+  width: 100%;
+}
+
+#logo .description {
+  position: relative;
+  top: -5px;
+  font: 100 60px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #cecece;
+  line-height: .75;
+}
+
+#logo em {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 9px;
+  color: #999;
+  margin-left: 5px;
+}
+
+#logo a {
+  color: #cecece;
+}
+
+#logo a:hover {
+  text-decoration: none;
+  color: #858585;
+}
+
+/* secondary page logo */
+
+.inner header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(255,255,255,.9);
+  width: 100%;
+  height: 55px;
+  z-index: 100;
+}
+
+.inner.scroll header {
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 4px #eee;
+}
+
+.inner #logo {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 10px 25px;
+  width: auto;
+  border-left: none;
+}
+
+.inner #logo .express {
+  font-size: 25px;
+}
+
+.inner #logo em {
+  display: none;
+}
+
+.inner .description {
+  display: none;
+}
+
+/* code */
+
+p code {
+  background: #efefef;
+  border: 1px solid #eaeaea;
+  font-family: monaco, monospace;
+  font-size: .75em;
+  padding: 2px 8px;
+  -webkit-border-radius: 3px;
+}
+
+pre {
+  color: #353535;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 20px 0;
+  padding: 20px;
+  background: white;
+  border: 1px solid #e7e7e7;
+  border-bottom: 1px solid #ddd;
+  -webkit-box-shadow: 0 1px 3px 0 #eee;
+  -webkit-border-radius: 3px;
+}
+
+pre code {
+  font-family: monaco, monospace;
+  font-size: .8em;
+}
+
+code .comment { color: #888 }
+code .init { color: #2F6FAD }
+code .string { color: #5890AD }
+code .keyword { color: #8A6343 }
+code .number { color: #2F6FAD }
+
+/* top button */
+
+.scroll #top {
+  opacity: .2;
+}
+
+#top {
+  line-height: 0;
+  background: black;
+  -webkit-border-radius: 2px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+  -webkit-transition: opacity 300ms;
+}
+
+#top:hover {
+  opacity: 1;
+}
+
+#top img {
+  width: 8px;
+  height: 5px;
+}
+
+/* navigation */
+
+nav {
+  position: fixed;
+  top: 20px;
+  right: 15px;
+  z-index: 100;
+}
+
+nav a {
+  margin: 0 5px;
+  padding-right: 15px;
+  border-right: 1px dotted #eee;
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #353535;
+}
+
+/* clearfix */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+/* boxes */
+
+#boxes {
+  background: url(/images/hr.png) top center no-repeat;
+  margin-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 12px;
+}
+
+.inner #boxes {
+  font-size: 13px;
+}
+
+#boxes section {
+  width: 180px;
+  margin: 0 25px;
+  float: left;
+  /* fix grid jank. #105 */
+  min-height: 200px;
+}
+
+#boxes h3 {
+  background: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#boxes section p {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* secondary menu */
+
+#menu {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 105px;
+  right: 30px;
+  height: 500px;
+  text-align: right;
+  font-size: 13px;
+}
+
+#menu li {
+  list-style: none;
+}
+
+#menu ul {
+  height: 0;
+  overflow-y: hidden;
+}
+
+#menu ul.active {
+  height: auto;
+}
+
+#menu > li > a {
+  color: #353535;
+  font-weight: bold;
+}
+
+#menu ul a {
+  color: #7B838A;
+}
+
+#menu ul a.active {
+  color: #259dff;
+}
+
+/* applications page */
+
+.application h2 {
+  margin: 0;
+}
+
+.application {
+  background: url(/images/hr.png) top center no-repeat;
+  padding: 80px 0;
+  height: 600px;
+  position: relative;
+}
+
+.application p {
+  float: left;
+  width: 30%;
+}
+
+.application img {
+  float: right;
+}
+
+.application .link {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.application .link a {
+  margin-left: 4px;
+}
+
+/* ipad landscape */
+
+@media all and (max-width: 1200px) {
+  #content {
+    width: 760px;
+  }
+
+  .applications #content,
+  .community #content {
+    width: 900px;
+  }
+}
+
+/* ipad portrait */
+
+@media all and (max-width: 768px) {
+  #content {
+    width: 500px;
+  }
+
+  .applications #content,
+  .community #content {
+    width: 600px;
+  }
+
+  .application img {
+    width: 60%;
+  }
+
+  .application {
+    height: 450px;
+  }
+
+  #boxes {
+    margin-left: 0;
+  }
+
+  #boxes section {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    /* undo grid jank */
+    min-height: 0;
+  }
+}
+
+/* iphone portrait */
+
+@media all and (max-width: 650px) {
+  #logo {
+    margin-left: 0;
+  }
+
+  #content {
+    width: 380px;
+  }
+
+  .applications #content,
+  .community #content {
+    width: 500px;
+  }
+
+  section section p {
+    width: 100%;
+  }
+
+  .application {
+    height: 380px;
+  }
+
+  .application img {
+    width: 60%;
+  }
+}
+
+/* tmp */
+
+#logos, footer {
+  display: none;
+}
+
+#book {
+  position: relative;
+}
+
+#book img {
+  position: absolute;
+  top: 0;
+  right: -110px;
+  width: 50%;
+}
+
+------------lxKrnHtxJfhltemRg8xXAp
+Content-Disposition: inline; filename=jquery.min.js
+Content-Type: text/javascript; charset=UTF-8; name=jquery.min.js
+Content-Location: http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js
+Content-Transfer-Encoding: Quoted-Printable
+
+/*! jQuery v1.11.0 | (c) 2005, 2014 jQuery Foundation, Inc. | jquery.org=
+/license */
+!function(a,b){"object"=3D=3Dtypeof module&&"object"=3D=3Dtypeof module.=
+exports?module.exports=3Da.document?b(a,!0):function(a){if(!a.document)t=
+hrow new Error("jQuery requires a window with a document");return b(a)}:=
+b(a)}("undefined"!=3Dtypeof window?window:this,function(a,b){var c=3D[],=
+d=3Dc.slice,e=3Dc.concat,f=3Dc.push,g=3Dc.indexOf,h=3D{},i=3Dh.toString,=
+j=3Dh.hasOwnProperty,k=3D"".trim,l=3D{},m=3D"1.11.0",n=3Dfunction(a,b){r=
+eturn new n.fn.init(a,b)},o=3D/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,p=3D/=
+^-ms-/,q=3D/-([\da-z])/gi,r=3Dfunction(a,b){return b.toUpperCase()};n.fn=
+=3Dn.prototype=3D{jquery:m,constructor:n,selector:"",length:0,toArray:fu=
+nction(){return d.call(this)},get:function(a){return null!=3Da?0>a?this[=
+a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=3Dn.mer=
+ge(this.constructor(),a);return b.prevObject=3Dthis,b.context=3Dthis.con=
+text,b},each:function(a,b){return n.each(this,a,b)},map:function(a){retu=
+rn this.pushStack(n.map(this,function(b,c){return a.call(b,c,b)}))},slic=
+e:function(){return this.pushStack(d.apply(this,arguments))},first:funct=
+ion(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function=
+(a){var b=3Dthis.length,c=3D+a+(0>a?b:0);return this.pushStack(c>=3D0&&b=
+>c?[this[c]]:[])},end:function(){return this.prevObject||this.constructo=
+r(null)},push:f,sort:c.sort,splice:c.splice},n.extend=3Dn.fn.extend=3Dfu=
+nction(){var a,b,c,d,e,f,g=3Darguments[0]||{},h=3D1,i=3Darguments.length=
+,j=3D!1;for("boolean"=3D=3Dtypeof g&&(j=3Dg,g=3Darguments[h]||{},h++),"o=
+bject"=3D=3Dtypeof g||n.isFunction(g)||(g=3D{}),h=3D=3D=3Di&&(g=3Dthis,h=
+--);i>h;h++)if(null!=3D(e=3Darguments[h]))for(d in e)a=3Dg[d],c=3De[d],g=
+!=3D=3Dc&&(j&&c&&(n.isPlainObject(c)||(b=3Dn.isArray(c)))?(b?(b=3D!1,f=3D=
+a&&n.isArray(a)?a:[]):f=3Da&&n.isPlainObject(a)?a:{},g[d]=3Dn.extend(j,f=
+,c)):void 0!=3D=3Dc&&(g[d]=3Dc));return g},n.extend({expando:"jQuery"+(m=
++Math.random()).replace(/\D/g,""),isReady:!0,error:function(a){throw new=
+ Error(a)},noop:function(){},isFunction:function(a){return"function"=3D=3D=
+=3Dn.type(a)},isArray:Array.isArray||function(a){return"array"=3D=3D=3Dn=
+.type(a)},isWindow:function(a){return null!=3Da&&a=3D=3Da.window},isNume=
+ric:function(a){return a-parseFloat(a)>=3D0},isEmptyObject:function(a){v=
+ar b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a=
+||"object"!=3D=3Dn.type(a)||a.nodeType||n.isWindow(a))return!1;try{if(a.=
+constructor&&!j.call(a,"constructor")&&!j.call(a.constructor.prototype,"=
+isPrototypeOf"))return!1}catch(c){return!1}if(l.ownLast)for(b in a)retur=
+n j.call(a,b);for(b in a);return void 0=3D=3D=3Db||j.call(a,b)},type:fun=
+ction(a){return null=3D=3Da?a+"":"object"=3D=3Dtypeof a||"function"=3D=3D=
+typeof a?h[i.call(a)]||"object":typeof a},globalEval:function(b){b&&n.tr=
+im(b)&&(a.execScript||function(b){a.eval.call(a,b)})(b)},camelCase:funct=
+ion(a){return a.replace(p,"ms-").replace(q,r)},nodeName:function(a,b){re=
+turn a.nodeName&&a.nodeName.toLowerCase()=3D=3D=3Db.toLowerCase()},each:=
+function(a,b,c){var d,e=3D0,f=3Da.length,g=3Ds(a);if(c){if(g){for(;f>e;e=
+++)if(d=3Db.apply(a[e],c),d=3D=3D=3D!1)break}else for(e in a)if(d=3Db.ap=
+ply(a[e],c),d=3D=3D=3D!1)break}else if(g){for(;f>e;e++)if(d=3Db.call(a[e=
+],e,a[e]),d=3D=3D=3D!1)break}else for(e in a)if(d=3Db.call(a[e],e,a[e]),=
+d=3D=3D=3D!1)break;return a},trim:k&&!k.call("\ufeff\xa0")?function(a){r=
+eturn null=3D=3Da?"":k.call(a)}:function(a){return null=3D=3Da?"":(a+"")=
+.replace(o,"")},makeArray:function(a,b){var c=3Db||[];return null!=3Da&&=
+(s(Object(a))?n.merge(c,"string"=3D=3Dtypeof a?[a]:a):f.call(c,a)),c},in=
+Array:function(a,b,c){var d;if(b){if(g)return g.call(b,a,c);for(d=3Db.le=
+ngth,c=3Dc?0>c?Math.max(0,d+c):c:0;d>c;c++)if(c in b&&b[c]=3D=3D=3Da)ret=
+urn c}return-1},merge:function(a,b){var c=3D+b.length,d=3D0,e=3Da.length=
+;while(c>d)a[e++]=3Db[d++];if(c!=3D=3Dc)while(void 0!=3D=3Db[d])a[e++]=3D=
+b[d++];return a.length=3De,a},grep:function(a,b,c){for(var d,e=3D[],f=3D=
+0,g=3Da.length,h=3D!c;g>f;f++)d=3D!b(a[f],f),d!=3D=3Dh&&e.push(a[f]);ret=
+urn e},map:function(a,b,c){var d,f=3D0,g=3Da.length,h=3Ds(a),i=3D[];if(h=
+)for(;g>f;f++)d=3Db(a[f],f,c),null!=3Dd&&i.push(d);else for(f in a)d=3Db=
+(a[f],f,c),null!=3Dd&&i.push(d);return e.apply([],i)},guid:1,proxy:funct=
+ion(a,b){var c,e,f;return"string"=3D=3Dtypeof b&&(f=3Da[b],b=3Da,a=3Df),=
+n.isFunction(a)?(c=3Dd.call(arguments,2),e=3Dfunction(){return a.apply(b=
+||this,c.concat(d.call(arguments)))},e.guid=3Da.guid=3Da.guid||n.guid++,=
+e):void 0},now:function(){return+new Date},support:l}),n.each("Boolean N=
+umber String Function Array Date RegExp Object Error".split(" "),functio=
+n(a,b){h["[object "+b+"]"]=3Db.toLowerCase()});function s(a){var b=3Da.l=
+ength,c=3Dn.type(a);return"function"=3D=3D=3Dc||n.isWindow(a)?!1:1=3D=3D=
+=3Da.nodeType&&b?!0:"array"=3D=3D=3Dc||0=3D=3D=3Db||"number"=3D=3Dtypeof=
+ b&&b>0&&b-1 in a}var t=3Dfunction(a){var b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,=
+q,r,s=3D"sizzle"+-new Date,t=3Da.document,u=3D0,v=3D0,w=3Deb(),x=3Deb(),=
+y=3Deb(),z=3Dfunction(a,b){return a=3D=3D=3Db&&(j=3D!0),0},A=3D"undefine=
+d",B=3D1<<31,C=3D{}.hasOwnProperty,D=3D[],E=3DD.pop,F=3DD.push,G=3DD.pus=
+h,H=3DD.slice,I=3DD.indexOf||function(a){for(var b=3D0,c=3Dthis.length;c=
+>b;b++)if(this[b]=3D=3D=3Da)return b;return-1},J=3D"checked|selected|asy=
+nc|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple=
+|open|readonly|required|scoped",K=3D"[\\x20\\t\\r\\n\\f]",L=3D"(?:\\\\.|=
+[\\w-]|[^\\x00-\\xa0])+",M=3DL.replace("w","w#"),N=3D"\\["+K+"*("+L+")"+=
+K+"*(?:([*^$|!~]?=3D)"+K+"*(?:(['\"])((?:\\\\.|[^\\\\])*?)\\3|("+M+")|)|=
+)"+K+"*\\]",O=3D":("+L+")(?:\\(((['\"])((?:\\\\.|[^\\\\])*?)\\3|((?:\\\\=
+.|[^\\\\()[\\]]|"+N.replace(3,8)+")*)|.*)\\)|)",P=3Dnew RegExp("^"+K+"+|=
+((?:^|[^\\\\])(?:\\\\.)*)"+K+"+$","g"),Q=3Dnew RegExp("^"+K+"*,"+K+"*"),=
+R=3Dnew RegExp("^"+K+"*([>+~]|"+K+")"+K+"*"),S=3Dnew RegExp("=3D"+K+"*([=
+^\\]'\"]*?)"+K+"*\\]","g"),T=3Dnew RegExp(O),U=3Dnew RegExp("^"+M+"$"),V=
+=3D{ID:new RegExp("^#("+L+")"),CLASS:new RegExp("^\\.("+L+")"),TAG:new R=
+egExp("^("+L.replace("w","w*")+")"),ATTR:new RegExp("^"+N),PSEUDO:new Re=
+gExp("^"+O),CHILD:new RegExp("^:(only|first|last|nth|nth-last)-(child|of=
+-type)(?:\\("+K+"*(even|odd|(([+-]|)(\\d*)n|)"+K+"*(?:([+-]|)"+K+"*(\\d+=
+)|))"+K+"*\\)|)","i"),bool:new RegExp("^(?:"+J+")$","i"),needsContext:ne=
+w RegExp("^"+K+"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\("+K+"*((=
+?:-\\d)?\\d*)"+K+"*\\)|)(?=3D[^-]|$)","i")},W=3D/^(?:input|select|textar=
+ea|button)$/i,X=3D/^h\d$/i,Y=3D/^[^{]+\{\s*\[native \w/,Z=3D/^(?:#([\w-]=
++)|(\w+)|\.([\w-]+))$/,$=3D/[+~]/,_=3D/'|\\/g,ab=3Dnew RegExp("\\\\([\\d=
+a-f]{1,6}"+K+"?|("+K+")|.)","ig"),bb=3Dfunction(a,b,c){var d=3D"0x"+b-65=
+536;return d!=3D=3Dd||c?b:0>d?String.fromCharCode(d+65536):String.fromCh=
+arCode(d>>10|55296,1023&d|56320)};try{G.apply(D=3DH.call(t.childNodes),t=
+.childNodes),D[t.childNodes.length].nodeType}catch(cb){G=3D{apply:D.leng=
+th?function(a,b){F.apply(a,H.call(b))}:function(a,b){var c=3Da.length,d=3D=
+0;while(a[c++]=3Db[d++]);a.length=3Dc-1}}}function db(a,b,d,e){var f,g,h=
+,i,j,m,p,q,u,v;if((b?b.ownerDocument||b:t)!=3D=3Dl&&k(b),b=3Db||l,d=3Dd|=
+|[],!a||"string"!=3Dtypeof a)return d;if(1!=3D=3D(i=3Db.nodeType)&&9!=3D=
+=3Di)return[];if(n&&!e){if(f=3DZ.exec(a))if(h=3Df[1]){if(9=3D=3D=3Di){if=
+(g=3Db.getElementById(h),!g||!g.parentNode)return d;if(g.id=3D=3D=3Dh)re=
+turn d.push(g),d}else if(b.ownerDocument&&(g=3Db.ownerDocument.getElemen=
+tById(h))&&r(b,g)&&g.id=3D=3D=3Dh)return d.push(g),d}else{if(f[2])return=
+ G.apply(d,b.getElementsByTagName(a)),d;if((h=3Df[3])&&c.getElementsByCl=
+assName&&b.getElementsByClassName)return G.apply(d,b.getElementsByClassN=
+ame(h)),d}if(c.qsa&&(!o||!o.test(a))){if(q=3Dp=3Ds,u=3Db,v=3D9=3D=3D=3Di=
+&&a,1=3D=3D=3Di&&"object"!=3D=3Db.nodeName.toLowerCase()){m=3Dob(a),(p=3D=
+b.getAttribute("id"))?q=3Dp.replace(_,"\\$&"):b.setAttribute("id",q),q=3D=
+"[id=3D'"+q+"'] ",j=3Dm.length;while(j--)m[j]=3Dq+pb(m[j]);u=3D$.test(a)=
+&&mb(b.parentNode)||b,v=3Dm.join(",")}if(v)try{return G.apply(d,u.queryS=
+electorAll(v)),d}catch(w){}finally{p||b.removeAttribute("id")}}}return x=
+b(a.replace(P,"$1"),b,d,e)}function eb(){var a=3D[];function b(c,e){retu=
+rn a.push(c+" ")>d.cacheLength&&delete b[a.shift()],b[c+" "]=3De}return =
+b}function fb(a){return a[s]=3D!0,a}function gb(a){var b=3Dl.createEleme=
+nt("div");try{return!!a(b)}catch(c){return!1}finally{b.parentNode&&b.par=
+entNode.removeChild(b),b=3Dnull}}function hb(a,b){var c=3Da.split("|"),e=
+=3Da.length;while(e--)d.attrHandle[c[e]]=3Db}function ib(a,b){var c=3Db&=
+&a,d=3Dc&&1=3D=3D=3Da.nodeType&&1=3D=3D=3Db.nodeType&&(~b.sourceIndex||B=
+)-(~a.sourceIndex||B);if(d)return d;if(c)while(c=3Dc.nextSibling)if(c=3D=
+=3D=3Db)return-1;return a?1:-1}function jb(a){return function(b){var c=3D=
+b.nodeName.toLowerCase();return"input"=3D=3D=3Dc&&b.type=3D=3D=3Da}}func=
+tion kb(a){return function(b){var c=3Db.nodeName.toLowerCase();return("i=
+nput"=3D=3D=3Dc||"button"=3D=3D=3Dc)&&b.type=3D=3D=3Da}}function lb(a){r=
+eturn fb(function(b){return b=3D+b,fb(function(c,d){var e,f=3Da([],c.len=
+gth,b),g=3Df.length;while(g--)c[e=3Df[g]]&&(c[e]=3D!(d[e]=3Dc[e]))})})}f=
+unction mb(a){return a&&typeof a.getElementsByTagName!=3D=3DA&&a}c=3Ddb.=
+support=3D{},f=3Ddb.isXML=3Dfunction(a){var b=3Da&&(a.ownerDocument||a).=
+documentElement;return b?"HTML"!=3D=3Db.nodeName:!1},k=3Ddb.setDocument=3D=
+function(a){var b,e=3Da?a.ownerDocument||a:t,g=3De.defaultView;return e!=
+=3D=3Dl&&9=3D=3D=3De.nodeType&&e.documentElement?(l=3De,m=3De.documentEl=
+ement,n=3D!f(e),g&&g!=3D=3Dg.top&&(g.addEventListener?g.addEventListener=
+("unload",function(){k()},!1):g.attachEvent&&g.attachEvent("onunload",fu=
+nction(){k()})),c.attributes=3Dgb(function(a){return a.className=3D"i",!=
+a.getAttribute("className")}),c.getElementsByTagName=3Dgb(function(a){re=
+turn a.appendChild(e.createComment("")),!a.getElementsByTagName("*").len=
+gth}),c.getElementsByClassName=3DY.test(e.getElementsByClassName)&&gb(fu=
+nction(a){return a.innerHTML=3D"<div class=3D'a'></div><div class=3D'a i=
+'></div>",a.firstChild.className=3D"i",2=3D=3D=3Da.getElementsByClassNam=
+e("i").length}),c.getById=3Dgb(function(a){return m.appendChild(a).id=3D=
+s,!e.getElementsByName||!e.getElementsByName(s).length}),c.getById?(d.fi=
+nd.ID=3Dfunction(a,b){if(typeof b.getElementById!=3D=3DA&&n){var c=3Db.g=
+etElementById(a);return c&&c.parentNode?[c]:[]}},d.filter.ID=3Dfunction(=
+a){var b=3Da.replace(ab,bb);return function(a){return a.getAttribute("id=
+")=3D=3D=3Db}}):(delete d.find.ID,d.filter.ID=3Dfunction(a){var b=3Da.re=
+place(ab,bb);return function(a){var c=3Dtypeof a.getAttributeNode!=3D=3D=
+A&&a.getAttributeNode("id");return c&&c.value=3D=3D=3Db}}),d.find.TAG=3D=
+c.getElementsByTagName?function(a,b){return typeof b.getElementsByTagNam=
+e!=3D=3DA?b.getElementsByTagName(a):void 0}:function(a,b){var c,d=3D[],e=
+=3D0,f=3Db.getElementsByTagName(a);if("*"=3D=3D=3Da){while(c=3Df[e++])1=3D=
+=3D=3Dc.nodeType&&d.push(c);return d}return f},d.find.CLASS=3Dc.getEleme=
+ntsByClassName&&function(a,b){return typeof b.getElementsByClassName!=3D=
+=3DA&&n?b.getElementsByClassName(a):void 0},p=3D[],o=3D[],(c.qsa=3DY.tes=
+t(e.querySelectorAll))&&(gb(function(a){a.innerHTML=3D"<select t=3D''><o=
+ption selected=3D''></option></select>",a.querySelectorAll("[t^=3D'']").=
+length&&o.push("[*^$]=3D"+K+"*(?:''|\"\")"),a.querySelectorAll("[selecte=
+d]").length||o.push("\\["+K+"*(?:value|"+J+")"),a.querySelectorAll(":che=
+cked").length||o.push(":checked")}),gb(function(a){var b=3De.createEleme=
+nt("input");b.setAttribute("type","hidden"),a.appendChild(b).setAttribut=
+e("name","D"),a.querySelectorAll("[name=3Dd]").length&&o.push("name"+K+"=
+*[*^$|!~]?=3D"),a.querySelectorAll(":enabled").length||o.push(":enabled"=
+,":disabled"),a.querySelectorAll("*,:x"),o.push(",.*:")})),(c.matchesSel=
+ector=3DY.test(q=3Dm.webkitMatchesSelector||m.mozMatchesSelector||m.oMat=
+chesSelector||m.msMatchesSelector))&&gb(function(a){c.disconnectedMatch=3D=
+q.call(a,"div"),q.call(a,"[s!=3D'']:x"),p.push("!=3D",O)}),o=3Do.length&=
+&new RegExp(o.join("|")),p=3Dp.length&&new RegExp(p.join("|")),b=3DY.tes=
+t(m.compareDocumentPosition),r=3Db||Y.test(m.contains)?function(a,b){var=
+ c=3D9=3D=3D=3Da.nodeType?a.documentElement:a,d=3Db&&b.parentNode;return=
+ a=3D=3D=3Dd||!(!d||1!=3D=3Dd.nodeType||!(c.contains?c.contains(d):a.com=
+pareDocumentPosition&&16&a.compareDocumentPosition(d)))}:function(a,b){i=
+f(b)while(b=3Db.parentNode)if(b=3D=3D=3Da)return!0;return!1},z=3Db?funct=
+ion(a,b){if(a=3D=3D=3Db)return j=3D!0,0;var d=3D!a.compareDocumentPositi=
+on-!b.compareDocumentPosition;return d?d:(d=3D(a.ownerDocument||a)=3D=3D=
+=3D(b.ownerDocument||b)?a.compareDocumentPosition(b):1,1&d||!c.sortDetac=
+hed&&b.compareDocumentPosition(a)=3D=3D=3Dd?a=3D=3D=3De||a.ownerDocument=
+=3D=3D=3Dt&&r(t,a)?-1:b=3D=3D=3De||b.ownerDocument=3D=3D=3Dt&&r(t,b)?1:i=
+?I.call(i,a)-I.call(i,b):0:4&d?-1:1)}:function(a,b){if(a=3D=3D=3Db)retur=
+n j=3D!0,0;var c,d=3D0,f=3Da.parentNode,g=3Db.parentNode,h=3D[a],k=3D[b]=
+;if(!f||!g)return a=3D=3D=3De?-1:b=3D=3D=3De?1:f?-1:g?1:i?I.call(i,a)-I.=
+call(i,b):0;if(f=3D=3D=3Dg)return ib(a,b);c=3Da;while(c=3Dc.parentNode)h=
+.unshift(c);c=3Db;while(c=3Dc.parentNode)k.unshift(c);while(h[d]=3D=3D=3D=
+k[d])d++;return d?ib(h[d],k[d]):h[d]=3D=3D=3Dt?-1:k[d]=3D=3D=3Dt?1:0},e)=
+:l},db.matches=3Dfunction(a,b){return db(a,null,null,b)},db.matchesSelec=
+tor=3Dfunction(a,b){if((a.ownerDocument||a)!=3D=3Dl&&k(a),b=3Db.replace(=
+S,"=3D'$1']"),!(!c.matchesSelector||!n||p&&p.test(b)||o&&o.test(b)))try{=
+var d=3Dq.call(a,b);if(d||c.disconnectedMatch||a.document&&11!=3D=3Da.do=
+cument.nodeType)return d}catch(e){}return db(b,l,null,[a]).length>0},db.=
+contains=3Dfunction(a,b){return(a.ownerDocument||a)!=3D=3Dl&&k(a),r(a,b)=
+},db.attr=3Dfunction(a,b){(a.ownerDocument||a)!=3D=3Dl&&k(a);var e=3Dd.a=
+ttrHandle[b.toLowerCase()],f=3De&&C.call(d.attrHandle,b.toLowerCase())?e=
+(a,b,!n):void 0;return void 0!=3D=3Df?f:c.attributes||!n?a.getAttribute(=
+b):(f=3Da.getAttributeNode(b))&&f.specified?f.value:null},db.error=3Dfun=
+ction(a){throw new Error("Syntax error, unrecognized expression: "+a)},d=
+b.uniqueSort=3Dfunction(a){var b,d=3D[],e=3D0,f=3D0;if(j=3D!c.detectDupl=
+icates,i=3D!c.sortStable&&a.slice(0),a.sort(z),j){while(b=3Da[f++])b=3D=3D=
+=3Da[f]&&(e=3Dd.push(f));while(e--)a.splice(d[e],1)}return i=3Dnull,a},e=
+=3Ddb.getText=3Dfunction(a){var b,c=3D"",d=3D0,f=3Da.nodeType;if(f){if(1=
+=3D=3D=3Df||9=3D=3D=3Df||11=3D=3D=3Df){if("string"=3D=3Dtypeof a.textCon=
+tent)return a.textContent;for(a=3Da.firstChild;a;a=3Da.nextSibling)c+=3D=
+e(a)}else if(3=3D=3D=3Df||4=3D=3D=3Df)return a.nodeValue}else while(b=3D=
+a[d++])c+=3De(b);return c},d=3Ddb.selectors=3D{cacheLength:50,createPseu=
+do:fb,match:V,attrHandle:{},find:{},relative:{">":{dir:"parentNode",firs=
+t:!0}," ":{dir:"parentNode"},"+":{dir:"previousSibling",first:!0},"~":{d=
+ir:"previousSibling"}},preFilter:{ATTR:function(a){return a[1]=3Da[1].re=
+place(ab,bb),a[3]=3D(a[4]||a[5]||"").replace(ab,bb),"~=3D"=3D=3D=3Da[2]&=
+&(a[3]=3D" "+a[3]+" "),a.slice(0,4)},CHILD:function(a){return a[1]=3Da[1=
+].toLowerCase(),"nth"=3D=3D=3Da[1].slice(0,3)?(a[3]||db.error(a[0]),a[4]=
+=3D+(a[4]?a[5]+(a[6]||1):2*("even"=3D=3D=3Da[3]||"odd"=3D=3D=3Da[3])),a[=
+5]=3D+(a[7]+a[8]||"odd"=3D=3D=3Da[3])):a[3]&&db.error(a[0]),a},PSEUDO:fu=
+nction(a){var b,c=3D!a[5]&&a[2];return V.CHILD.test(a[0])?null:(a[3]&&vo=
+id 0!=3D=3Da[4]?a[2]=3Da[4]:c&&T.test(c)&&(b=3Dob(c,!0))&&(b=3Dc.indexOf=
+(")",c.length-b)-c.length)&&(a[0]=3Da[0].slice(0,b),a[2]=3Dc.slice(0,b))=
+,a.slice(0,3))}},filter:{TAG:function(a){var b=3Da.replace(ab,bb).toLowe=
+rCase();return"*"=3D=3D=3Da?function(){return!0}:function(a){return a.no=
+deName&&a.nodeName.toLowerCase()=3D=3D=3Db}},CLASS:function(a){var b=3Dw=
+[a+" "];return b||(b=3Dnew RegExp("(^|"+K+")"+a+"("+K+"|$)"))&&w(a,funct=
+ion(a){return b.test("string"=3D=3Dtypeof a.className&&a.className||type=
+of a.getAttribute!=3D=3DA&&a.getAttribute("class")||"")})},ATTR:function=
+(a,b,c){return function(d){var e=3Ddb.attr(d,a);return null=3D=3De?"!=3D=
+"=3D=3D=3Db:b?(e+=3D"","=3D"=3D=3D=3Db?e=3D=3D=3Dc:"!=3D"=3D=3D=3Db?e!=3D=
+=3Dc:"^=3D"=3D=3D=3Db?c&&0=3D=3D=3De.indexOf(c):"*=3D"=3D=3D=3Db?c&&e.in=
+dexOf(c)>-1:"$=3D"=3D=3D=3Db?c&&e.slice(-c.length)=3D=3D=3Dc:"~=3D"=3D=3D=
+=3Db?(" "+e+" ").indexOf(c)>-1:"|=3D"=3D=3D=3Db?e=3D=3D=3Dc||e.slice(0,c=
+.length+1)=3D=3D=3Dc+"-":!1):!0}},CHILD:function(a,b,c,d,e){var f=3D"nth=
+"!=3D=3Da.slice(0,3),g=3D"last"!=3D=3Da.slice(-4),h=3D"of-type"=3D=3D=3D=
+b;return 1=3D=3D=3Dd&&0=3D=3D=3De?function(a){return!!a.parentNode}:func=
+tion(b,c,i){var j,k,l,m,n,o,p=3Df!=3D=3Dg?"nextSibling":"previousSibling=
+",q=3Db.parentNode,r=3Dh&&b.nodeName.toLowerCase(),t=3D!i&&!h;if(q){if(f=
+){while(p){l=3Db;while(l=3Dl[p])if(h?l.nodeName.toLowerCase()=3D=3D=3Dr:=
+1=3D=3D=3Dl.nodeType)return!1;o=3Dp=3D"only"=3D=3D=3Da&&!o&&"nextSibling=
+"}return!0}if(o=3D[g?q.firstChild:q.lastChild],g&&t){k=3Dq[s]||(q[s]=3D{=
+}),j=3Dk[a]||[],n=3Dj[0]=3D=3D=3Du&&j[1],m=3Dj[0]=3D=3D=3Du&&j[2],l=3Dn&=
+&q.childNodes[n];while(l=3D++n&&l&&l[p]||(m=3Dn=3D0)||o.pop())if(1=3D=3D=
+=3Dl.nodeType&&++m&&l=3D=3D=3Db){k[a]=3D[u,n,m];break}}else if(t&&(j=3D(=
+b[s]||(b[s]=3D{}))[a])&&j[0]=3D=3D=3Du)m=3Dj[1];else while(l=3D++n&&l&&l=
+[p]||(m=3Dn=3D0)||o.pop())if((h?l.nodeName.toLowerCase()=3D=3D=3Dr:1=3D=3D=
+=3Dl.nodeType)&&++m&&(t&&((l[s]||(l[s]=3D{}))[a]=3D[u,m]),l=3D=3D=3Db))b=
+reak;return m-=3De,m=3D=3D=3Dd||m%d=3D=3D=3D0&&m/d>=3D0}}},PSEUDO:functi=
+on(a,b){var c,e=3Dd.pseudos[a]||d.setFilters[a.toLowerCase()]||db.error(=
+"unsupported pseudo: "+a);return e[s]?e(b):e.length>1?(c=3D[a,a,"",b],d.=
+setFilters.hasOwnProperty(a.toLowerCase())?fb(function(a,c){var d,f=3De(=
+a,b),g=3Df.length;while(g--)d=3DI.call(a,f[g]),a[d]=3D!(c[d]=3Df[g])}):f=
+unction(a){return e(a,0,c)}):e}},pseudos:{not:fb(function(a){var b=3D[],=
+c=3D[],d=3Dg(a.replace(P,"$1"));return d[s]?fb(function(a,b,c,e){var f,g=
+=3Dd(a,null,e,[]),h=3Da.length;while(h--)(f=3Dg[h])&&(a[h]=3D!(b[h]=3Df)=
+)}):function(a,e,f){return b[0]=3Da,d(b,null,f,c),!c.pop()}}),has:fb(fun=
+ction(a){return function(b){return db(a,b).length>0}}),contains:fb(funct=
+ion(a){return function(b){return(b.textContent||b.innerText||e(b)).index=
+Of(a)>-1}}),lang:fb(function(a){return U.test(a||"")||db.error("unsuppor=
+ted lang: "+a),a=3Da.replace(ab,bb).toLowerCase(),function(b){var c;do i=
+f(c=3Dn?b.lang:b.getAttribute("xml:lang")||b.getAttribute("lang"))return=
+ c=3Dc.toLowerCase(),c=3D=3D=3Da||0=3D=3D=3Dc.indexOf(a+"-");while((b=3D=
+b.parentNode)&&1=3D=3D=3Db.nodeType);return!1}}),target:function(b){var =
+c=3Da.location&&a.location.hash;return c&&c.slice(1)=3D=3D=3Db.id},root:=
+function(a){return a=3D=3D=3Dm},focus:function(a){return a=3D=3D=3Dl.act=
+iveElement&&(!l.hasFocus||l.hasFocus())&&!!(a.type||a.href||~a.tabIndex)=
+},enabled:function(a){return a.disabled=3D=3D=3D!1},disabled:function(a)=
+{return a.disabled=3D=3D=3D!0},checked:function(a){var b=3Da.nodeName.to=
+LowerCase();return"input"=3D=3D=3Db&&!!a.checked||"option"=3D=3D=3Db&&!!=
+a.selected},selected:function(a){return a.parentNode&&a.parentNode.selec=
+tedIndex,a.selected=3D=3D=3D!0},empty:function(a){for(a=3Da.firstChild;a=
+;a=3Da.nextSibling)if(a.nodeType<6)return!1;return!0},parent:function(a)=
+{return!d.pseudos.empty(a)},header:function(a){return X.test(a.nodeName)=
+},input:function(a){return W.test(a.nodeName)},button:function(a){var b=3D=
+a.nodeName.toLowerCase();return"input"=3D=3D=3Db&&"button"=3D=3D=3Da.typ=
+e||"button"=3D=3D=3Db},text:function(a){var b;return"input"=3D=3D=3Da.no=
+deName.toLowerCase()&&"text"=3D=3D=3Da.type&&(null=3D=3D(b=3Da.getAttrib=
+ute("type"))||"text"=3D=3D=3Db.toLowerCase())},first:lb(function(){retur=
+n[0]}),last:lb(function(a,b){return[b-1]}),eq:lb(function(a,b,c){return[=
+0>c?c+b:c]}),even:lb(function(a,b){for(var c=3D0;b>c;c+=3D2)a.push(c);re=
+turn a}),odd:lb(function(a,b){for(var c=3D1;b>c;c+=3D2)a.push(c);return =
+a}),lt:lb(function(a,b,c){for(var d=3D0>c?c+b:c;--d>=3D0;)a.push(d);retu=
+rn a}),gt:lb(function(a,b,c){for(var d=3D0>c?c+b:c;++d<b;)a.push(d);retu=
+rn a})}},d.pseudos.nth=3Dd.pseudos.eq;for(b in{radio:!0,checkbox:!0,file=
+:!0,password:!0,image:!0})d.pseudos[b]=3Djb(b);for(b in{submit:!0,reset:=
+!0})d.pseudos[b]=3Dkb(b);function nb(){}nb.prototype=3Dd.filters=3Dd.pse=
+udos,d.setFilters=3Dnew nb;function ob(a,b){var c,e,f,g,h,i,j,k=3Dx[a+" =
+"];if(k)return b?0:k.slice(0);h=3Da,i=3D[],j=3Dd.preFilter;while(h){(!c|=
+|(e=3DQ.exec(h)))&&(e&&(h=3Dh.slice(e[0].length)||h),i.push(f=3D[])),c=3D=
+!1,(e=3DR.exec(h))&&(c=3De.shift(),f.push({value:c,type:e[0].replace(P,"=
+ ")}),h=3Dh.slice(c.length));for(g in d.filter)!(e=3DV[g].exec(h))||j[g]=
+&&!(e=3Dj[g](e))||(c=3De.shift(),f.push({value:c,type:g,matches:e}),h=3D=
+h.slice(c.length));if(!c)break}return b?h.length:h?db.error(a):x(a,i).sl=
+ice(0)}function pb(a){for(var b=3D0,c=3Da.length,d=3D"";c>b;b++)d+=3Da[b=
+].value;return d}function qb(a,b,c){var d=3Db.dir,e=3Dc&&"parentNode"=3D=
+=3D=3Dd,f=3Dv++;return b.first?function(b,c,f){while(b=3Db[d])if(1=3D=3D=
+=3Db.nodeType||e)return a(b,c,f)}:function(b,c,g){var h,i,j=3D[u,f];if(g=
+){while(b=3Db[d])if((1=3D=3D=3Db.nodeType||e)&&a(b,c,g))return!0}else wh=
+ile(b=3Db[d])if(1=3D=3D=3Db.nodeType||e){if(i=3Db[s]||(b[s]=3D{}),(h=3Di=
+[d])&&h[0]=3D=3D=3Du&&h[1]=3D=3D=3Df)return j[2]=3Dh[2];if(i[d]=3Dj,j[2]=
+=3Da(b,c,g))return!0}}}function rb(a){return a.length>1?function(b,c,d){=
+var e=3Da.length;while(e--)if(!a[e](b,c,d))return!1;return!0}:a[0]}funct=
+ion sb(a,b,c,d,e){for(var f,g=3D[],h=3D0,i=3Da.length,j=3Dnull!=3Db;i>h;=
+h++)(f=3Da[h])&&(!c||c(f,d,e))&&(g.push(f),j&&b.push(h));return g}functi=
+on tb(a,b,c,d,e,f){return d&&!d[s]&&(d=3Dtb(d)),e&&!e[s]&&(e=3Dtb(e,f)),=
+fb(function(f,g,h,i){var j,k,l,m=3D[],n=3D[],o=3Dg.length,p=3Df||wb(b||"=
+*",h.nodeType?[h]:h,[]),q=3D!a||!f&&b?p:sb(p,m,a,h,i),r=3Dc?e||(f?a:o||d=
+)?[]:g:q;if(c&&c(q,r,h,i),d){j=3Dsb(r,n),d(j,[],h,i),k=3Dj.length;while(=
+k--)(l=3Dj[k])&&(r[n[k]]=3D!(q[n[k]]=3Dl))}if(f){if(e||a){if(e){j=3D[],k=
+=3Dr.length;while(k--)(l=3Dr[k])&&j.push(q[k]=3Dl);e(null,r=3D[],j,i)}k=3D=
+r.length;while(k--)(l=3Dr[k])&&(j=3De?I.call(f,l):m[k])>-1&&(f[j]=3D!(g[=
+j]=3Dl))}}else r=3Dsb(r=3D=3D=3Dg?r.splice(o,r.length):r),e?e(null,g,r,i=
+):G.apply(g,r)})}function ub(a){for(var b,c,e,f=3Da.length,g=3Dd.relativ=
+e[a[0].type],i=3Dg||d.relative[" "],j=3Dg?1:0,k=3Dqb(function(a){return =
+a=3D=3D=3Db},i,!0),l=3Dqb(function(a){return I.call(b,a)>-1},i,!0),m=3D[=
+function(a,c,d){return!g&&(d||c!=3D=3Dh)||((b=3Dc).nodeType?k(a,c,d):l(a=
+,c,d))}];f>j;j++)if(c=3Dd.relative[a[j].type])m=3D[qb(rb(m),c)];else{if(=
+c=3Dd.filter[a[j].type].apply(null,a[j].matches),c[s]){for(e=3D++j;f>e;e=
+++)if(d.relative[a[e].type])break;return tb(j>1&&rb(m),j>1&&pb(a.slice(0=
+,j-1).concat({value:" "=3D=3D=3Da[j-2].type?"*":""})).replace(P,"$1"),c,=
+e>j&&ub(a.slice(j,e)),f>e&&ub(a=3Da.slice(e)),f>e&&pb(a))}m.push(c)}retu=
+rn rb(m)}function vb(a,b){var c=3Db.length>0,e=3Da.length>0,f=3Dfunction=
+(f,g,i,j,k){var m,n,o,p=3D0,q=3D"0",r=3Df&&[],s=3D[],t=3Dh,v=3Df||e&&d.f=
+ind.TAG("*",k),w=3Du+=3Dnull=3D=3Dt?1:Math.random()||.1,x=3Dv.length;for=
+(k&&(h=3Dg!=3D=3Dl&&g);q!=3D=3Dx&&null!=3D(m=3Dv[q]);q++){if(e&&m){n=3D0=
+;while(o=3Da[n++])if(o(m,g,i)){j.push(m);break}k&&(u=3Dw)}c&&((m=3D!o&&m=
+)&&p--,f&&r.push(m))}if(p+=3Dq,c&&q!=3D=3Dp){n=3D0;while(o=3Db[n++])o(r,=
+s,g,i);if(f){if(p>0)while(q--)r[q]||s[q]||(s[q]=3DE.call(j));s=3Dsb(s)}G=
+.apply(j,s),k&&!f&&s.length>0&&p+b.length>1&&db.uniqueSort(j)}return k&&=
+(u=3Dw,h=3Dt),r};return c?fb(f):f}g=3Ddb.compile=3Dfunction(a,b){var c,d=
+=3D[],e=3D[],f=3Dy[a+" "];if(!f){b||(b=3Dob(a)),c=3Db.length;while(c--)f=
+=3Dub(b[c]),f[s]?d.push(f):e.push(f);f=3Dy(a,vb(e,d))}return f};function=
+ wb(a,b,c){for(var d=3D0,e=3Db.length;e>d;d++)db(a,b[d],c);return c}func=
+tion xb(a,b,e,f){var h,i,j,k,l,m=3Dob(a);if(!f&&1=3D=3D=3Dm.length){if(i=
+=3Dm[0]=3Dm[0].slice(0),i.length>2&&"ID"=3D=3D=3D(j=3Di[0]).type&&c.getB=
+yId&&9=3D=3D=3Db.nodeType&&n&&d.relative[i[1].type]){if(b=3D(d.find.ID(j=
+.matches[0].replace(ab,bb),b)||[])[0],!b)return e;a=3Da.slice(i.shift().=
+value.length)}h=3DV.needsContext.test(a)?0:i.length;while(h--){if(j=3Di[=
+h],d.relative[k=3Dj.type])break;if((l=3Dd.find[k])&&(f=3Dl(j.matches[0].=
+replace(ab,bb),$.test(i[0].type)&&mb(b.parentNode)||b))){if(i.splice(h,1=
+),a=3Df.length&&pb(i),!a)return G.apply(e,f),e;break}}}return g(a,m)(f,b=
+,!n,e,$.test(a)&&mb(b.parentNode)||b),e}return c.sortStable=3Ds.split(""=
+).sort(z).join("")=3D=3D=3Ds,c.detectDuplicates=3D!!j,k(),c.sortDetached=
+=3Dgb(function(a){return 1&a.compareDocumentPosition(l.createElement("di=
+v"))}),gb(function(a){return a.innerHTML=3D"<a href=3D'#'></a>","#"=3D=3D=
+=3Da.firstChild.getAttribute("href")})||hb("type|href|height|width",func=
+tion(a,b,c){return c?void 0:a.getAttribute(b,"type"=3D=3D=3Db.toLowerCas=
+e()?1:2)}),c.attributes&&gb(function(a){return a.innerHTML=3D"<input/>",=
+a.firstChild.setAttribute("value",""),""=3D=3D=3Da.firstChild.getAttribu=
+te("value")})||hb("value",function(a,b,c){return c||"input"!=3D=3Da.node=
+Name.toLowerCase()?void 0:a.defaultValue}),gb(function(a){return null=3D=
+=3Da.getAttribute("disabled")})||hb(J,function(a,b,c){var d;return c?voi=
+d 0:a[b]=3D=3D=3D!0?b.toLowerCase():(d=3Da.getAttributeNode(b))&&d.speci=
+fied?d.value:null}),db}(a);n.find=3Dt,n.expr=3Dt.selectors,n.expr[":"]=3D=
+n.expr.pseudos,n.unique=3Dt.uniqueSort,n.text=3Dt.getText,n.isXMLDoc=3Dt=
+.isXML,n.contains=3Dt.contains;var u=3Dn.expr.match.needsContext,v=3D/^<=
+(\w+)\s*\/?>(?:<\/\1>|)$/,w=3D/^.[^:#\[\.,]*$/;function x(a,b,c){if(n.is=
+Function(b))return n.grep(a,function(a,d){return!!b.call(a,d,a)!=3D=3Dc}=
+);if(b.nodeType)return n.grep(a,function(a){return a=3D=3D=3Db!=3D=3Dc})=
+;if("string"=3D=3Dtypeof b){if(w.test(b))return n.filter(b,a,c);b=3Dn.fi=
+lter(b,a)}return n.grep(a,function(a){return n.inArray(a,b)>=3D0!=3D=3Dc=
+})}n.filter=3Dfunction(a,b,c){var d=3Db[0];return c&&(a=3D":not("+a+")")=
+,1=3D=3D=3Db.length&&1=3D=3D=3Dd.nodeType?n.find.matchesSelector(d,a)?[d=
+]:[]:n.find.matches(a,n.grep(b,function(a){return 1=3D=3D=3Da.nodeType})=
+)},n.fn.extend({find:function(a){var b,c=3D[],d=3Dthis,e=3Dd.length;if("=
+string"!=3Dtypeof a)return this.pushStack(n(a).filter(function(){for(b=3D=
+0;e>b;b++)if(n.contains(d[b],this))return!0}));for(b=3D0;e>b;b++)n.find(=
+a,d[b],c);return c=3Dthis.pushStack(e>1?n.unique(c):c),c.selector=3Dthis=
+.selector?this.selector+" "+a:a,c},filter:function(a){return this.pushSt=
+ack(x(this,a||[],!1))},not:function(a){return this.pushStack(x(this,a||[=
+],!0))},is:function(a){return!!x(this,"string"=3D=3Dtypeof a&&u.test(a)?=
+n(a):a||[],!1).length}});var y,z=3Da.document,A=3D/^(?:\s*(<[\w\W]+>)[^>=
+]*|#([\w-]*))$/,B=3Dn.fn.init=3Dfunction(a,b){var c,d;if(!a)return this;=
+if("string"=3D=3Dtypeof a){if(c=3D"<"=3D=3D=3Da.charAt(0)&&">"=3D=3D=3Da=
+.charAt(a.length-1)&&a.length>=3D3?[null,a,null]:A.exec(a),!c||!c[1]&&b)=
+return!b||b.jquery?(b||y).find(a):this.constructor(b).find(a);if(c[1]){i=
+f(b=3Db instanceof n?b[0]:b,n.merge(this,n.parseHTML(c[1],b&&b.nodeType?=
+b.ownerDocument||b:z,!0)),v.test(c[1])&&n.isPlainObject(b))for(c in b)n.=
+isFunction(this[c])?this[c](b[c]):this.attr(c,b[c]);return this}if(d=3Dz=
+.getElementById(c[2]),d&&d.parentNode){if(d.id!=3D=3Dc[2])return y.find(=
+a);this.length=3D1,this[0]=3Dd}return this.context=3Dz,this.selector=3Da=
+,this}return a.nodeType?(this.context=3Dthis[0]=3Da,this.length=3D1,this=
+):n.isFunction(a)?"undefined"!=3Dtypeof y.ready?y.ready(a):a(n):(void 0!=
+=3D=3Da.selector&&(this.selector=3Da.selector,this.context=3Da.context),=
+n.makeArray(a,this))};B.prototype=3Dn.fn,y=3Dn(z);var C=3D/^(?:parents|p=
+rev(?:Until|All))/,D=3D{children:!0,contents:!0,next:!0,prev:!0};n.exten=
+d({dir:function(a,b,c){var d=3D[],e=3Da[b];while(e&&9!=3D=3De.nodeType&&=
+(void 0=3D=3D=3Dc||1!=3D=3De.nodeType||!n(e).is(c)))1=3D=3D=3De.nodeType=
+&&d.push(e),e=3De[b];return d},sibling:function(a,b){for(var c=3D[];a;a=3D=
+a.nextSibling)1=3D=3D=3Da.nodeType&&a!=3D=3Db&&c.push(a);return c}}),n.f=
+n.extend({has:function(a){var b,c=3Dn(a,this),d=3Dc.length;return this.f=
+ilter(function(){for(b=3D0;d>b;b++)if(n.contains(this,c[b]))return!0})},=
+closest:function(a,b){for(var c,d=3D0,e=3Dthis.length,f=3D[],g=3Du.test(=
+a)||"string"!=3Dtypeof a?n(a,b||this.context):0;e>d;d++)for(c=3Dthis[d];=
+c&&c!=3D=3Db;c=3Dc.parentNode)if(c.nodeType<11&&(g?g.index(c)>-1:1=3D=3D=
+=3Dc.nodeType&&n.find.matchesSelector(c,a))){f.push(c);break}return this=
+.pushStack(f.length>1?n.unique(f):f)},index:function(a){return a?"string=
+"=3D=3Dtypeof a?n.inArray(this[0],n(a)):n.inArray(a.jquery?a[0]:a,this):=
+this[0]&&this[0].parentNode?this.first().prevAll().length:-1},add:functi=
+on(a,b){return this.pushStack(n.unique(n.merge(this.get(),n(a,b))))},add=
+Back:function(a){return this.add(null=3D=3Da?this.prevObject:this.prevOb=
+ject.filter(a))}});function E(a,b){do a=3Da[b];while(a&&1!=3D=3Da.nodeTy=
+pe);return a}n.each({parent:function(a){var b=3Da.parentNode;return b&&1=
+1!=3D=3Db.nodeType?b:null},parents:function(a){return n.dir(a,"parentNod=
+e")},parentsUntil:function(a,b,c){return n.dir(a,"parentNode",c)},next:f=
+unction(a){return E(a,"nextSibling")},prev:function(a){return E(a,"previ=
+ousSibling")},nextAll:function(a){return n.dir(a,"nextSibling")},prevAll=
+:function(a){return n.dir(a,"previousSibling")},nextUntil:function(a,b,c=
+){return n.dir(a,"nextSibling",c)},prevUntil:function(a,b,c){return n.di=
+r(a,"previousSibling",c)},siblings:function(a){return n.sibling((a.paren=
+tNode||{}).firstChild,a)},children:function(a){return n.sibling(a.firstC=
+hild)},contents:function(a){return n.nodeName(a,"iframe")?a.contentDocum=
+ent||a.contentWindow.document:n.merge([],a.childNodes)}},function(a,b){n=
+.fn[a]=3Dfunction(c,d){var e=3Dn.map(this,b,c);return"Until"!=3D=3Da.sli=
+ce(-5)&&(d=3Dc),d&&"string"=3D=3Dtypeof d&&(e=3Dn.filter(d,e)),this.leng=
+th>1&&(D[a]||(e=3Dn.unique(e)),C.test(a)&&(e=3De.reverse())),this.pushSt=
+ack(e)}});var F=3D/\S+/g,G=3D{};function H(a){var b=3DG[a]=3D{};return n=
+.each(a.match(F)||[],function(a,c){b[c]=3D!0}),b}n.Callbacks=3Dfunction(=
+a){a=3D"string"=3D=3Dtypeof a?G[a]||H(a):n.extend({},a);var b,c,d,e,f,g,=
+h=3D[],i=3D!a.once&&[],j=3Dfunction(l){for(c=3Da.memory&&l,d=3D!0,f=3Dg|=
+|0,g=3D0,e=3Dh.length,b=3D!0;h&&e>f;f++)if(h[f].apply(l[0],l[1])=3D=3D=3D=
+!1&&a.stopOnFalse){c=3D!1;break}b=3D!1,h&&(i?i.length&&j(i.shift()):c?h=3D=
+[]:k.disable())},k=3D{add:function(){if(h){var d=3Dh.length;!function f(=
+b){n.each(b,function(b,c){var d=3Dn.type(c);"function"=3D=3D=3Dd?a.uniqu=
+e&&k.has(c)||h.push(c):c&&c.length&&"string"!=3D=3Dd&&f(c)})}(arguments)=
+,b?e=3Dh.length:c&&(g=3Dd,j(c))}return this},remove:function(){return h&=
+&n.each(arguments,function(a,c){var d;while((d=3Dn.inArray(c,h,d))>-1)h.=
+splice(d,1),b&&(e>=3Dd&&e--,f>=3Dd&&f--)}),this},has:function(a){return =
+a?n.inArray(a,h)>-1:!(!h||!h.length)},empty:function(){return h=3D[],e=3D=
+0,this},disable:function(){return h=3Di=3Dc=3Dvoid 0,this},disabled:func=
+tion(){return!h},lock:function(){return i=3Dvoid 0,c||k.disable(),this},=
+locked:function(){return!i},fireWith:function(a,c){return!h||d&&!i||(c=3D=
+c||[],c=3D[a,c.slice?c.slice():c],b?i.push(c):j(c)),this},fire:function(=
+){return k.fireWith(this,arguments),this},fired:function(){return!!d}};r=
+eturn k},n.extend({Deferred:function(a){var b=3D[["resolve","done",n.Cal=
+lbacks("once memory"),"resolved"],["reject","fail",n.Callbacks("once mem=
+ory"),"rejected"],["notify","progress",n.Callbacks("memory")]],c=3D"pend=
+ing",d=3D{state:function(){return c},always:function(){return e.done(arg=
+uments).fail(arguments),this},then:function(){var a=3Darguments;return n=
+.Deferred(function(c){n.each(b,function(b,f){var g=3Dn.isFunction(a[b])&=
+&a[b];e[f[1]](function(){var a=3Dg&&g.apply(this,arguments);a&&n.isFunct=
+ion(a.promise)?a.promise().done(c.resolve).fail(c.reject).progress(c.not=
+ify):c[f[0]+"With"](this=3D=3D=3Dd?c.promise():this,g?[a]:arguments)})})=
+,a=3Dnull}).promise()},promise:function(a){return null!=3Da?n.extend(a,d=
+):d}},e=3D{};return d.pipe=3Dd.then,n.each(b,function(a,f){var g=3Df[2],=
+h=3Df[3];d[f[1]]=3Dg.add,h&&g.add(function(){c=3Dh},b[1^a][2].disable,b[=
+2][2].lock),e[f[0]]=3Dfunction(){return e[f[0]+"With"](this=3D=3D=3De?d:=
+this,arguments),this},e[f[0]+"With"]=3Dg.fireWith}),d.promise(e),a&&a.ca=
+ll(e,e),e},when:function(a){var b=3D0,c=3Dd.call(arguments),e=3Dc.length=
+,f=3D1!=3D=3De||a&&n.isFunction(a.promise)?e:0,g=3D1=3D=3D=3Df?a:n.Defer=
+red(),h=3Dfunction(a,b,c){return function(e){b[a]=3Dthis,c[a]=3Dargument=
+s.length>1?d.call(arguments):e,c=3D=3D=3Di?g.notifyWith(b,c):--f||g.reso=
+lveWith(b,c)}},i,j,k;if(e>1)for(i=3Dnew Array(e),j=3Dnew Array(e),k=3Dne=
+w Array(e);e>b;b++)c[b]&&n.isFunction(c[b].promise)?c[b].promise().done(=
+h(b,k,c)).fail(g.reject).progress(h(b,j,i)):--f;return f||g.resolveWith(=
+k,c),g.promise()}});var I;n.fn.ready=3Dfunction(a){return n.ready.promis=
+e().done(a),this},n.extend({isReady:!1,readyWait:1,holdReady:function(a)=
+{a?n.readyWait++:n.ready(!0)},ready:function(a){if(a=3D=3D=3D!0?!--n.rea=
+dyWait:!n.isReady){if(!z.body)return setTimeout(n.ready);n.isReady=3D!0,=
+a!=3D=3D!0&&--n.readyWait>0||(I.resolveWith(z,[n]),n.fn.trigger&&n(z).tr=
+igger("ready").off("ready"))}}});function J(){z.addEventListener?(z.remo=
+veEventListener("DOMContentLoaded",K,!1),a.removeEventListener("load",K,=
+!1)):(z.detachEvent("onreadystatechange",K),a.detachEvent("onload",K))}f=
+unction K(){(z.addEventListener||"load"=3D=3D=3Devent.type||"complete"=3D=
+=3D=3Dz.readyState)&&(J(),n.ready())}n.ready.promise=3Dfunction(b){if(!I=
+)if(I=3Dn.Deferred(),"complete"=3D=3D=3Dz.readyState)setTimeout(n.ready)=
+;else if(z.addEventListener)z.addEventListener("DOMContentLoaded",K,!1),=
+a.addEventListener("load",K,!1);else{z.attachEvent("onreadystatechange",=
+K),a.attachEvent("onload",K);var c=3D!1;try{c=3Dnull=3D=3Da.frameElement=
+&&z.documentElement}catch(d){}c&&c.doScroll&&!function e(){if(!n.isReady=
+){try{c.doScroll("left")}catch(a){return setTimeout(e,50)}J(),n.ready()}=
+}()}return I.promise(b)};var L=3D"undefined",M;for(M in n(l))break;l.own=
+Last=3D"0"!=3D=3DM,l.inlineBlockNeedsLayout=3D!1,n(function(){var a,b,c=3D=
+z.getElementsByTagName("body")[0];c&&(a=3Dz.createElement("div"),a.style=
+.cssText=3D"border:0;width:0;height:0;position:absolute;top:0;left:-9999=
+px;margin-top:1px",b=3Dz.createElement("div"),c.appendChild(a).appendChi=
+ld(b),typeof b.style.zoom!=3D=3DL&&(b.style.cssText=3D"border:0;margin:0=
+;width:1px;padding:1px;display:inline;zoom:1",(l.inlineBlockNeedsLayout=3D=
+3=3D=3D=3Db.offsetWidth)&&(c.style.zoom=3D1)),c.removeChild(a),a=3Db=3Dn=
+ull)}),function(){var a=3Dz.createElement("div");if(null=3D=3Dl.deleteEx=
+pando){l.deleteExpando=3D!0;try{delete a.test}catch(b){l.deleteExpando=3D=
+!1}}a=3Dnull}(),n.acceptData=3Dfunction(a){var b=3Dn.noData[(a.nodeName+=
+" ").toLowerCase()],c=3D+a.nodeType||1;return 1!=3D=3Dc&&9!=3D=3Dc?!1:!b=
+||b!=3D=3D!0&&a.getAttribute("classid")=3D=3D=3Db};var N=3D/^(?:\{[\w\W]=
+*\}|\[[\w\W]*\])$/,O=3D/([A-Z])/g;function P(a,b,c){if(void 0=3D=3D=3Dc&=
+&1=3D=3D=3Da.nodeType){var d=3D"data-"+b.replace(O,"-$1").toLowerCase();=
+if(c=3Da.getAttribute(d),"string"=3D=3Dtypeof c){try{c=3D"true"=3D=3D=3D=
+c?!0:"false"=3D=3D=3Dc?!1:"null"=3D=3D=3Dc?null:+c+""=3D=3D=3Dc?+c:N.tes=
+t(c)?n.parseJSON(c):c}catch(e){}n.data(a,b,c)}else c=3Dvoid 0}return c}f=
+unction Q(a){var b;for(b in a)if(("data"!=3D=3Db||!n.isEmptyObject(a[b])=
+)&&"toJSON"!=3D=3Db)return!1;return!0}function R(a,b,d,e){if(n.acceptDat=
+a(a)){var f,g,h=3Dn.expando,i=3Da.nodeType,j=3Di?n.cache:a,k=3Di?a[h]:a[=
+h]&&h;if(k&&j[k]&&(e||j[k].data)||void 0!=3D=3Dd||"string"!=3Dtypeof b)r=
+eturn k||(k=3Di?a[h]=3Dc.pop()||n.guid++:h),j[k]||(j[k]=3Di?{}:{toJSON:n=
+.noop}),("object"=3D=3Dtypeof b||"function"=3D=3Dtypeof b)&&(e?j[k]=3Dn.=
+extend(j[k],b):j[k].data=3Dn.extend(j[k].data,b)),g=3Dj[k],e||(g.data||(=
+g.data=3D{}),g=3Dg.data),void 0!=3D=3Dd&&(g[n.camelCase(b)]=3Dd),"string=
+"=3D=3Dtypeof b?(f=3Dg[b],null=3D=3Df&&(f=3Dg[n.camelCase(b)])):f=3Dg,f
+}}function S(a,b,c){if(n.acceptData(a)){var d,e,f=3Da.nodeType,g=3Df?n.c=
+ache:a,h=3Df?a[n.expando]:n.expando;if(g[h]){if(b&&(d=3Dc?g[h]:g[h].data=
+)){n.isArray(b)?b=3Db.concat(n.map(b,n.camelCase)):b in d?b=3D[b]:(b=3Dn=
+.camelCase(b),b=3Db in d?[b]:b.split(" ")),e=3Db.length;while(e--)delete=
+ d[b[e]];if(c?!Q(d):!n.isEmptyObject(d))return}(c||(delete g[h].data,Q(g=
+[h])))&&(f?n.cleanData([a],!0):l.deleteExpando||g!=3Dg.window?delete g[h=
+]:g[h]=3Dnull)}}}n.extend({cache:{},noData:{"applet ":!0,"embed ":!0,"ob=
+ject ":"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"},hasData:function(a)=
+{return a=3Da.nodeType?n.cache[a[n.expando]]:a[n.expando],!!a&&!Q(a)},da=
+ta:function(a,b,c){return R(a,b,c)},removeData:function(a,b){return S(a,=
+b)},_data:function(a,b,c){return R(a,b,c,!0)},_removeData:function(a,b){=
+return S(a,b,!0)}}),n.fn.extend({data:function(a,b){var c,d,e,f=3Dthis[0=
+],g=3Df&&f.attributes;if(void 0=3D=3D=3Da){if(this.length&&(e=3Dn.data(f=
+),1=3D=3D=3Df.nodeType&&!n._data(f,"parsedAttrs"))){c=3Dg.length;while(c=
+--)d=3Dg[c].name,0=3D=3D=3Dd.indexOf("data-")&&(d=3Dn.camelCase(d.slice(=
+5)),P(f,d,e[d]));n._data(f,"parsedAttrs",!0)}return e}return"object"=3D=3D=
+typeof a?this.each(function(){n.data(this,a)}):arguments.length>1?this.e=
+ach(function(){n.data(this,a,b)}):f?P(f,a,n.data(f,a)):void 0},removeDat=
+a:function(a){return this.each(function(){n.removeData(this,a)})}}),n.ex=
+tend({queue:function(a,b,c){var d;return a?(b=3D(b||"fx")+"queue",d=3Dn.=
+_data(a,b),c&&(!d||n.isArray(c)?d=3Dn._data(a,b,n.makeArray(c)):d.push(c=
+)),d||[]):void 0},dequeue:function(a,b){b=3Db||"fx";var c=3Dn.queue(a,b)=
+,d=3Dc.length,e=3Dc.shift(),f=3Dn._queueHooks(a,b),g=3Dfunction(){n.dequ=
+eue(a,b)};"inprogress"=3D=3D=3De&&(e=3Dc.shift(),d--),e&&("fx"=3D=3D=3Db=
+&&c.unshift("inprogress"),delete f.stop,e.call(a,g,f)),!d&&f&&f.empty.fi=
+re()},_queueHooks:function(a,b){var c=3Db+"queueHooks";return n._data(a,=
+c)||n._data(a,c,{empty:n.Callbacks("once memory").add(function(){n._remo=
+veData(a,b+"queue"),n._removeData(a,c)})})}}),n.fn.extend({queue:functio=
+n(a,b){var c=3D2;return"string"!=3Dtypeof a&&(b=3Da,a=3D"fx",c--),argume=
+nts.length<c?n.queue(this[0],a):void 0=3D=3D=3Db?this:this.each(function=
+(){var c=3Dn.queue(this,a,b);n._queueHooks(this,a),"fx"=3D=3D=3Da&&"inpr=
+ogress"!=3D=3Dc[0]&&n.dequeue(this,a)})},dequeue:function(a){return this=
+.each(function(){n.dequeue(this,a)})},clearQueue:function(a){return this=
+.queue(a||"fx",[])},promise:function(a,b){var c,d=3D1,e=3Dn.Deferred(),f=
+=3Dthis,g=3Dthis.length,h=3Dfunction(){--d||e.resolveWith(f,[f])};"strin=
+g"!=3Dtypeof a&&(b=3Da,a=3Dvoid 0),a=3Da||"fx";while(g--)c=3Dn._data(f[g=
+],a+"queueHooks"),c&&c.empty&&(d++,c.empty.add(h));return h(),e.promise(=
+b)}});var T=3D/[+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|)/.source,U=3D["Top","R=
+ight","Bottom","Left"],V=3Dfunction(a,b){return a=3Db||a,"none"=3D=3D=3D=
+n.css(a,"display")||!n.contains(a.ownerDocument,a)},W=3Dn.access=3Dfunct=
+ion(a,b,c,d,e,f,g){var h=3D0,i=3Da.length,j=3Dnull=3D=3Dc;if("object"=3D=
+=3D=3Dn.type(c)){e=3D!0;for(h in c)n.access(a,b,h,c[h],!0,f,g)}else if(v=
+oid 0!=3D=3Dd&&(e=3D!0,n.isFunction(d)||(g=3D!0),j&&(g?(b.call(a,d),b=3D=
+null):(j=3Db,b=3Dfunction(a,b,c){return j.call(n(a),c)})),b))for(;i>h;h+=
++)b(a[h],c,g?d:d.call(a[h],h,b(a[h],c)));return e?a:j?b.call(a):i?b(a[0]=
+,c):f},X=3D/^(?:checkbox|radio)$/i;!function(){var a=3Dz.createDocumentF=
+ragment(),b=3Dz.createElement("div"),c=3Dz.createElement("input");if(b.s=
+etAttribute("className","t"),b.innerHTML=3D"  <link/><table></table><a h=
+ref=3D'/a'>a</a>",l.leadingWhitespace=3D3=3D=3D=3Db.firstChild.nodeType,=
+l.tbody=3D!b.getElementsByTagName("tbody").length,l.htmlSerialize=3D!!b.=
+getElementsByTagName("link").length,l.html5Clone=3D"<:nav></:nav>"!=3D=3D=
+z.createElement("nav").cloneNode(!0).outerHTML,c.type=3D"checkbox",c.che=
+cked=3D!0,a.appendChild(c),l.appendChecked=3Dc.checked,b.innerHTML=3D"<t=
+extarea>x</textarea>",l.noCloneChecked=3D!!b.cloneNode(!0).lastChild.def=
+aultValue,a.appendChild(b),b.innerHTML=3D"<input type=3D'radio' checked=3D=
+'checked' name=3D't'/>",l.checkClone=3Db.cloneNode(!0).cloneNode(!0).las=
+tChild.checked,l.noCloneEvent=3D!0,b.attachEvent&&(b.attachEvent("onclic=
+k",function(){l.noCloneEvent=3D!1}),b.cloneNode(!0).click()),null=3D=3Dl=
+.deleteExpando){l.deleteExpando=3D!0;try{delete b.test}catch(d){l.delete=
+Expando=3D!1}}a=3Db=3Dc=3Dnull}(),function(){var b,c,d=3Dz.createElement=
+("div");for(b in{submit:!0,change:!0,focusin:!0})c=3D"on"+b,(l[b+"Bubble=
+s"]=3Dc in a)||(d.setAttribute(c,"t"),l[b+"Bubbles"]=3Dd.attributes[c].e=
+xpando=3D=3D=3D!1);d=3Dnull}();var Y=3D/^(?:input|select|textarea)$/i,Z=3D=
+/^key/,$=3D/^(?:mouse|contextmenu)|click/,_=3D/^(?:focusinfocus|focusout=
+blur)$/,ab=3D/^([^.]*)(?:\.(.+)|)$/;function bb(){return!0}function cb()=
+{return!1}function db(){try{return z.activeElement}catch(a){}}n.event=3D=
+{global:{},add:function(a,b,c,d,e){var f,g,h,i,j,k,l,m,o,p,q,r=3Dn._data=
+(a);if(r){c.handler&&(i=3Dc,c=3Di.handler,e=3Di.selector),c.guid||(c.gui=
+d=3Dn.guid++),(g=3Dr.events)||(g=3Dr.events=3D{}),(k=3Dr.handle)||(k=3Dr=
+.handle=3Dfunction(a){return typeof n=3D=3D=3DL||a&&n.event.triggered=3D=
+=3D=3Da.type?void 0:n.event.dispatch.apply(k.elem,arguments)},k.elem=3Da=
+),b=3D(b||"").match(F)||[""],h=3Db.length;while(h--)f=3Dab.exec(b[h])||[=
+],o=3Dq=3Df[1],p=3D(f[2]||"").split(".").sort(),o&&(j=3Dn.event.special[=
+o]||{},o=3D(e?j.delegateType:j.bindType)||o,j=3Dn.event.special[o]||{},l=
+=3Dn.extend({type:o,origType:q,data:d,handler:c,guid:c.guid,selector:e,n=
+eedsContext:e&&n.expr.match.needsContext.test(e),namespace:p.join(".")},=
+i),(m=3Dg[o])||(m=3Dg[o]=3D[],m.delegateCount=3D0,j.setup&&j.setup.call(=
+a,d,p,k)!=3D=3D!1||(a.addEventListener?a.addEventListener(o,k,!1):a.atta=
+chEvent&&a.attachEvent("on"+o,k))),j.add&&(j.add.call(a,l),l.handler.gui=
+d||(l.handler.guid=3Dc.guid)),e?m.splice(m.delegateCount++,0,l):m.push(l=
+),n.event.global[o]=3D!0);a=3Dnull}},remove:function(a,b,c,d,e){var f,g,=
+h,i,j,k,l,m,o,p,q,r=3Dn.hasData(a)&&n._data(a);if(r&&(k=3Dr.events)){b=3D=
+(b||"").match(F)||[""],j=3Db.length;while(j--)if(h=3Dab.exec(b[j])||[],o=
+=3Dq=3Dh[1],p=3D(h[2]||"").split(".").sort(),o){l=3Dn.event.special[o]||=
+{},o=3D(d?l.delegateType:l.bindType)||o,m=3Dk[o]||[],h=3Dh[2]&&new RegEx=
+p("(^|\\.)"+p.join("\\.(?:.*\\.|)")+"(\\.|$)"),i=3Df=3Dm.length;while(f-=
+-)g=3Dm[f],!e&&q!=3D=3Dg.origType||c&&c.guid!=3D=3Dg.guid||h&&!h.test(g.=
+namespace)||d&&d!=3D=3Dg.selector&&("**"!=3D=3Dd||!g.selector)||(m.splic=
+e(f,1),g.selector&&m.delegateCount--,l.remove&&l.remove.call(a,g));i&&!m=
+.length&&(l.teardown&&l.teardown.call(a,p,r.handle)!=3D=3D!1||n.removeEv=
+ent(a,o,r.handle),delete k[o])}else for(o in k)n.event.remove(a,o+b[j],c=
+,d,!0);n.isEmptyObject(k)&&(delete r.handle,n._removeData(a,"events"))}}=
+,trigger:function(b,c,d,e){var f,g,h,i,k,l,m,o=3D[d||z],p=3Dj.call(b,"ty=
+pe")?b.type:b,q=3Dj.call(b,"namespace")?b.namespace.split("."):[];if(h=3D=
+l=3Dd=3Dd||z,3!=3D=3Dd.nodeType&&8!=3D=3Dd.nodeType&&!_.test(p+n.event.t=
+riggered)&&(p.indexOf(".")>=3D0&&(q=3Dp.split("."),p=3Dq.shift(),q.sort(=
+)),g=3Dp.indexOf(":")<0&&"on"+p,b=3Db[n.expando]?b:new n.Event(p,"object=
+"=3D=3Dtypeof b&&b),b.isTrigger=3De?2:3,b.namespace=3Dq.join("."),b.name=
+space_re=3Db.namespace?new RegExp("(^|\\.)"+q.join("\\.(?:.*\\.|)")+"(\\=
+.|$)"):null,b.result=3Dvoid 0,b.target||(b.target=3Dd),c=3Dnull=3D=3Dc?[=
+b]:n.makeArray(c,[b]),k=3Dn.event.special[p]||{},e||!k.trigger||k.trigge=
+r.apply(d,c)!=3D=3D!1)){if(!e&&!k.noBubble&&!n.isWindow(d)){for(i=3Dk.de=
+legateType||p,_.test(i+p)||(h=3Dh.parentNode);h;h=3Dh.parentNode)o.push(=
+h),l=3Dh;l=3D=3D=3D(d.ownerDocument||z)&&o.push(l.defaultView||l.parentW=
+indow||a)}m=3D0;while((h=3Do[m++])&&!b.isPropagationStopped())b.type=3Dm=
+>1?i:k.bindType||p,f=3D(n._data(h,"events")||{})[b.type]&&n._data(h,"han=
+dle"),f&&f.apply(h,c),f=3Dg&&h[g],f&&f.apply&&n.acceptData(h)&&(b.result=
+=3Df.apply(h,c),b.result=3D=3D=3D!1&&b.preventDefault());if(b.type=3Dp,!=
+e&&!b.isDefaultPrevented()&&(!k._default||k._default.apply(o.pop(),c)=3D=
+=3D=3D!1)&&n.acceptData(d)&&g&&d[p]&&!n.isWindow(d)){l=3Dd[g],l&&(d[g]=3D=
+null),n.event.triggered=3Dp;try{d[p]()}catch(r){}n.event.triggered=3Dvoi=
+d 0,l&&(d[g]=3Dl)}return b.result}},dispatch:function(a){a=3Dn.event.fix=
+(a);var b,c,e,f,g,h=3D[],i=3Dd.call(arguments),j=3D(n._data(this,"events=
+")||{})[a.type]||[],k=3Dn.event.special[a.type]||{};if(i[0]=3Da,a.delega=
+teTarget=3Dthis,!k.preDispatch||k.preDispatch.call(this,a)!=3D=3D!1){h=3D=
+n.event.handlers.call(this,a,j),b=3D0;while((f=3Dh[b++])&&!a.isPropagati=
+onStopped()){a.currentTarget=3Df.elem,g=3D0;while((e=3Df.handlers[g++])&=
+&!a.isImmediatePropagationStopped())(!a.namespace_re||a.namespace_re.tes=
+t(e.namespace))&&(a.handleObj=3De,a.data=3De.data,c=3D((n.event.special[=
+e.origType]||{}).handle||e.handler).apply(f.elem,i),void 0!=3D=3Dc&&(a.r=
+esult=3Dc)=3D=3D=3D!1&&(a.preventDefault(),a.stopPropagation()))}return =
+k.postDispatch&&k.postDispatch.call(this,a),a.result}},handlers:function=
+(a,b){var c,d,e,f,g=3D[],h=3Db.delegateCount,i=3Da.target;if(h&&i.nodeTy=
+pe&&(!a.button||"click"!=3D=3Da.type))for(;i!=3Dthis;i=3Di.parentNode||t=
+his)if(1=3D=3D=3Di.nodeType&&(i.disabled!=3D=3D!0||"click"!=3D=3Da.type)=
+){for(e=3D[],f=3D0;h>f;f++)d=3Db[f],c=3Dd.selector+" ",void 0=3D=3D=3De[=
+c]&&(e[c]=3Dd.needsContext?n(c,this).index(i)>=3D0:n.find(c,this,null,[i=
+]).length),e[c]&&e.push(d);e.length&&g.push({elem:i,handlers:e})}return =
+h<b.length&&g.push({elem:this,handlers:b.slice(h)}),g},fix:function(a){i=
+f(a[n.expando])return a;var b,c,d,e=3Da.type,f=3Da,g=3Dthis.fixHooks[e];=
+g||(this.fixHooks[e]=3Dg=3D$.test(e)?this.mouseHooks:Z.test(e)?this.keyH=
+ooks:{}),d=3Dg.props?this.props.concat(g.props):this.props,a=3Dnew n.Eve=
+nt(f),b=3Dd.length;while(b--)c=3Dd[b],a[c]=3Df[c];return a.target||(a.ta=
+rget=3Df.srcElement||z),3=3D=3D=3Da.target.nodeType&&(a.target=3Da.targe=
+t.parentNode),a.metaKey=3D!!a.metaKey,g.filter?g.filter(a,f):a},props:"a=
+ltKey bubbles cancelable ctrlKey currentTarget eventPhase metaKey relate=
+dTarget shiftKey target timeStamp view which".split(" "),fixHooks:{},key=
+Hooks:{props:"char charCode key keyCode".split(" "),filter:function(a,b)=
+{return null=3D=3Da.which&&(a.which=3Dnull!=3Db.charCode?b.charCode:b.ke=
+yCode),a}},mouseHooks:{props:"button buttons clientX clientY fromElement=
+ offsetX offsetY pageX pageY screenX screenY toElement".split(" "),filte=
+r:function(a,b){var c,d,e,f=3Db.button,g=3Db.fromElement;return null=3D=3D=
+a.pageX&&null!=3Db.clientX&&(d=3Da.target.ownerDocument||z,e=3Dd.documen=
+tElement,c=3Dd.body,a.pageX=3Db.clientX+(e&&e.scrollLeft||c&&c.scrollLef=
+t||0)-(e&&e.clientLeft||c&&c.clientLeft||0),a.pageY=3Db.clientY+(e&&e.sc=
+rollTop||c&&c.scrollTop||0)-(e&&e.clientTop||c&&c.clientTop||0)),!a.rela=
+tedTarget&&g&&(a.relatedTarget=3Dg=3D=3D=3Da.target?b.toElement:g),a.whi=
+ch||void 0=3D=3D=3Df||(a.which=3D1&f?1:2&f?3:4&f?2:0),a}},special:{load:=
+{noBubble:!0},focus:{trigger:function(){if(this!=3D=3Ddb()&&this.focus)t=
+ry{return this.focus(),!1}catch(a){}},delegateType:"focusin"},blur:{trig=
+ger:function(){return this=3D=3D=3Ddb()&&this.blur?(this.blur(),!1):void=
+ 0},delegateType:"focusout"},click:{trigger:function(){return n.nodeName=
+(this,"input")&&"checkbox"=3D=3D=3Dthis.type&&this.click?(this.click(),!=
+1):void 0},_default:function(a){return n.nodeName(a.target,"a")}},before=
+unload:{postDispatch:function(a){void 0!=3D=3Da.result&&(a.originalEvent=
+.returnValue=3Da.result)}}},simulate:function(a,b,c,d){var e=3Dn.extend(=
+new n.Event,c,{type:a,isSimulated:!0,originalEvent:{}});d?n.event.trigge=
+r(e,null,b):n.event.dispatch.call(b,e),e.isDefaultPrevented()&&c.prevent=
+Default()}},n.removeEvent=3Dz.removeEventListener?function(a,b,c){a.remo=
+veEventListener&&a.removeEventListener(b,c,!1)}:function(a,b,c){var d=3D=
+"on"+b;a.detachEvent&&(typeof a[d]=3D=3D=3DL&&(a[d]=3Dnull),a.detachEven=
+t(d,c))},n.Event=3Dfunction(a,b){return this instanceof n.Event?(a&&a.ty=
+pe?(this.originalEvent=3Da,this.type=3Da.type,this.isDefaultPrevented=3D=
+a.defaultPrevented||void 0=3D=3D=3Da.defaultPrevented&&(a.returnValue=3D=
+=3D=3D!1||a.getPreventDefault&&a.getPreventDefault())?bb:cb):this.type=3D=
+a,b&&n.extend(this,b),this.timeStamp=3Da&&a.timeStamp||n.now(),void(this=
+[n.expando]=3D!0)):new n.Event(a,b)},n.Event.prototype=3D{isDefaultPreve=
+nted:cb,isPropagationStopped:cb,isImmediatePropagationStopped:cb,prevent=
+Default:function(){var a=3Dthis.originalEvent;this.isDefaultPrevented=3D=
+bb,a&&(a.preventDefault?a.preventDefault():a.returnValue=3D!1)},stopProp=
+agation:function(){var a=3Dthis.originalEvent;this.isPropagationStopped=3D=
+bb,a&&(a.stopPropagation&&a.stopPropagation(),a.cancelBubble=3D!0)},stop=
+ImmediatePropagation:function(){this.isImmediatePropagationStopped=3Dbb,=
+this.stopPropagation()}},n.each({mouseenter:"mouseover",mouseleave:"mous=
+eout"},function(a,b){n.event.special[a]=3D{delegateType:b,bindType:b,han=
+dle:function(a){var c,d=3Dthis,e=3Da.relatedTarget,f=3Da.handleObj;retur=
+n(!e||e!=3D=3Dd&&!n.contains(d,e))&&(a.type=3Df.origType,c=3Df.handler.a=
+pply(this,arguments),a.type=3Db),c}}}),l.submitBubbles||(n.event.special=
+.submit=3D{setup:function(){return n.nodeName(this,"form")?!1:void n.eve=
+nt.add(this,"click._submit keypress._submit",function(a){var b=3Da.targe=
+t,c=3Dn.nodeName(b,"input")||n.nodeName(b,"button")?b.form:void 0;c&&!n.=
+_data(c,"submitBubbles")&&(n.event.add(c,"submit._submit",function(a){a.=
+_submit_bubble=3D!0}),n._data(c,"submitBubbles",!0))})},postDispatch:fun=
+ction(a){a._submit_bubble&&(delete a._submit_bubble,this.parentNode&&!a.=
+isTrigger&&n.event.simulate("submit",this.parentNode,a,!0))},teardown:fu=
+nction(){return n.nodeName(this,"form")?!1:void n.event.remove(this,"._s=
+ubmit")}}),l.changeBubbles||(n.event.special.change=3D{setup:function(){=
+return Y.test(this.nodeName)?(("checkbox"=3D=3D=3Dthis.type||"radio"=3D=3D=
+=3Dthis.type)&&(n.event.add(this,"propertychange._change",function(a){"c=
+hecked"=3D=3D=3Da.originalEvent.propertyName&&(this._just_changed=3D!0)}=
+),n.event.add(this,"click._change",function(a){this._just_changed&&!a.is=
+Trigger&&(this._just_changed=3D!1),n.event.simulate("change",this,a,!0)}=
+)),!1):void n.event.add(this,"beforeactivate._change",function(a){var b=3D=
+a.target;Y.test(b.nodeName)&&!n._data(b,"changeBubbles")&&(n.event.add(b=
+,"change._change",function(a){!this.parentNode||a.isSimulated||a.isTrigg=
+er||n.event.simulate("change",this.parentNode,a,!0)}),n._data(b,"changeB=
+ubbles",!0))})},handle:function(a){var b=3Da.target;return this!=3D=3Db|=
+|a.isSimulated||a.isTrigger||"radio"!=3D=3Db.type&&"checkbox"!=3D=3Db.ty=
+pe?a.handleObj.handler.apply(this,arguments):void 0},teardown:function()=
+{return n.event.remove(this,"._change"),!Y.test(this.nodeName)}}),l.focu=
+sinBubbles||n.each({focus:"focusin",blur:"focusout"},function(a,b){var c=
+=3Dfunction(a){n.event.simulate(b,a.target,n.event.fix(a),!0)};n.event.s=
+pecial[b]=3D{setup:function(){var d=3Dthis.ownerDocument||this,e=3Dn._da=
+ta(d,b);e||d.addEventListener(a,c,!0),n._data(d,b,(e||0)+1)},teardown:fu=
+nction(){var d=3Dthis.ownerDocument||this,e=3Dn._data(d,b)-1;e?n._data(d=
+,b,e):(d.removeEventListener(a,c,!0),n._removeData(d,b))}}}),n.fn.extend=
+({on:function(a,b,c,d,e){var f,g;if("object"=3D=3Dtypeof a){"string"!=3D=
+typeof b&&(c=3Dc||b,b=3Dvoid 0);for(f in a)this.on(f,b,c,a[f],e);return =
+this}if(null=3D=3Dc&&null=3D=3Dd?(d=3Db,c=3Db=3Dvoid 0):null=3D=3Dd&&("s=
+tring"=3D=3Dtypeof b?(d=3Dc,c=3Dvoid 0):(d=3Dc,c=3Db,b=3Dvoid 0)),d=3D=3D=
+=3D!1)d=3Dcb;else if(!d)return this;return 1=3D=3D=3De&&(g=3Dd,d=3Dfunct=
+ion(a){return n().off(a),g.apply(this,arguments)},d.guid=3Dg.guid||(g.gu=
+id=3Dn.guid++)),this.each(function(){n.event.add(this,a,d,c,b)})},one:fu=
+nction(a,b,c,d){return this.on(a,b,c,d,1)},off:function(a,b,c){var d,e;i=
+f(a&&a.preventDefault&&a.handleObj)return d=3Da.handleObj,n(a.delegateTa=
+rget).off(d.namespace?d.origType+"."+d.namespace:d.origType,d.selector,d=
+.handler),this;if("object"=3D=3Dtypeof a){for(e in a)this.off(e,b,a[e]);=
+return this}return(b=3D=3D=3D!1||"function"=3D=3Dtypeof b)&&(c=3Db,b=3Dv=
+oid 0),c=3D=3D=3D!1&&(c=3Dcb),this.each(function(){n.event.remove(this,a=
+,c,b)})},trigger:function(a,b){return this.each(function(){n.event.trigg=
+er(a,b,this)})},triggerHandler:function(a,b){var c=3Dthis[0];return c?n.=
+event.trigger(a,b,c,!0):void 0}});function eb(a){var b=3Dfb.split("|"),c=
+=3Da.createDocumentFragment();if(c.createElement)while(b.length)c.create=
+Element(b.pop());return c}var fb=3D"abbr|article|aside|audio|bdi|canvas|=
+data|datalist|details|figcaption|figure|footer|header|hgroup|mark|meter|=
+nav|output|progress|section|summary|time|video",gb=3D/ jQuery\d+=3D"(?:n=
+ull|\d+)"/g,hb=3Dnew RegExp("<(?:"+fb+")[\\s/>]","i"),ib=3D/^\s+/,jb=3D/=
+<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\w:]+)[^>]*)\/>/gi=
+,kb=3D/<([\w:]+)/,lb=3D/<tbody/i,mb=3D/<|&#?\w+;/,nb=3D/<(?:script|style=
+|link)/i,ob=3D/checked\s*(?:[^=3D]|=3D\s*.checked.)/i,pb=3D/^$|\/(?:java=
+|ecma)script/i,qb=3D/^true\/(.*)/,rb=3D/^\s*<!(?:\[CDATA\[|--)|(?:\]\]|-=
+-)>\s*$/g,sb=3D{option:[1,"<select multiple=3D'multiple'>","</select>"],=
+legend:[1,"<fieldset>","</fieldset>"],area:[1,"<map>","</map>"],param:[1=
+,"<object>","</object>"],thead:[1,"<table>","</table>"],tr:[2,"<table><t=
+body>","</tbody></table>"],col:[2,"<table><tbody></tbody><colgroup>","</=
+colgroup></table>"],td:[3,"<table><tbody><tr>","</tr></tbody></table>"],=
+_default:l.htmlSerialize?[0,"",""]:[1,"X<div>","</div>"]},tb=3Deb(z),ub=3D=
+tb.appendChild(z.createElement("div"));sb.optgroup=3Dsb.option,sb.tbody=3D=
+sb.tfoot=3Dsb.colgroup=3Dsb.caption=3Dsb.thead,sb.th=3Dsb.td;function vb=
+(a,b){var c,d,e=3D0,f=3Dtypeof a.getElementsByTagName!=3D=3DL?a.getEleme=
+ntsByTagName(b||"*"):typeof a.querySelectorAll!=3D=3DL?a.querySelectorAl=
+l(b||"*"):void 0;if(!f)for(f=3D[],c=3Da.childNodes||a;null!=3D(d=3Dc[e])=
+;e++)!b||n.nodeName(d,b)?f.push(d):n.merge(f,vb(d,b));return void 0=3D=3D=
+=3Db||b&&n.nodeName(a,b)?n.merge([a],f):f}function wb(a){X.test(a.type)&=
+&(a.defaultChecked=3Da.checked)}function xb(a,b){return n.nodeName(a,"ta=
+ble")&&n.nodeName(11!=3D=3Db.nodeType?b:b.firstChild,"tr")?a.getElements=
+ByTagName("tbody")[0]||a.appendChild(a.ownerDocument.createElement("tbod=
+y")):a}function yb(a){return a.type=3D(null!=3D=3Dn.find.attr(a,"type"))=
++"/"+a.type,a}function zb(a){var b=3Dqb.exec(a.type);return b?a.type=3Db=
+[1]:a.removeAttribute("type"),a}function Ab(a,b){for(var c,d=3D0;null!=3D=
+(c=3Da[d]);d++)n._data(c,"globalEval",!b||n._data(b[d],"globalEval"))}fu=
+nction Bb(a,b){if(1=3D=3D=3Db.nodeType&&n.hasData(a)){var c,d,e,f=3Dn._d=
+ata(a),g=3Dn._data(b,f),h=3Df.events;if(h){delete g.handle,g.events=3D{}=
+;for(c in h)for(d=3D0,e=3Dh[c].length;e>d;d++)n.event.add(b,c,h[c][d])}g=
+.data&&(g.data=3Dn.extend({},g.data))}}function Cb(a,b){var c,d,e;if(1=3D=
+=3D=3Db.nodeType){if(c=3Db.nodeName.toLowerCase(),!l.noCloneEvent&&b[n.e=
+xpando]){e=3Dn._data(b);for(d in e.events)n.removeEvent(b,d,e.handle);b.=
+removeAttribute(n.expando)}"script"=3D=3D=3Dc&&b.text!=3D=3Da.text?(yb(b=
+).text=3Da.text,zb(b)):"object"=3D=3D=3Dc?(b.parentNode&&(b.outerHTML=3D=
+a.outerHTML),l.html5Clone&&a.innerHTML&&!n.trim(b.innerHTML)&&(b.innerHT=
+ML=3Da.innerHTML)):"input"=3D=3D=3Dc&&X.test(a.type)?(b.defaultChecked=3D=
+b.checked=3Da.checked,b.value!=3D=3Da.value&&(b.value=3Da.value)):"optio=
+n"=3D=3D=3Dc?b.defaultSelected=3Db.selected=3Da.defaultSelected:("input"=
+=3D=3D=3Dc||"textarea"=3D=3D=3Dc)&&(b.defaultValue=3Da.defaultValue)}}n.=
+extend({clone:function(a,b,c){var d,e,f,g,h,i=3Dn.contains(a.ownerDocume=
+nt,a);if(l.html5Clone||n.isXMLDoc(a)||!hb.test("<"+a.nodeName+">")?f=3Da=
+.cloneNode(!0):(ub.innerHTML=3Da.outerHTML,ub.removeChild(f=3Dub.firstCh=
+ild)),!(l.noCloneEvent&&l.noCloneChecked||1!=3D=3Da.nodeType&&11!=3D=3Da=
+.nodeType||n.isXMLDoc(a)))for(d=3Dvb(f),h=3Dvb(a),g=3D0;null!=3D(e=3Dh[g=
+]);++g)d[g]&&Cb(e,d[g]);if(b)if(c)for(h=3Dh||vb(a),d=3Dd||vb(f),g=3D0;nu=
+ll!=3D(e=3Dh[g]);g++)Bb(e,d[g]);else Bb(a,f);return d=3Dvb(f,"script"),d=
+.length>0&&Ab(d,!i&&vb(a,"script")),d=3Dh=3De=3Dnull,f},buildFragment:fu=
+nction(a,b,c,d){for(var e,f,g,h,i,j,k,m=3Da.length,o=3Deb(b),p=3D[],q=3D=
+0;m>q;q++)if(f=3Da[q],f||0=3D=3D=3Df)if("object"=3D=3D=3Dn.type(f))n.mer=
+ge(p,f.nodeType?[f]:f);else if(mb.test(f)){h=3Dh||o.appendChild(b.create=
+Element("div")),i=3D(kb.exec(f)||["",""])[1].toLowerCase(),k=3Dsb[i]||sb=
+._default,h.innerHTML=3Dk[1]+f.replace(jb,"<$1></$2>")+k[2],e=3Dk[0];whi=
+le(e--)h=3Dh.lastChild;if(!l.leadingWhitespace&&ib.test(f)&&p.push(b.cre=
+ateTextNode(ib.exec(f)[0])),!l.tbody){f=3D"table"!=3D=3Di||lb.test(f)?"<=
+table>"!=3D=3Dk[1]||lb.test(f)?0:h:h.firstChild,e=3Df&&f.childNodes.leng=
+th;while(e--)n.nodeName(j=3Df.childNodes[e],"tbody")&&!j.childNodes.leng=
+th&&f.removeChild(j)}n.merge(p,h.childNodes),h.textContent=3D"";while(h.=
+firstChild)h.removeChild(h.firstChild);h=3Do.lastChild}else p.push(b.cre=
+ateTextNode(f));h&&o.removeChild(h),l.appendChecked||n.grep(vb(p,"input"=
+),wb),q=3D0;while(f=3Dp[q++])if((!d||-1=3D=3D=3Dn.inArray(f,d))&&(g=3Dn.=
+contains(f.ownerDocument,f),h=3Dvb(o.appendChild(f),"script"),g&&Ab(h),c=
+)){e=3D0;while(f=3Dh[e++])pb.test(f.type||"")&&c.push(f)}return h=3Dnull=
+,o},cleanData:function(a,b){for(var d,e,f,g,h=3D0,i=3Dn.expando,j=3Dn.ca=
+che,k=3Dl.deleteExpando,m=3Dn.event.special;null!=3D(d=3Da[h]);h++)if((b=
+||n.acceptData(d))&&(f=3Dd[i],g=3Df&&j[f])){if(g.events)for(e in g.event=
+s)m[e]?n.event.remove(d,e):n.removeEvent(d,e,g.handle);j[f]&&(delete j[f=
+],k?delete d[i]:typeof d.removeAttribute!=3D=3DL?d.removeAttribute(i):d[=
+i]=3Dnull,c.push(f))}}}),n.fn.extend({text:function(a){return W(this,fun=
+ction(a){return void 0=3D=3D=3Da?n.text(this):this.empty().append((this[=
+0]&&this[0].ownerDocument||z).createTextNode(a))},null,a,arguments.lengt=
+h)},append:function(){return this.domManip(arguments,function(a){if(1=3D=
+=3D=3Dthis.nodeType||11=3D=3D=3Dthis.nodeType||9=3D=3D=3Dthis.nodeType){=
+var b=3Dxb(this,a);b.appendChild(a)}})},prepend:function(){return this.d=
+omManip(arguments,function(a){if(1=3D=3D=3Dthis.nodeType||11=3D=3D=3Dthi=
+s.nodeType||9=3D=3D=3Dthis.nodeType){var b=3Dxb(this,a);b.insertBefore(a=
+,b.firstChild)}})},before:function(){return this.domManip(arguments,func=
+tion(a){this.parentNode&&this.parentNode.insertBefore(a,this)})},after:f=
+unction(){return this.domManip(arguments,function(a){this.parentNode&&th=
+is.parentNode.insertBefore(a,this.nextSibling)})},remove:function(a,b){f=
+or(var c,d=3Da?n.filter(a,this):this,e=3D0;null!=3D(c=3Dd[e]);e++)b||1!=3D=
+=3Dc.nodeType||n.cleanData(vb(c)),c.parentNode&&(b&&n.contains(c.ownerDo=
+cument,c)&&Ab(vb(c,"script")),c.parentNode.removeChild(c));return this},=
+empty:function(){for(var a,b=3D0;null!=3D(a=3Dthis[b]);b++){1=3D=3D=3Da.=
+nodeType&&n.cleanData(vb(a,!1));while(a.firstChild)a.removeChild(a.first=
+Child);a.options&&n.nodeName(a,"select")&&(a.options.length=3D0)}return =
+this},clone:function(a,b){return a=3Dnull=3D=3Da?!1:a,b=3Dnull=3D=3Db?a:=
+b,this.map(function(){return n.clone(this,a,b)})},html:function(a){retur=
+n W(this,function(a){var b=3Dthis[0]||{},c=3D0,d=3Dthis.length;if(void 0=
+=3D=3D=3Da)return 1=3D=3D=3Db.nodeType?b.innerHTML.replace(gb,""):void 0=
+;if(!("string"!=3Dtypeof a||nb.test(a)||!l.htmlSerialize&&hb.test(a)||!l=
+.leadingWhitespace&&ib.test(a)||sb[(kb.exec(a)||["",""])[1].toLowerCase(=
+)])){a=3Da.replace(jb,"<$1></$2>");try{for(;d>c;c++)b=3Dthis[c]||{},1=3D=
+=3D=3Db.nodeType&&(n.cleanData(vb(b,!1)),b.innerHTML=3Da);b=3D0}catch(e)=
+{}}b&&this.empty().append(a)},null,a,arguments.length)},replaceWith:func=
+tion(){var a=3Darguments[0];return this.domManip(arguments,function(b){a=
+=3Dthis.parentNode,n.cleanData(vb(this)),a&&a.replaceChild(b,this)}),a&&=
+(a.length||a.nodeType)?this:this.remove()},detach:function(a){return thi=
+s.remove(a,!0)},domManip:function(a,b){a=3De.apply([],a);var c,d,f,g,h,i=
+,j=3D0,k=3Dthis.length,m=3Dthis,o=3Dk-1,p=3Da[0],q=3Dn.isFunction(p);if(=
+q||k>1&&"string"=3D=3Dtypeof p&&!l.checkClone&&ob.test(p))return this.ea=
+ch(function(c){var d=3Dm.eq(c);q&&(a[0]=3Dp.call(this,c,d.html())),d.dom=
+Manip(a,b)});if(k&&(i=3Dn.buildFragment(a,this[0].ownerDocument,!1,this)=
+,c=3Di.firstChild,1=3D=3D=3Di.childNodes.length&&(i=3Dc),c)){for(g=3Dn.m=
+ap(vb(i,"script"),yb),f=3Dg.length;k>j;j++)d=3Di,j!=3D=3Do&&(d=3Dn.clone=
+(d,!0,!0),f&&n.merge(g,vb(d,"script"))),b.call(this[j],d,j);if(f)for(h=3D=
+g[g.length-1].ownerDocument,n.map(g,zb),j=3D0;f>j;j++)d=3Dg[j],pb.test(d=
+.type||"")&&!n._data(d,"globalEval")&&n.contains(h,d)&&(d.src?n._evalUrl=
+&&n._evalUrl(d.src):n.globalEval((d.text||d.textContent||d.innerHTML||""=
+).replace(rb,"")));i=3Dc=3Dnull}return this}}),n.each({appendTo:"append"=
+,prependTo:"prepend",insertBefore:"before",insertAfter:"after",replaceAl=
+l:"replaceWith"},function(a,b){n.fn[a]=3Dfunction(a){for(var c,d=3D0,e=3D=
+[],g=3Dn(a),h=3Dg.length-1;h>=3Dd;d++)c=3Dd=3D=3D=3Dh?this:this.clone(!0=
+),n(g[d])[b](c),f.apply(e,c.get());return this.pushStack(e)}});var Db,Eb=
+=3D{};function Fb(b,c){var d=3Dn(c.createElement(b)).appendTo(c.body),e=3D=
+a.getDefaultComputedStyle?a.getDefaultComputedStyle(d[0]).display:n.css(=
+d[0],"display");return d.detach(),e}function Gb(a){var b=3Dz,c=3DEb[a];r=
+eturn c||(c=3DFb(a,b),"none"!=3D=3Dc&&c||(Db=3D(Db||n("<iframe framebord=
+er=3D'0' width=3D'0' height=3D'0'/>")).appendTo(b.documentElement),b=3D(=
+Db[0].contentWindow||Db[0].contentDocument).document,b.write(),b.close()=
+,c=3DFb(a,b),Db.detach()),Eb[a]=3Dc),c}!function(){var a,b,c=3Dz.createE=
+lement("div"),d=3D"-webkit-box-sizing:content-box;-moz-box-sizing:conten=
+t-box;box-sizing:content-box;display:block;padding:0;margin:0;border:0";=
+c.innerHTML=3D"  <link/><table></table><a href=3D'/a'>a</a><input type=3D=
+'checkbox'/>",a=3Dc.getElementsByTagName("a")[0],a.style.cssText=3D"floa=
+t:left;opacity:.5",l.opacity=3D/^0.5/.test(a.style.opacity),l.cssFloat=3D=
+!!a.style.cssFloat,c.style.backgroundClip=3D"content-box",c.cloneNode(!0=
+).style.backgroundClip=3D"",l.clearCloneStyle=3D"content-box"=3D=3D=3Dc.=
+style.backgroundClip,a=3Dc=3Dnull,l.shrinkWrapBlocks=3Dfunction(){var a,=
+c,e,f;if(null=3D=3Db){if(a=3Dz.getElementsByTagName("body")[0],!a)return=
+;f=3D"border:0;width:0;height:0;position:absolute;top:0;left:-9999px",c=3D=
+z.createElement("div"),e=3Dz.createElement("div"),a.appendChild(c).appen=
+dChild(e),b=3D!1,typeof e.style.zoom!=3D=3DL&&(e.style.cssText=3Dd+";wid=
+th:1px;padding:1px;zoom:1",e.innerHTML=3D"<div></div>",e.firstChild.styl=
+e.width=3D"5px",b=3D3!=3D=3De.offsetWidth),a.removeChild(c),a=3Dc=3De=3D=
+null}return b}}();var Hb=3D/^margin/,Ib=3Dnew RegExp("^("+T+")(?!px)[a-z=
+%]+$","i"),Jb,Kb,Lb=3D/^(top|right|bottom|left)$/;a.getComputedStyle?(Jb=
+=3Dfunction(a){return a.ownerDocument.defaultView.getComputedStyle(a,nul=
+l)},Kb=3Dfunction(a,b,c){var d,e,f,g,h=3Da.style;return c=3Dc||Jb(a),g=3D=
+c?c.getPropertyValue(b)||c[b]:void 0,c&&(""!=3D=3Dg||n.contains(a.ownerD=
+ocument,a)||(g=3Dn.style(a,b)),Ib.test(g)&&Hb.test(b)&&(d=3Dh.width,e=3D=
+h.minWidth,f=3Dh.maxWidth,h.minWidth=3Dh.maxWidth=3Dh.width=3Dg,g=3Dc.wi=
+dth,h.width=3Dd,h.minWidth=3De,h.maxWidth=3Df)),void 0=3D=3D=3Dg?g:g+""}=
+):z.documentElement.currentStyle&&(Jb=3Dfunction(a){return a.currentStyl=
+e},Kb=3Dfunction(a,b,c){var d,e,f,g,h=3Da.style;return c=3Dc||Jb(a),g=3D=
+c?c[b]:void 0,null=3D=3Dg&&h&&h[b]&&(g=3Dh[b]),Ib.test(g)&&!Lb.test(b)&&=
+(d=3Dh.left,e=3Da.runtimeStyle,f=3De&&e.left,f&&(e.left=3Da.currentStyle=
+.left),h.left=3D"fontSize"=3D=3D=3Db?"1em":g,g=3Dh.pixelLeft+"px",h.left=
+=3Dd,f&&(e.left=3Df)),void 0=3D=3D=3Dg?g:g+""||"auto"});function Mb(a,b)=
+{return{get:function(){var c=3Da();if(null!=3Dc)return c?void delete thi=
+s.get:(this.get=3Db).apply(this,arguments)}}}!function(){var b,c,d,e,f,g=
+,h=3Dz.createElement("div"),i=3D"border:0;width:0;height:0;position:abso=
+lute;top:0;left:-9999px",j=3D"-webkit-box-sizing:content-box;-moz-box-si=
+zing:content-box;box-sizing:content-box;display:block;padding:0;margin:0=
+;border:0";h.innerHTML=3D"  <link/><table></table><a href=3D'/a'>a</a><i=
+nput type=3D'checkbox'/>",b=3Dh.getElementsByTagName("a")[0],b.style.css=
+Text=3D"float:left;opacity:.5",l.opacity=3D/^0.5/.test(b.style.opacity),=
+l.cssFloat=3D!!b.style.cssFloat,h.style.backgroundClip=3D"content-box",h=
+.cloneNode(!0).style.backgroundClip=3D"",l.clearCloneStyle=3D"content-bo=
+x"=3D=3D=3Dh.style.backgroundClip,b=3Dh=3Dnull,n.extend(l,{reliableHidde=
+nOffsets:function(){if(null!=3Dc)return c;var a,b,d,e=3Dz.createElement(=
+"div"),f=3Dz.getElementsByTagName("body")[0];if(f)return e.setAttribute(=
+"className","t"),e.innerHTML=3D"  <link/><table></table><a href=3D'/a'>a=
+</a><input type=3D'checkbox'/>",a=3Dz.createElement("div"),a.style.cssTe=
+xt=3Di,f.appendChild(a).appendChild(e),e.innerHTML=3D"<table><tr><td></t=
+d><td>t</td></tr></table>",b=3De.getElementsByTagName("td"),b[0].style.c=
+ssText=3D"padding:0;margin:0;border:0;display:none",d=3D0=3D=3D=3Db[0].o=
+ffsetHeight,b[0].style.display=3D"",b[1].style.display=3D"none",c=3Dd&&0=
+=3D=3D=3Db[0].offsetHeight,f.removeChild(a),e=3Df=3Dnull,c},boxSizing:fu=
+nction(){return null=3D=3Dd&&k(),d},boxSizingReliable:function(){return =
+null=3D=3De&&k(),e},pixelPosition:function(){return null=3D=3Df&&k(),f},=
+reliableMarginRight:function(){var b,c,d,e;if(null=3D=3Dg&&a.getComputed=
+Style){if(b=3Dz.getElementsByTagName("body")[0],!b)return;c=3Dz.createEl=
+ement("div"),d=3Dz.createElement("div"),c.style.cssText=3Di,b.appendChil=
+d(c).appendChild(d),e=3Dd.appendChild(z.createElement("div")),e.style.cs=
+sText=3Dd.style.cssText=3Dj,e.style.marginRight=3De.style.width=3D"0",d.=
+style.width=3D"1px",g=3D!parseFloat((a.getComputedStyle(e,null)||{}).mar=
+ginRight),b.removeChild(c)}return g}});function k(){var b,c,h=3Dz.getEle=
+mentsByTagName("body")[0];h&&(b=3Dz.createElement("div"),c=3Dz.createEle=
+ment("div"),b.style.cssText=3Di,h.appendChild(b).appendChild(c),c.style.=
+cssText=3D"-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-=
+sizing:border-box;position:absolute;display:block;padding:1px;border:1px=
+;width:4px;margin-top:1%;top:1%",n.swap(h,null!=3Dh.style.zoom?{zoom:1}:=
+{},function(){d=3D4=3D=3D=3Dc.offsetWidth}),e=3D!0,f=3D!1,g=3D!0,a.getCo=
+mputedStyle&&(f=3D"1%"!=3D=3D(a.getComputedStyle(c,null)||{}).top,e=3D"4=
+px"=3D=3D=3D(a.getComputedStyle(c,null)||{width:"4px"}).width),h.removeC=
+hild(b),c=3Dh=3Dnull)}}(),n.swap=3Dfunction(a,b,c,d){var e,f,g=3D{};for(=
+f in b)g[f]=3Da.style[f],a.style[f]=3Db[f];e=3Dc.apply(a,d||[]);for(f in=
+ b)a.style[f]=3Dg[f];return e};var Nb=3D/alpha\([^)]*\)/i,Ob=3D/opacity\=
+s*=3D\s*([^)]*)/,Pb=3D/^(none|table(?!-c[ea]).+)/,Qb=3Dnew RegExp("^("+T=
++")(.*)$","i"),Rb=3Dnew RegExp("^([+-])=3D("+T+")","i"),Sb=3D{position:"=
+absolute",visibility:"hidden",display:"block"},Tb=3D{letterSpacing:0,fon=
+tWeight:400},Ub=3D["Webkit","O","Moz","ms"];function Vb(a,b){if(b in a)r=
+eturn b;var c=3Db.charAt(0).toUpperCase()+b.slice(1),d=3Db,e=3DUb.length=
+;while(e--)if(b=3DUb[e]+c,b in a)return b;return d}function Wb(a,b){for(=
+var c,d,e,f=3D[],g=3D0,h=3Da.length;h>g;g++)d=3Da[g],d.style&&(f[g]=3Dn.=
+_data(d,"olddisplay"),c=3Dd.style.display,b?(f[g]||"none"!=3D=3Dc||(d.st=
+yle.display=3D""),""=3D=3D=3Dd.style.display&&V(d)&&(f[g]=3Dn._data(d,"o=
+lddisplay",Gb(d.nodeName)))):f[g]||(e=3DV(d),(c&&"none"!=3D=3Dc||!e)&&n.=
+_data(d,"olddisplay",e?c:n.css(d,"display"))));for(g=3D0;h>g;g++)d=3Da[g=
+],d.style&&(b&&"none"!=3D=3Dd.style.display&&""!=3D=3Dd.style.display||(=
+d.style.display=3Db?f[g]||"":"none"));return a}function Xb(a,b,c){var d=3D=
+Qb.exec(b);return d?Math.max(0,d[1]-(c||0))+(d[2]||"px"):b}function Yb(a=
+,b,c,d,e){for(var f=3Dc=3D=3D=3D(d?"border":"content")?4:"width"=3D=3D=3D=
+b?1:0,g=3D0;4>f;f+=3D2)"margin"=3D=3D=3Dc&&(g+=3Dn.css(a,c+U[f],!0,e)),d=
+?("content"=3D=3D=3Dc&&(g-=3Dn.css(a,"padding"+U[f],!0,e)),"margin"!=3D=3D=
+c&&(g-=3Dn.css(a,"border"+U[f]+"Width",!0,e))):(g+=3Dn.css(a,"padding"+U=
+[f],!0,e),"padding"!=3D=3Dc&&(g+=3Dn.css(a,"border"+U[f]+"Width",!0,e)))=
+;return g}function Zb(a,b,c){var d=3D!0,e=3D"width"=3D=3D=3Db?a.offsetWi=
+dth:a.offsetHeight,f=3DJb(a),g=3Dl.boxSizing()&&"border-box"=3D=3D=3Dn.c=
+ss(a,"boxSizing",!1,f);if(0>=3De||null=3D=3De){if(e=3DKb(a,b,f),(0>e||nu=
+ll=3D=3De)&&(e=3Da.style[b]),Ib.test(e))return e;d=3Dg&&(l.boxSizingReli=
+able()||e=3D=3D=3Da.style[b]),e=3DparseFloat(e)||0}return e+Yb(a,b,c||(g=
+?"border":"content"),d,f)+"px"}n.extend({cssHooks:{opacity:{get:function=
+(a,b){if(b){var c=3DKb(a,"opacity");return""=3D=3D=3Dc?"1":c}}}},cssNumb=
+er:{columnCount:!0,fillOpacity:!0,fontWeight:!0,lineHeight:!0,opacity:!0=
+,order:!0,orphans:!0,widows:!0,zIndex:!0,zoom:!0},cssProps:{"float":l.cs=
+sFloat?"cssFloat":"styleFloat"},style:function(a,b,c,d){if(a&&3!=3D=3Da.=
+nodeType&&8!=3D=3Da.nodeType&&a.style){var e,f,g,h=3Dn.camelCase(b),i=3D=
+a.style;if(b=3Dn.cssProps[h]||(n.cssProps[h]=3DVb(i,h)),g=3Dn.cssHooks[b=
+]||n.cssHooks[h],void 0=3D=3D=3Dc)return g&&"get"in g&&void 0!=3D=3D(e=3D=
+g.get(a,!1,d))?e:i[b];if(f=3Dtypeof c,"string"=3D=3D=3Df&&(e=3DRb.exec(c=
+))&&(c=3D(e[1]+1)*e[2]+parseFloat(n.css(a,b)),f=3D"number"),null!=3Dc&&c=
+=3D=3D=3Dc&&("number"!=3D=3Df||n.cssNumber[h]||(c+=3D"px"),l.clearCloneS=
+tyle||""!=3D=3Dc||0!=3D=3Db.indexOf("background")||(i[b]=3D"inherit"),!(=
+g&&"set"in g&&void 0=3D=3D=3D(c=3Dg.set(a,c,d)))))try{i[b]=3D"",i[b]=3Dc=
+}catch(j){}}},css:function(a,b,c,d){var e,f,g,h=3Dn.camelCase(b);return =
+b=3Dn.cssProps[h]||(n.cssProps[h]=3DVb(a.style,h)),g=3Dn.cssHooks[b]||n.=
+cssHooks[h],g&&"get"in g&&(f=3Dg.get(a,!0,c)),void 0=3D=3D=3Df&&(f=3DKb(=
+a,b,d)),"normal"=3D=3D=3Df&&b in Tb&&(f=3DTb[b]),""=3D=3D=3Dc||c?(e=3Dpa=
+rseFloat(f),c=3D=3D=3D!0||n.isNumeric(e)?e||0:f):f}}),n.each(["height","=
+width"],function(a,b){n.cssHooks[b]=3D{get:function(a,c,d){return c?0=3D=
+=3D=3Da.offsetWidth&&Pb.test(n.css(a,"display"))?n.swap(a,Sb,function(){=
+return Zb(a,b,d)}):Zb(a,b,d):void 0},set:function(a,c,d){var e=3Dd&&Jb(a=
+);return Xb(a,c,d?Yb(a,b,d,l.boxSizing()&&"border-box"=3D=3D=3Dn.css(a,"=
+boxSizing",!1,e),e):0)}}}),l.opacity||(n.cssHooks.opacity=3D{get:functio=
+n(a,b){return Ob.test((b&&a.currentStyle?a.currentStyle.filter:a.style.f=
+ilter)||"")?.01*parseFloat(RegExp.$1)+"":b?"1":""},set:function(a,b){var=
+ c=3Da.style,d=3Da.currentStyle,e=3Dn.isNumeric(b)?"alpha(opacity=3D"+10=
+0*b+")":"",f=3Dd&&d.filter||c.filter||"";c.zoom=3D1,(b>=3D1||""=3D=3D=3D=
+b)&&""=3D=3D=3Dn.trim(f.replace(Nb,""))&&c.removeAttribute&&(c.removeAtt=
+ribute("filter"),""=3D=3D=3Db||d&&!d.filter)||(c.filter=3DNb.test(f)?f.r=
+eplace(Nb,e):f+" "+e)}}),n.cssHooks.marginRight=3DMb(l.reliableMarginRig=
+ht,function(a,b){return b?n.swap(a,{display:"inline-block"},Kb,[a,"margi=
+nRight"]):void 0}),n.each({margin:"",padding:"",border:"Width"},function=
+(a,b){n.cssHooks[a+b]=3D{expand:function(c){for(var d=3D0,e=3D{},f=3D"st=
+ring"=3D=3Dtypeof c?c.split(" "):[c];4>d;d++)e[a+U[d]+b]=3Df[d]||f[d-2]|=
+|f[0];return e}},Hb.test(a)||(n.cssHooks[a+b].set=3DXb)}),n.fn.extend({c=
+ss:function(a,b){return W(this,function(a,b,c){var d,e,f=3D{},g=3D0;if(n=
+.isArray(b)){for(d=3DJb(a),e=3Db.length;e>g;g++)f[b[g]]=3Dn.css(a,b[g],!=
+1,d);return f}return void 0!=3D=3Dc?n.style(a,b,c):n.css(a,b)
+},a,b,arguments.length>1)},show:function(){return Wb(this,!0)},hide:func=
+tion(){return Wb(this)},toggle:function(a){return"boolean"=3D=3Dtypeof a=
+?a?this.show():this.hide():this.each(function(){V(this)?n(this).show():n=
+(this).hide()})}});function $b(a,b,c,d,e){return new $b.prototype.init(a=
+,b,c,d,e)}n.Tween=3D$b,$b.prototype=3D{constructor:$b,init:function(a,b,=
+c,d,e,f){this.elem=3Da,this.prop=3Dc,this.easing=3De||"swing",this.optio=
+ns=3Db,this.start=3Dthis.now=3Dthis.cur(),this.end=3Dd,this.unit=3Df||(n=
+.cssNumber[c]?"":"px")},cur:function(){var a=3D$b.propHooks[this.prop];r=
+eturn a&&a.get?a.get(this):$b.propHooks._default.get(this)},run:function=
+(a){var b,c=3D$b.propHooks[this.prop];return this.pos=3Db=3Dthis.options=
+.duration?n.easing[this.easing](a,this.options.duration*a,0,1,this.optio=
+ns.duration):a,this.now=3D(this.end-this.start)*b+this.start,this.option=
+s.step&&this.options.step.call(this.elem,this.now,this),c&&c.set?c.set(t=
+his):$b.propHooks._default.set(this),this}},$b.prototype.init.prototype=3D=
+$b.prototype,$b.propHooks=3D{_default:{get:function(a){var b;return null=
+=3D=3Da.elem[a.prop]||a.elem.style&&null!=3Da.elem.style[a.prop]?(b=3Dn.=
+css(a.elem,a.prop,""),b&&"auto"!=3D=3Db?b:0):a.elem[a.prop]},set:functio=
+n(a){n.fx.step[a.prop]?n.fx.step[a.prop](a):a.elem.style&&(null!=3Da.ele=
+m.style[n.cssProps[a.prop]]||n.cssHooks[a.prop])?n.style(a.elem,a.prop,a=
+.now+a.unit):a.elem[a.prop]=3Da.now}}},$b.propHooks.scrollTop=3D$b.propH=
+ooks.scrollLeft=3D{set:function(a){a.elem.nodeType&&a.elem.parentNode&&(=
+a.elem[a.prop]=3Da.now)}},n.easing=3D{linear:function(a){return a},swing=
+:function(a){return.5-Math.cos(a*Math.PI)/2}},n.fx=3D$b.prototype.init,n=
+.fx.step=3D{};var _b,ac,bc=3D/^(?:toggle|show|hide)$/,cc=3Dnew RegExp("^=
+(?:([+-])=3D|)("+T+")([a-z%]*)$","i"),dc=3D/queueHooks$/,ec=3D[jc],fc=3D=
+{"*":[function(a,b){var c=3Dthis.createTween(a,b),d=3Dc.cur(),e=3Dcc.exe=
+c(b),f=3De&&e[3]||(n.cssNumber[a]?"":"px"),g=3D(n.cssNumber[a]||"px"!=3D=
+=3Df&&+d)&&cc.exec(n.css(c.elem,a)),h=3D1,i=3D20;if(g&&g[3]!=3D=3Df){f=3D=
+f||g[3],e=3De||[],g=3D+d||1;do h=3Dh||".5",g/=3Dh,n.style(c.elem,a,g+f);=
+while(h!=3D=3D(h=3Dc.cur()/d)&&1!=3D=3Dh&&--i)}return e&&(g=3Dc.start=3D=
++g||+d||0,c.unit=3Df,c.end=3De[1]?g+(e[1]+1)*e[2]:+e[2]),c}]};function g=
+c(){return setTimeout(function(){_b=3Dvoid 0}),_b=3Dn.now()}function hc(=
+a,b){var c,d=3D{height:a},e=3D0;for(b=3Db?1:0;4>e;e+=3D2-b)c=3DU[e],d["m=
+argin"+c]=3Dd["padding"+c]=3Da;return b&&(d.opacity=3Dd.width=3Da),d}fun=
+ction ic(a,b,c){for(var d,e=3D(fc[b]||[]).concat(fc["*"]),f=3D0,g=3De.le=
+ngth;g>f;f++)if(d=3De[f].call(c,b,a))return d}function jc(a,b,c){var d,e=
+,f,g,h,i,j,k,m=3Dthis,o=3D{},p=3Da.style,q=3Da.nodeType&&V(a),r=3Dn._dat=
+a(a,"fxshow");c.queue||(h=3Dn._queueHooks(a,"fx"),null=3D=3Dh.unqueued&&=
+(h.unqueued=3D0,i=3Dh.empty.fire,h.empty.fire=3Dfunction(){h.unqueued||i=
+()}),h.unqueued++,m.always(function(){m.always(function(){h.unqueued--,n=
+.queue(a,"fx").length||h.empty.fire()})})),1=3D=3D=3Da.nodeType&&("heigh=
+t"in b||"width"in b)&&(c.overflow=3D[p.overflow,p.overflowX,p.overflowY]=
+,j=3Dn.css(a,"display"),k=3DGb(a.nodeName),"none"=3D=3D=3Dj&&(j=3Dk),"in=
+line"=3D=3D=3Dj&&"none"=3D=3D=3Dn.css(a,"float")&&(l.inlineBlockNeedsLay=
+out&&"inline"!=3D=3Dk?p.zoom=3D1:p.display=3D"inline-block")),c.overflow=
+&&(p.overflow=3D"hidden",l.shrinkWrapBlocks()||m.always(function(){p.ove=
+rflow=3Dc.overflow[0],p.overflowX=3Dc.overflow[1],p.overflowY=3Dc.overfl=
+ow[2]}));for(d in b)if(e=3Db[d],bc.exec(e)){if(delete b[d],f=3Df||"toggl=
+e"=3D=3D=3De,e=3D=3D=3D(q?"hide":"show")){if("show"!=3D=3De||!r||void 0=3D=
+=3D=3Dr[d])continue;q=3D!0}o[d]=3Dr&&r[d]||n.style(a,d)}if(!n.isEmptyObj=
+ect(o)){r?"hidden"in r&&(q=3Dr.hidden):r=3Dn._data(a,"fxshow",{}),f&&(r.=
+hidden=3D!q),q?n(a).show():m.done(function(){n(a).hide()}),m.done(functi=
+on(){var b;n._removeData(a,"fxshow");for(b in o)n.style(a,b,o[b])});for(=
+d in o)g=3Dic(q?r[d]:0,d,m),d in r||(r[d]=3Dg.start,q&&(g.end=3Dg.start,=
+g.start=3D"width"=3D=3D=3Dd||"height"=3D=3D=3Dd?1:0))}}function kc(a,b){=
+var c,d,e,f,g;for(c in a)if(d=3Dn.camelCase(c),e=3Db[d],f=3Da[c],n.isArr=
+ay(f)&&(e=3Df[1],f=3Da[c]=3Df[0]),c!=3D=3Dd&&(a[d]=3Df,delete a[c]),g=3D=
+n.cssHooks[d],g&&"expand"in g){f=3Dg.expand(f),delete a[d];for(c in f)c =
+in a||(a[c]=3Df[c],b[c]=3De)}else b[d]=3De}function lc(a,b,c){var d,e,f=3D=
+0,g=3Dec.length,h=3Dn.Deferred().always(function(){delete i.elem}),i=3Df=
+unction(){if(e)return!1;for(var b=3D_b||gc(),c=3DMath.max(0,j.startTime+=
+j.duration-b),d=3Dc/j.duration||0,f=3D1-d,g=3D0,i=3Dj.tweens.length;i>g;=
+g++)j.tweens[g].run(f);return h.notifyWith(a,[j,f,c]),1>f&&i?c:(h.resolv=
+eWith(a,[j]),!1)},j=3Dh.promise({elem:a,props:n.extend({},b),opts:n.exte=
+nd(!0,{specialEasing:{}},c),originalProperties:b,originalOptions:c,start=
+Time:_b||gc(),duration:c.duration,tweens:[],createTween:function(b,c){va=
+r d=3Dn.Tween(a,j.opts,b,c,j.opts.specialEasing[b]||j.opts.easing);retur=
+n j.tweens.push(d),d},stop:function(b){var c=3D0,d=3Db?j.tweens.length:0=
+;if(e)return this;for(e=3D!0;d>c;c++)j.tweens[c].run(1);return b?h.resol=
+veWith(a,[j,b]):h.rejectWith(a,[j,b]),this}}),k=3Dj.props;for(kc(k,j.opt=
+s.specialEasing);g>f;f++)if(d=3Dec[f].call(j,a,k,j.opts))return d;return=
+ n.map(k,ic,j),n.isFunction(j.opts.start)&&j.opts.start.call(a,j),n.fx.t=
+imer(n.extend(i,{elem:a,anim:j,queue:j.opts.queue})),j.progress(j.opts.p=
+rogress).done(j.opts.done,j.opts.complete).fail(j.opts.fail).always(j.op=
+ts.always)}n.Animation=3Dn.extend(lc,{tweener:function(a,b){n.isFunction=
+(a)?(b=3Da,a=3D["*"]):a=3Da.split(" ");for(var c,d=3D0,e=3Da.length;e>d;=
+d++)c=3Da[d],fc[c]=3Dfc[c]||[],fc[c].unshift(b)},prefilter:function(a,b)=
+{b?ec.unshift(a):ec.push(a)}}),n.speed=3Dfunction(a,b,c){var d=3Da&&"obj=
+ect"=3D=3Dtypeof a?n.extend({},a):{complete:c||!c&&b||n.isFunction(a)&&a=
+,duration:a,easing:c&&b||b&&!n.isFunction(b)&&b};return d.duration=3Dn.f=
+x.off?0:"number"=3D=3Dtypeof d.duration?d.duration:d.duration in n.fx.sp=
+eeds?n.fx.speeds[d.duration]:n.fx.speeds._default,(null=3D=3Dd.queue||d.=
+queue=3D=3D=3D!0)&&(d.queue=3D"fx"),d.old=3Dd.complete,d.complete=3Dfunc=
+tion(){n.isFunction(d.old)&&d.old.call(this),d.queue&&n.dequeue(this,d.q=
+ueue)},d},n.fn.extend({fadeTo:function(a,b,c,d){return this.filter(V).cs=
+s("opacity",0).show().end().animate({opacity:b},a,c,d)},animate:function=
+(a,b,c,d){var e=3Dn.isEmptyObject(a),f=3Dn.speed(b,c,d),g=3Dfunction(){v=
+ar b=3Dlc(this,n.extend({},a),f);(e||n._data(this,"finish"))&&b.stop(!0)=
+};return g.finish=3Dg,e||f.queue=3D=3D=3D!1?this.each(g):this.queue(f.qu=
+eue,g)},stop:function(a,b,c){var d=3Dfunction(a){var b=3Da.stop;delete a=
+.stop,b(c)};return"string"!=3Dtypeof a&&(c=3Db,b=3Da,a=3Dvoid 0),b&&a!=3D=
+=3D!1&&this.queue(a||"fx",[]),this.each(function(){var b=3D!0,e=3Dnull!=3D=
+a&&a+"queueHooks",f=3Dn.timers,g=3Dn._data(this);if(e)g[e]&&g[e].stop&&d=
+(g[e]);else for(e in g)g[e]&&g[e].stop&&dc.test(e)&&d(g[e]);for(e=3Df.le=
+ngth;e--;)f[e].elem!=3D=3Dthis||null!=3Da&&f[e].queue!=3D=3Da||(f[e].ani=
+m.stop(c),b=3D!1,f.splice(e,1));(b||!c)&&n.dequeue(this,a)})},finish:fun=
+ction(a){return a!=3D=3D!1&&(a=3Da||"fx"),this.each(function(){var b,c=3D=
+n._data(this),d=3Dc[a+"queue"],e=3Dc[a+"queueHooks"],f=3Dn.timers,g=3Dd?=
+d.length:0;for(c.finish=3D!0,n.queue(this,a,[]),e&&e.stop&&e.stop.call(t=
+his,!0),b=3Df.length;b--;)f[b].elem=3D=3D=3Dthis&&f[b].queue=3D=3D=3Da&&=
+(f[b].anim.stop(!0),f.splice(b,1));for(b=3D0;g>b;b++)d[b]&&d[b].finish&&=
+d[b].finish.call(this);delete c.finish})}}),n.each(["toggle","show","hid=
+e"],function(a,b){var c=3Dn.fn[b];n.fn[b]=3Dfunction(a,d,e){return null=3D=
+=3Da||"boolean"=3D=3Dtypeof a?c.apply(this,arguments):this.animate(hc(b,=
+!0),a,d,e)}}),n.each({slideDown:hc("show"),slideUp:hc("hide"),slideToggl=
+e:hc("toggle"),fadeIn:{opacity:"show"},fadeOut:{opacity:"hide"},fadeTogg=
+le:{opacity:"toggle"}},function(a,b){n.fn[a]=3Dfunction(a,c,d){return th=
+is.animate(b,a,c,d)}}),n.timers=3D[],n.fx.tick=3Dfunction(){var a,b=3Dn.=
+timers,c=3D0;for(_b=3Dn.now();c<b.length;c++)a=3Db[c],a()||b[c]!=3D=3Da|=
+|b.splice(c--,1);b.length||n.fx.stop(),_b=3Dvoid 0},n.fx.timer=3Dfunctio=
+n(a){n.timers.push(a),a()?n.fx.start():n.timers.pop()},n.fx.interval=3D1=
+3,n.fx.start=3Dfunction(){ac||(ac=3DsetInterval(n.fx.tick,n.fx.interval)=
+)},n.fx.stop=3Dfunction(){clearInterval(ac),ac=3Dnull},n.fx.speeds=3D{sl=
+ow:600,fast:200,_default:400},n.fn.delay=3Dfunction(a,b){return a=3Dn.fx=
+?n.fx.speeds[a]||a:a,b=3Db||"fx",this.queue(b,function(b,c){var d=3DsetT=
+imeout(b,a);c.stop=3Dfunction(){clearTimeout(d)}})},function(){var a,b,c=
+,d,e=3Dz.createElement("div");e.setAttribute("className","t"),e.innerHTM=
+L=3D"  <link/><table></table><a href=3D'/a'>a</a><input type=3D'checkbox=
+'/>",a=3De.getElementsByTagName("a")[0],c=3Dz.createElement("select"),d=3D=
+c.appendChild(z.createElement("option")),b=3De.getElementsByTagName("inp=
+ut")[0],a.style.cssText=3D"top:1px",l.getSetAttribute=3D"t"!=3D=3De.clas=
+sName,l.style=3D/top/.test(a.getAttribute("style")),l.hrefNormalized=3D"=
+/a"=3D=3D=3Da.getAttribute("href"),l.checkOn=3D!!b.value,l.optSelected=3D=
+d.selected,l.enctype=3D!!z.createElement("form").enctype,c.disabled=3D!0=
+,l.optDisabled=3D!d.disabled,b=3Dz.createElement("input"),b.setAttribute=
+("value",""),l.input=3D""=3D=3D=3Db.getAttribute("value"),b.value=3D"t",=
+b.setAttribute("type","radio"),l.radioValue=3D"t"=3D=3D=3Db.value,a=3Db=3D=
+c=3Dd=3De=3Dnull}();var mc=3D/\r/g;n.fn.extend({val:function(a){var b,c,=
+d,e=3Dthis[0];{if(arguments.length)return d=3Dn.isFunction(a),this.each(=
+function(c){var e;1=3D=3D=3Dthis.nodeType&&(e=3Dd?a.call(this,c,n(this).=
+val()):a,null=3D=3De?e=3D"":"number"=3D=3Dtypeof e?e+=3D"":n.isArray(e)&=
+&(e=3Dn.map(e,function(a){return null=3D=3Da?"":a+""})),b=3Dn.valHooks[t=
+his.type]||n.valHooks[this.nodeName.toLowerCase()],b&&"set"in b&&void 0!=
+=3D=3Db.set(this,e,"value")||(this.value=3De))});if(e)return b=3Dn.valHo=
+oks[e.type]||n.valHooks[e.nodeName.toLowerCase()],b&&"get"in b&&void 0!=3D=
+=3D(c=3Db.get(e,"value"))?c:(c=3De.value,"string"=3D=3Dtypeof c?c.replac=
+e(mc,""):null=3D=3Dc?"":c)}}}),n.extend({valHooks:{option:{get:function(=
+a){var b=3Dn.find.attr(a,"value");return null!=3Db?b:n.text(a)}},select:=
+{get:function(a){for(var b,c,d=3Da.options,e=3Da.selectedIndex,f=3D"sele=
+ct-one"=3D=3D=3Da.type||0>e,g=3Df?null:[],h=3Df?e+1:d.length,i=3D0>e?h:f=
+?e:0;h>i;i++)if(c=3Dd[i],!(!c.selected&&i!=3D=3De||(l.optDisabled?c.disa=
+bled:null!=3D=3Dc.getAttribute("disabled"))||c.parentNode.disabled&&n.no=
+deName(c.parentNode,"optgroup"))){if(b=3Dn(c).val(),f)return b;g.push(b)=
+}return g},set:function(a,b){var c,d,e=3Da.options,f=3Dn.makeArray(b),g=3D=
+e.length;while(g--)if(d=3De[g],n.inArray(n.valHooks.option.get(d),f)>=3D=
+0)try{d.selected=3Dc=3D!0}catch(h){d.scrollHeight}else d.selected=3D!1;r=
+eturn c||(a.selectedIndex=3D-1),e}}}}),n.each(["radio","checkbox"],funct=
+ion(){n.valHooks[this]=3D{set:function(a,b){return n.isArray(b)?a.checke=
+d=3Dn.inArray(n(a).val(),b)>=3D0:void 0}},l.checkOn||(n.valHooks[this].g=
+et=3Dfunction(a){return null=3D=3D=3Da.getAttribute("value")?"on":a.valu=
+e})});var nc,oc,pc=3Dn.expr.attrHandle,qc=3D/^(?:checked|selected)$/i,rc=
+=3Dl.getSetAttribute,sc=3Dl.input;n.fn.extend({attr:function(a,b){return=
+ W(this,n.attr,a,b,arguments.length>1)},removeAttr:function(a){return th=
+is.each(function(){n.removeAttr(this,a)})}}),n.extend({attr:function(a,b=
+,c){var d,e,f=3Da.nodeType;if(a&&3!=3D=3Df&&8!=3D=3Df&&2!=3D=3Df)return =
+typeof a.getAttribute=3D=3D=3DL?n.prop(a,b,c):(1=3D=3D=3Df&&n.isXMLDoc(a=
+)||(b=3Db.toLowerCase(),d=3Dn.attrHooks[b]||(n.expr.match.bool.test(b)?o=
+c:nc)),void 0=3D=3D=3Dc?d&&"get"in d&&null!=3D=3D(e=3Dd.get(a,b))?e:(e=3D=
+n.find.attr(a,b),null=3D=3De?void 0:e):null!=3D=3Dc?d&&"set"in d&&void 0=
+!=3D=3D(e=3Dd.set(a,c,b))?e:(a.setAttribute(b,c+""),c):void n.removeAttr=
+(a,b))},removeAttr:function(a,b){var c,d,e=3D0,f=3Db&&b.match(F);if(f&&1=
+=3D=3D=3Da.nodeType)while(c=3Df[e++])d=3Dn.propFix[c]||c,n.expr.match.bo=
+ol.test(c)?sc&&rc||!qc.test(c)?a[d]=3D!1:a[n.camelCase("default-"+c)]=3D=
+a[d]=3D!1:n.attr(a,c,""),a.removeAttribute(rc?c:d)},attrHooks:{type:{set=
+:function(a,b){if(!l.radioValue&&"radio"=3D=3D=3Db&&n.nodeName(a,"input"=
+)){var c=3Da.value;return a.setAttribute("type",b),c&&(a.value=3Dc),b}}}=
+}}),oc=3D{set:function(a,b,c){return b=3D=3D=3D!1?n.removeAttr(a,c):sc&&=
+rc||!qc.test(c)?a.setAttribute(!rc&&n.propFix[c]||c,c):a[n.camelCase("de=
+fault-"+c)]=3Da[c]=3D!0,c}},n.each(n.expr.match.bool.source.match(/\w+/g=
+),function(a,b){var c=3Dpc[b]||n.find.attr;pc[b]=3Dsc&&rc||!qc.test(b)?f=
+unction(a,b,d){var e,f;return d||(f=3Dpc[b],pc[b]=3De,e=3Dnull!=3Dc(a,b,=
+d)?b.toLowerCase():null,pc[b]=3Df),e}:function(a,b,c){return c?void 0:a[=
+n.camelCase("default-"+b)]?b.toLowerCase():null}}),sc&&rc||(n.attrHooks.=
+value=3D{set:function(a,b,c){return n.nodeName(a,"input")?void(a.default=
+Value=3Db):nc&&nc.set(a,b,c)}}),rc||(nc=3D{set:function(a,b,c){var d=3Da=
+.getAttributeNode(c);return d||a.setAttributeNode(d=3Da.ownerDocument.cr=
+eateAttribute(c)),d.value=3Db+=3D"","value"=3D=3D=3Dc||b=3D=3D=3Da.getAt=
+tribute(c)?b:void 0}},pc.id=3Dpc.name=3Dpc.coords=3Dfunction(a,b,c){var =
+d;return c?void 0:(d=3Da.getAttributeNode(b))&&""!=3D=3Dd.value?d.value:=
+null},n.valHooks.button=3D{get:function(a,b){var c=3Da.getAttributeNode(=
+b);return c&&c.specified?c.value:void 0},set:nc.set},n.attrHooks.content=
+editable=3D{set:function(a,b,c){nc.set(a,""=3D=3D=3Db?!1:b,c)}},n.each([=
+"width","height"],function(a,b){n.attrHooks[b]=3D{set:function(a,c){retu=
+rn""=3D=3D=3Dc?(a.setAttribute(b,"auto"),c):void 0}}})),l.style||(n.attr=
+Hooks.style=3D{get:function(a){return a.style.cssText||void 0},set:funct=
+ion(a,b){return a.style.cssText=3Db+""}});var tc=3D/^(?:input|select|tex=
+tarea|button|object)$/i,uc=3D/^(?:a|area)$/i;n.fn.extend({prop:function(=
+a,b){return W(this,n.prop,a,b,arguments.length>1)},removeProp:function(a=
+){return a=3Dn.propFix[a]||a,this.each(function(){try{this[a]=3Dvoid 0,d=
+elete this[a]}catch(b){}})}}),n.extend({propFix:{"for":"htmlFor","class"=
+:"className"},prop:function(a,b,c){var d,e,f,g=3Da.nodeType;if(a&&3!=3D=3D=
+g&&8!=3D=3Dg&&2!=3D=3Dg)return f=3D1!=3D=3Dg||!n.isXMLDoc(a),f&&(b=3Dn.p=
+ropFix[b]||b,e=3Dn.propHooks[b]),void 0!=3D=3Dc?e&&"set"in e&&void 0!=3D=
+=3D(d=3De.set(a,c,b))?d:a[b]=3Dc:e&&"get"in e&&null!=3D=3D(d=3De.get(a,b=
+))?d:a[b]},propHooks:{tabIndex:{get:function(a){var b=3Dn.find.attr(a,"t=
+abindex");return b?parseInt(b,10):tc.test(a.nodeName)||uc.test(a.nodeNam=
+e)&&a.href?0:-1}}}}),l.hrefNormalized||n.each(["href","src"],function(a,=
+b){n.propHooks[b]=3D{get:function(a){return a.getAttribute(b,4)}}}),l.op=
+tSelected||(n.propHooks.selected=3D{get:function(a){var b=3Da.parentNode=
+;return b&&(b.selectedIndex,b.parentNode&&b.parentNode.selectedIndex),nu=
+ll}}),n.each(["tabIndex","readOnly","maxLength","cellSpacing","cellPaddi=
+ng","rowSpan","colSpan","useMap","frameBorder","contentEditable"],functi=
+on(){n.propFix[this.toLowerCase()]=3Dthis}),l.enctype||(n.propFix.enctyp=
+e=3D"encoding");var vc=3D/[\t\r\n\f]/g;n.fn.extend({addClass:function(a)=
+{var b,c,d,e,f,g,h=3D0,i=3Dthis.length,j=3D"string"=3D=3Dtypeof a&&a;if(=
+n.isFunction(a))return this.each(function(b){n(this).addClass(a.call(thi=
+s,b,this.className))});if(j)for(b=3D(a||"").match(F)||[];i>h;h++)if(c=3D=
+this[h],d=3D1=3D=3D=3Dc.nodeType&&(c.className?(" "+c.className+" ").rep=
+lace(vc," "):" ")){f=3D0;while(e=3Db[f++])d.indexOf(" "+e+" ")<0&&(d+=3D=
+e+" ");g=3Dn.trim(d),c.className!=3D=3Dg&&(c.className=3Dg)}return this}=
+,removeClass:function(a){var b,c,d,e,f,g,h=3D0,i=3Dthis.length,j=3D0=3D=3D=
+=3Darguments.length||"string"=3D=3Dtypeof a&&a;if(n.isFunction(a))return=
+ this.each(function(b){n(this).removeClass(a.call(this,b,this.className)=
+)});if(j)for(b=3D(a||"").match(F)||[];i>h;h++)if(c=3Dthis[h],d=3D1=3D=3D=
+=3Dc.nodeType&&(c.className?(" "+c.className+" ").replace(vc," "):"")){f=
+=3D0;while(e=3Db[f++])while(d.indexOf(" "+e+" ")>=3D0)d=3Dd.replace(" "+=
+e+" "," ");g=3Da?n.trim(d):"",c.className!=3D=3Dg&&(c.className=3Dg)}ret=
+urn this},toggleClass:function(a,b){var c=3Dtypeof a;return"boolean"=3D=3D=
+typeof b&&"string"=3D=3D=3Dc?b?this.addClass(a):this.removeClass(a):this=
+.each(n.isFunction(a)?function(c){n(this).toggleClass(a.call(this,c,this=
+.className,b),b)}:function(){if("string"=3D=3D=3Dc){var b,d=3D0,e=3Dn(th=
+is),f=3Da.match(F)||[];while(b=3Df[d++])e.hasClass(b)?e.removeClass(b):e=
+.addClass(b)}else(c=3D=3D=3DL||"boolean"=3D=3D=3Dc)&&(this.className&&n.=
+_data(this,"__className__",this.className),this.className=3Dthis.classNa=
+me||a=3D=3D=3D!1?"":n._data(this,"__className__")||"")})},hasClass:funct=
+ion(a){for(var b=3D" "+a+" ",c=3D0,d=3Dthis.length;d>c;c++)if(1=3D=3D=3D=
+this[c].nodeType&&(" "+this[c].className+" ").replace(vc," ").indexOf(b)=
+>=3D0)return!0;return!1}}),n.each("blur focus focusin focusout load resi=
+ze scroll unload click dblclick mousedown mouseup mousemove mouseover mo=
+useout mouseenter mouseleave change select submit keydown keypress keyup=
+ error contextmenu".split(" "),function(a,b){n.fn[b]=3Dfunction(a,c){ret=
+urn arguments.length>0?this.on(b,null,a,c):this.trigger(b)}}),n.fn.exten=
+d({hover:function(a,b){return this.mouseenter(a).mouseleave(b||a)},bind:=
+function(a,b,c){return this.on(a,null,b,c)},unbind:function(a,b){return =
+this.off(a,null,b)},delegate:function(a,b,c,d){return this.on(b,a,c,d)},=
+undelegate:function(a,b,c){return 1=3D=3D=3Darguments.length?this.off(a,=
+"**"):this.off(b,a||"**",c)}});var wc=3Dn.now(),xc=3D/\?/,yc=3D/(,)|(\[|=
+{)|(}|])|"(?:[^"\\\r\n]|\\["\\\/bfnrt]|\\u[\da-fA-F]{4})*"\s*:?|true|fal=
+se|null|-?(?!0\d)\d+(?:\.\d+|)(?:[eE][+-]?\d+|)/g;n.parseJSON=3Dfunction=
+(b){if(a.JSON&&a.JSON.parse)return a.JSON.parse(b+"");var c,d=3Dnull,e=3D=
+n.trim(b+"");return e&&!n.trim(e.replace(yc,function(a,b,e,f){return c&&=
+b&&(d=3D0),0=3D=3D=3Dd?a:(c=3De||b,d+=3D!f-!e,"")}))?Function("return "+=
+e)():n.error("Invalid JSON: "+b)},n.parseXML=3Dfunction(b){var c,d;if(!b=
+||"string"!=3Dtypeof b)return null;try{a.DOMParser?(d=3Dnew DOMParser,c=3D=
+d.parseFromString(b,"text/xml")):(c=3Dnew ActiveXObject("Microsoft.XMLDO=
+M"),c.async=3D"false",c.loadXML(b))}catch(e){c=3Dvoid 0}return c&&c.docu=
+mentElement&&!c.getElementsByTagName("parsererror").length||n.error("Inv=
+alid XML: "+b),c};var zc,Ac,Bc=3D/#.*$/,Cc=3D/([?&])_=3D[^&]*/,Dc=3D/^(.=
+*?):[ \t]*([^\r\n]*)\r?$/gm,Ec=3D/^(?:about|app|app-storage|.+-extension=
+|file|res|widget):$/,Fc=3D/^(?:GET|HEAD)$/,Gc=3D/^\/\//,Hc=3D/^([\w.+-]+=
+:)(?:\/\/(?:[^\/?#]*@|)([^\/?#:]*)(?::(\d+)|)|)/,Ic=3D{},Jc=3D{},Kc=3D"*=
+/".concat("*");try{Ac=3Dlocation.href}catch(Lc){Ac=3Dz.createElement("a"=
+),Ac.href=3D"",Ac=3DAc.href}zc=3DHc.exec(Ac.toLowerCase())||[];function =
+Mc(a){return function(b,c){"string"!=3Dtypeof b&&(c=3Db,b=3D"*");var d,e=
+=3D0,f=3Db.toLowerCase().match(F)||[];if(n.isFunction(c))while(d=3Df[e++=
+])"+"=3D=3D=3Dd.charAt(0)?(d=3Dd.slice(1)||"*",(a[d]=3Da[d]||[]).unshift=
+(c)):(a[d]=3Da[d]||[]).push(c)}}function Nc(a,b,c,d){var e=3D{},f=3Da=3D=
+=3D=3DJc;function g(h){var i;return e[h]=3D!0,n.each(a[h]||[],function(a=
+,h){var j=3Dh(b,c,d);return"string"!=3Dtypeof j||f||e[j]?f?!(i=3Dj):void=
+ 0:(b.dataTypes.unshift(j),g(j),!1)}),i}return g(b.dataTypes[0])||!e["*"=
+]&&g("*")}function Oc(a,b){var c,d,e=3Dn.ajaxSettings.flatOptions||{};fo=
+r(d in b)void 0!=3D=3Db[d]&&((e[d]?a:c||(c=3D{}))[d]=3Db[d]);return c&&n=
+.extend(!0,a,c),a}function Pc(a,b,c){var d,e,f,g,h=3Da.contents,i=3Da.da=
+taTypes;while("*"=3D=3D=3Di[0])i.shift(),void 0=3D=3D=3De&&(e=3Da.mimeTy=
+pe||b.getResponseHeader("Content-Type"));if(e)for(g in h)if(h[g]&&h[g].t=
+est(e)){i.unshift(g);break}if(i[0]in c)f=3Di[0];else{for(g in c){if(!i[0=
+]||a.converters[g+" "+i[0]]){f=3Dg;break}d||(d=3Dg)}f=3Df||d}return f?(f=
+!=3D=3Di[0]&&i.unshift(f),c[f]):void 0}function Qc(a,b,c,d){var e,f,g,h,=
+i,j=3D{},k=3Da.dataTypes.slice();if(k[1])for(g in a.converters)j[g.toLow=
+erCase()]=3Da.converters[g];f=3Dk.shift();while(f)if(a.responseFields[f]=
+&&(c[a.responseFields[f]]=3Db),!i&&d&&a.dataFilter&&(b=3Da.dataFilter(b,=
+a.dataType)),i=3Df,f=3Dk.shift())if("*"=3D=3D=3Df)f=3Di;else if("*"!=3D=3D=
+i&&i!=3D=3Df){if(g=3Dj[i+" "+f]||j["* "+f],!g)for(e in j)if(h=3De.split(=
+" "),h[1]=3D=3D=3Df&&(g=3Dj[i+" "+h[0]]||j["* "+h[0]])){g=3D=3D=3D!0?g=3D=
+j[e]:j[e]!=3D=3D!0&&(f=3Dh[0],k.unshift(h[1]));break}if(g!=3D=3D!0)if(g&=
+&a["throws"])b=3Dg(b);else try{b=3Dg(b)}catch(l){return{state:"parsererr=
+or",error:g?l:"No conversion from "+i+" to "+f}}}return{state:"success",=
+data:b}}n.extend({active:0,lastModified:{},etag:{},ajaxSettings:{url:Ac,=
+type:"GET",isLocal:Ec.test(zc[1]),global:!0,processData:!0,async:!0,cont=
+entType:"application/x-www-form-urlencoded; charset=3DUTF-8",accepts:{"*=
+":Kc,text:"text/plain",html:"text/html",xml:"application/xml, text/xml",=
+json:"application/json, text/javascript"},contents:{xml:/xml/,html:/html=
+/,json:/json/},responseFields:{xml:"responseXML",text:"responseText",jso=
+n:"responseJSON"},converters:{"* text":String,"text html":!0,"text json"=
+:n.parseJSON,"text xml":n.parseXML},flatOptions:{url:!0,context:!0}},aja=
+xSetup:function(a,b){return b?Oc(Oc(a,n.ajaxSettings),b):Oc(n.ajaxSettin=
+gs,a)},ajaxPrefilter:Mc(Ic),ajaxTransport:Mc(Jc),ajax:function(a,b){"obj=
+ect"=3D=3Dtypeof a&&(b=3Da,a=3Dvoid 0),b=3Db||{};var c,d,e,f,g,h,i,j,k=3D=
+n.ajaxSetup({},b),l=3Dk.context||k,m=3Dk.context&&(l.nodeType||l.jquery)=
+?n(l):n.event,o=3Dn.Deferred(),p=3Dn.Callbacks("once memory"),q=3Dk.stat=
+usCode||{},r=3D{},s=3D{},t=3D0,u=3D"canceled",v=3D{readyState:0,getRespo=
+nseHeader:function(a){var b;if(2=3D=3D=3Dt){if(!j){j=3D{};while(b=3DDc.e=
+xec(f))j[b[1].toLowerCase()]=3Db[2]}b=3Dj[a.toLowerCase()]}return null=3D=
+=3Db?null:b},getAllResponseHeaders:function(){return 2=3D=3D=3Dt?f:null}=
+,setRequestHeader:function(a,b){var c=3Da.toLowerCase();return t||(a=3Ds=
+[c]=3Ds[c]||a,r[a]=3Db),this},overrideMimeType:function(a){return t||(k.=
+mimeType=3Da),this},statusCode:function(a){var b;if(a)if(2>t)for(b in a)=
+q[b]=3D[q[b],a[b]];else v.always(a[v.status]);return this},abort:functio=
+n(a){var b=3Da||u;return i&&i.abort(b),x(0,b),this}};if(o.promise(v).com=
+plete=3Dp.add,v.success=3Dv.done,v.error=3Dv.fail,k.url=3D((a||k.url||Ac=
+)+"").replace(Bc,"").replace(Gc,zc[1]+"//"),k.type=3Db.method||b.type||k=
+.method||k.type,k.dataTypes=3Dn.trim(k.dataType||"*").toLowerCase().matc=
+h(F)||[""],null=3D=3Dk.crossDomain&&(c=3DHc.exec(k.url.toLowerCase()),k.=
+crossDomain=3D!(!c||c[1]=3D=3D=3Dzc[1]&&c[2]=3D=3D=3Dzc[2]&&(c[3]||("htt=
+p:"=3D=3D=3Dc[1]?"80":"443"))=3D=3D=3D(zc[3]||("http:"=3D=3D=3Dzc[1]?"80=
+":"443")))),k.data&&k.processData&&"string"!=3Dtypeof k.data&&(k.data=3D=
+n.param(k.data,k.traditional)),Nc(Ic,k,b,v),2=3D=3D=3Dt)return v;h=3Dk.g=
+lobal,h&&0=3D=3D=3Dn.active++&&n.event.trigger("ajaxStart"),k.type=3Dk.t=
+ype.toUpperCase(),k.hasContent=3D!Fc.test(k.type),e=3Dk.url,k.hasContent=
+||(k.data&&(e=3Dk.url+=3D(xc.test(e)?"&":"?")+k.data,delete k.data),k.ca=
+che=3D=3D=3D!1&&(k.url=3DCc.test(e)?e.replace(Cc,"$1_=3D"+wc++):e+(xc.te=
+st(e)?"&":"?")+"_=3D"+wc++)),k.ifModified&&(n.lastModified[e]&&v.setRequ=
+estHeader("If-Modified-Since",n.lastModified[e]),n.etag[e]&&v.setRequest=
+Header("If-None-Match",n.etag[e])),(k.data&&k.hasContent&&k.contentType!=
+=3D=3D!1||b.contentType)&&v.setRequestHeader("Content-Type",k.contentTyp=
+e),v.setRequestHeader("Accept",k.dataTypes[0]&&k.accepts[k.dataTypes[0]]=
+?k.accepts[k.dataTypes[0]]+("*"!=3D=3Dk.dataTypes[0]?", "+Kc+"; q=3D0.01=
+":""):k.accepts["*"]);for(d in k.headers)v.setRequestHeader(d,k.headers[=
+d]);if(k.beforeSend&&(k.beforeSend.call(l,v,k)=3D=3D=3D!1||2=3D=3D=3Dt))=
+return v.abort();u=3D"abort";for(d in{success:1,error:1,complete:1})v[d]=
+(k[d]);if(i=3DNc(Jc,k,b,v)){v.readyState=3D1,h&&m.trigger("ajaxSend",[v,=
+k]),k.async&&k.timeout>0&&(g=3DsetTimeout(function(){v.abort("timeout")}=
+,k.timeout));try{t=3D1,i.send(r,x)}catch(w){if(!(2>t))throw w;x(-1,w)}}e=
+lse x(-1,"No Transport");function x(a,b,c,d){var j,r,s,u,w,x=3Db;2!=3D=3D=
+t&&(t=3D2,g&&clearTimeout(g),i=3Dvoid 0,f=3Dd||"",v.readyState=3Da>0?4:0=
+,j=3Da>=3D200&&300>a||304=3D=3D=3Da,c&&(u=3DPc(k,v,c)),u=3DQc(k,u,v,j),j=
+?(k.ifModified&&(w=3Dv.getResponseHeader("Last-Modified"),w&&(n.lastModi=
+fied[e]=3Dw),w=3Dv.getResponseHeader("etag"),w&&(n.etag[e]=3Dw)),204=3D=3D=
+=3Da||"HEAD"=3D=3D=3Dk.type?x=3D"nocontent":304=3D=3D=3Da?x=3D"notmodifi=
+ed":(x=3Du.state,r=3Du.data,s=3Du.error,j=3D!s)):(s=3Dx,(a||!x)&&(x=3D"e=
+rror",0>a&&(a=3D0))),v.status=3Da,v.statusText=3D(b||x)+"",j?o.resolveWi=
+th(l,[r,x,v]):o.rejectWith(l,[v,x,s]),v.statusCode(q),q=3Dvoid 0,h&&m.tr=
+igger(j?"ajaxSuccess":"ajaxError",[v,k,j?r:s]),p.fireWith(l,[v,x]),h&&(m=
+.trigger("ajaxComplete",[v,k]),--n.active||n.event.trigger("ajaxStop")))=
+}return v},getJSON:function(a,b,c){return n.get(a,b,c,"json")},getScript=
+:function(a,b){return n.get(a,void 0,b,"script")}}),n.each(["get","post"=
+],function(a,b){n[b]=3Dfunction(a,c,d,e){return n.isFunction(c)&&(e=3De|=
+|d,d=3Dc,c=3Dvoid 0),n.ajax({url:a,type:b,dataType:e,data:c,success:d})}=
+}),n.each(["ajaxStart","ajaxStop","ajaxComplete","ajaxError","ajaxSucces=
+s","ajaxSend"],function(a,b){n.fn[b]=3Dfunction(a){return this.on(b,a)}}=
+),n._evalUrl=3Dfunction(a){return n.ajax({url:a,type:"GET",dataType:"scr=
+ipt",async:!1,global:!1,"throws":!0})},n.fn.extend({wrapAll:function(a){=
+if(n.isFunction(a))return this.each(function(b){n(this).wrapAll(a.call(t=
+his,b))});if(this[0]){var b=3Dn(a,this[0].ownerDocument).eq(0).clone(!0)=
+;this[0].parentNode&&b.insertBefore(this[0]),b.map(function(){var a=3Dth=
+is;while(a.firstChild&&1=3D=3D=3Da.firstChild.nodeType)a=3Da.firstChild;=
+return a}).append(this)}return this},wrapInner:function(a){return this.e=
+ach(n.isFunction(a)?function(b){n(this).wrapInner(a.call(this,b))}:funct=
+ion(){var b=3Dn(this),c=3Db.contents();c.length?c.wrapAll(a):b.append(a)=
+})},wrap:function(a){var b=3Dn.isFunction(a);return this.each(function(c=
+){n(this).wrapAll(b?a.call(this,c):a)})},unwrap:function(){return this.p=
+arent().each(function(){n.nodeName(this,"body")||n(this).replaceWith(thi=
+s.childNodes)}).end()}}),n.expr.filters.hidden=3Dfunction(a){return a.of=
+fsetWidth<=3D0&&a.offsetHeight<=3D0||!l.reliableHiddenOffsets()&&"none"=3D=
+=3D=3D(a.style&&a.style.display||n.css(a,"display"))},n.expr.filters.vis=
+ible=3Dfunction(a){return!n.expr.filters.hidden(a)};var Rc=3D/%20/g,Sc=3D=
+/\[\]$/,Tc=3D/\r?\n/g,Uc=3D/^(?:submit|button|image|reset|file)$/i,Vc=3D=
+/^(?:input|select|textarea|keygen)/i;function Wc(a,b,c,d){var e;if(n.isA=
+rray(b))n.each(b,function(b,e){c||Sc.test(a)?d(a,e):Wc(a+"["+("object"=3D=
+=3Dtypeof e?b:"")+"]",e,c,d)});else if(c||"object"!=3D=3Dn.type(b))d(a,b=
+);else for(e in b)Wc(a+"["+e+"]",b[e],c,d)}n.param=3Dfunction(a,b){var c=
+,d=3D[],e=3Dfunction(a,b){b=3Dn.isFunction(b)?b():null=3D=3Db?"":b,d[d.l=
+ength]=3DencodeURIComponent(a)+"=3D"+encodeURIComponent(b)};if(void 0=3D=
+=3D=3Db&&(b=3Dn.ajaxSettings&&n.ajaxSettings.traditional),n.isArray(a)||=
+a.jquery&&!n.isPlainObject(a))n.each(a,function(){e(this.name,this.value=
+)});else for(c in a)Wc(c,a[c],b,e);return d.join("&").replace(Rc,"+")},n=
+.fn.extend({serialize:function(){return n.param(this.serializeArray())},=
+serializeArray:function(){return this.map(function(){var a=3Dn.prop(this=
+,"elements");return a?n.makeArray(a):this}).filter(function(){var a=3Dth=
+is.type;return this.name&&!n(this).is(":disabled")&&Vc.test(this.nodeNam=
+e)&&!Uc.test(a)&&(this.checked||!X.test(a))}).map(function(a,b){var c=3D=
+n(this).val();return null=3D=3Dc?null:n.isArray(c)?n.map(c,function(a){r=
+eturn{name:b.name,value:a.replace(Tc,"\r\n")}}):{name:b.name,value:c.rep=
+lace(Tc,"\r\n")}}).get()}}),n.ajaxSettings.xhr=3Dvoid 0!=3D=3Da.ActiveXO=
+bject?function(){return!this.isLocal&&/^(get|post|head|put|delete|option=
+s)$/i.test(this.type)&&$c()||_c()}:$c;var Xc=3D0,Yc=3D{},Zc=3Dn.ajaxSett=
+ings.xhr();a.ActiveXObject&&n(a).on("unload",function(){for(var a in Yc)=
+Yc[a](void 0,!0)}),l.cors=3D!!Zc&&"withCredentials"in Zc,Zc=3Dl.ajax=3D!=
+!Zc,Zc&&n.ajaxTransport(function(a){if(!a.crossDomain||l.cors){var b;ret=
+urn{send:function(c,d){var e,f=3Da.xhr(),g=3D++Xc;if(f.open(a.type,a.url=
+,a.async,a.username,a.password),a.xhrFields)for(e in a.xhrFields)f[e]=3D=
+a.xhrFields[e];a.mimeType&&f.overrideMimeType&&f.overrideMimeType(a.mime=
+Type),a.crossDomain||c["X-Requested-With"]||(c["X-Requested-With"]=3D"XM=
+LHttpRequest");for(e in c)void 0!=3D=3Dc[e]&&f.setRequestHeader(e,c[e]+"=
+");f.send(a.hasContent&&a.data||null),b=3Dfunction(c,e){var h,i,j;if(b&&=
+(e||4=3D=3D=3Df.readyState))if(delete Yc[g],b=3Dvoid 0,f.onreadystatecha=
+nge=3Dn.noop,e)4!=3D=3Df.readyState&&f.abort();else{j=3D{},h=3Df.status,=
+"string"=3D=3Dtypeof f.responseText&&(j.text=3Df.responseText);try{i=3Df=
+.statusText}catch(k){i=3D""}h||!a.isLocal||a.crossDomain?1223=3D=3D=3Dh&=
+&(h=3D204):h=3Dj.text?200:404}j&&d(h,i,j,f.getAllResponseHeaders())},a.a=
+sync?4=3D=3D=3Df.readyState?setTimeout(b):f.onreadystatechange=3DYc[g]=3D=
+b:b()},abort:function(){b&&b(void 0,!0)}}}});function $c(){try{return ne=
+w a.XMLHttpRequest}catch(b){}}function _c(){try{return new a.ActiveXObje=
+ct("Microsoft.XMLHTTP")}catch(b){}}n.ajaxSetup({accepts:{script:"text/ja=
+vascript, application/javascript, application/ecmascript, application/x-=
+ecmascript"},contents:{script:/(?:java|ecma)script/},converters:{"text s=
+cript":function(a){return n.globalEval(a),a}}}),n.ajaxPrefilter("script"=
+,function(a){void 0=3D=3D=3Da.cache&&(a.cache=3D!1),a.crossDomain&&(a.ty=
+pe=3D"GET",a.global=3D!1)}),n.ajaxTransport("script",function(a){if(a.cr=
+ossDomain){var b,c=3Dz.head||n("head")[0]||z.documentElement;return{send=
+:function(d,e){b=3Dz.createElement("script"),b.async=3D!0,a.scriptCharse=
+t&&(b.charset=3Da.scriptCharset),b.src=3Da.url,b.onload=3Db.onreadystate=
+change=3Dfunction(a,c){(c||!b.readyState||/loaded|complete/.test(b.ready=
+State))&&(b.onload=3Db.onreadystatechange=3Dnull,b.parentNode&&b.parentN=
+ode.removeChild(b),b=3Dnull,c||e(200,"success"))},c.insertBefore(b,c.fir=
+stChild)},abort:function(){b&&b.onload(void 0,!0)}}}});var ad=3D[],bd=3D=
+/(=3D)\?(?=3D&|$)|\?\?/;n.ajaxSetup({jsonp:"callback",jsonpCallback:func=
+tion(){var a=3Dad.pop()||n.expando+"_"+wc++;return this[a]=3D!0,a}}),n.a=
+jaxPrefilter("json jsonp",function(b,c,d){var e,f,g,h=3Db.jsonp!=3D=3D!1=
+&&(bd.test(b.url)?"url":"string"=3D=3Dtypeof b.data&&!(b.contentType||""=
+).indexOf("application/x-www-form-urlencoded")&&bd.test(b.data)&&"data")=
+;return h||"jsonp"=3D=3D=3Db.dataTypes[0]?(e=3Db.jsonpCallback=3Dn.isFun=
+ction(b.jsonpCallback)?b.jsonpCallback():b.jsonpCallback,h?b[h]=3Db[h].r=
+eplace(bd,"$1"+e):b.jsonp!=3D=3D!1&&(b.url+=3D(xc.test(b.url)?"&":"?")+b=
+.jsonp+"=3D"+e),b.converters["script json"]=3Dfunction(){return g||n.err=
+or(e+" was not called"),g[0]},b.dataTypes[0]=3D"json",f=3Da[e],a[e]=3Dfu=
+nction(){g=3Darguments},d.always(function(){a[e]=3Df,b[e]&&(b.jsonpCallb=
+ack=3Dc.jsonpCallback,ad.push(e)),g&&n.isFunction(f)&&f(g[0]),g=3Df=3Dvo=
+id 0}),"script"):void 0}),n.parseHTML=3Dfunction(a,b,c){if(!a||"string"!=
+=3Dtypeof a)return null;"boolean"=3D=3Dtypeof b&&(c=3Db,b=3D!1),b=3Db||z=
+;var d=3Dv.exec(a),e=3D!c&&[];return d?[b.createElement(d[1])]:(d=3Dn.bu=
+ildFragment([a],b,e),e&&e.length&&n(e).remove(),n.merge([],d.childNodes)=
+)};var cd=3Dn.fn.load;n.fn.load=3Dfunction(a,b,c){if("string"!=3Dtypeof =
+a&&cd)return cd.apply(this,arguments);var d,e,f,g=3Dthis,h=3Da.indexOf("=
+ ");return h>=3D0&&(d=3Da.slice(h,a.length),a=3Da.slice(0,h)),n.isFuncti=
+on(b)?(c=3Db,b=3Dvoid 0):b&&"object"=3D=3Dtypeof b&&(f=3D"POST"),g.lengt=
+h>0&&n.ajax({url:a,type:f,dataType:"html",data:b}).done(function(a){e=3D=
+arguments,g.html(d?n("<div>").append(n.parseHTML(a)).find(d):a)}).comple=
+te(c&&function(a,b){g.each(c,e||[a.responseText,b,a])}),this},n.expr.fil=
+ters.animated=3Dfunction(a){return n.grep(n.timers,function(b){return a=3D=
+=3D=3Db.elem}).length};var dd=3Da.document.documentElement;function ed(a=
+){return n.isWindow(a)?a:9=3D=3D=3Da.nodeType?a.defaultView||a.parentWin=
+dow:!1}n.offset=3D{setOffset:function(a,b,c){var d,e,f,g,h,i,j,k=3Dn.css=
+(a,"position"),l=3Dn(a),m=3D{};"static"=3D=3D=3Dk&&(a.style.position=3D"=
+relative"),h=3Dl.offset(),f=3Dn.css(a,"top"),i=3Dn.css(a,"left"),j=3D("a=
+bsolute"=3D=3D=3Dk||"fixed"=3D=3D=3Dk)&&n.inArray("auto",[f,i])>-1,j?(d=3D=
+l.position(),g=3Dd.top,e=3Dd.left):(g=3DparseFloat(f)||0,e=3DparseFloat(=
+i)||0),n.isFunction(b)&&(b=3Db.call(a,c,h)),null!=3Db.top&&(m.top=3Db.to=
+p-h.top+g),null!=3Db.left&&(m.left=3Db.left-h.left+e),"using"in b?b.usin=
+g.call(a,m):l.css(m)}},n.fn.extend({offset:function(a){if(arguments.leng=
+th)return void 0=3D=3D=3Da?this:this.each(function(b){n.offset.setOffset=
+(this,a,b)});var b,c,d=3D{top:0,left:0},e=3Dthis[0],f=3De&&e.ownerDocume=
+nt;if(f)return b=3Df.documentElement,n.contains(b,e)?(typeof e.getBoundi=
+ngClientRect!=3D=3DL&&(d=3De.getBoundingClientRect()),c=3Ded(f),{top:d.t=
+op+(c.pageYOffset||b.scrollTop)-(b.clientTop||0),left:d.left+(c.pageXOff=
+set||b.scrollLeft)-(b.clientLeft||0)}):d},position:function(){if(this[0]=
+){var a,b,c=3D{top:0,left:0},d=3Dthis[0];return"fixed"=3D=3D=3Dn.css(d,"=
+position")?b=3Dd.getBoundingClientRect():(a=3Dthis.offsetParent(),b=3Dth=
+is.offset(),n.nodeName(a[0],"html")||(c=3Da.offset()),c.top+=3Dn.css(a[0=
+],"borderTopWidth",!0),c.left+=3Dn.css(a[0],"borderLeftWidth",!0)),{top:=
+b.top-c.top-n.css(d,"marginTop",!0),left:b.left-c.left-n.css(d,"marginLe=
+ft",!0)}}},offsetParent:function(){return this.map(function(){var a=3Dth=
+is.offsetParent||dd;while(a&&!n.nodeName(a,"html")&&"static"=3D=3D=3Dn.c=
+ss(a,"position"))a=3Da.offsetParent;return a||dd})}}),n.each({scrollLeft=
+:"pageXOffset",scrollTop:"pageYOffset"},function(a,b){var c=3D/Y/.test(b=
+);n.fn[a]=3Dfunction(d){return W(this,function(a,d,e){var f=3Ded(a);retu=
+rn void 0=3D=3D=3De?f?b in f?f[b]:f.document.documentElement[d]:a[d]:voi=
+d(f?f.scrollTo(c?n(f).scrollLeft():e,c?e:n(f).scrollTop()):a[d]=3De)},a,=
+d,arguments.length,null)}}),n.each(["top","left"],function(a,b){n.cssHoo=
+ks[b]=3DMb(l.pixelPosition,function(a,c){return c?(c=3DKb(a,b),Ib.test(c=
+)?n(a).position()[b]+"px":c):void 0})}),n.each({Height:"height",Width:"w=
+idth"},function(a,b){n.each({padding:"inner"+a,content:b,"":"outer"+a},f=
+unction(c,d){n.fn[d]=3Dfunction(d,e){var f=3Darguments.length&&(c||"bool=
+ean"!=3Dtypeof d),g=3Dc||(d=3D=3D=3D!0||e=3D=3D=3D!0?"margin":"border");=
+return W(this,function(b,c,d){var e;return n.isWindow(b)?b.document.docu=
+mentElement["client"+a]:9=3D=3D=3Db.nodeType?(e=3Db.documentElement,Math=
+.max(b.body["scroll"+a],e["scroll"+a],b.body["offset"+a],e["offset"+a],e=
+["client"+a])):void 0=3D=3D=3Dd?n.css(b,c,g):n.style(b,c,d,g)},b,f?d:voi=
+d 0,f,null)}})}),n.fn.size=3Dfunction(){return this.length},n.fn.andSelf=
+=3Dn.fn.addBack,"function"=3D=3Dtypeof define&&define.amd&&define("jquer=
+y",[],function(){return n});var fd=3Da.jQuery,gd=3Da.$;return n.noConfli=
+ct=3Dfunction(b){return a.$=3D=3D=3Dn&&(a.$=3Dgd),b&&a.jQuery=3D=3D=3Dn&=
+&(a.jQuery=3Dfd),n},typeof b=3D=3D=3DL&&(a.jQuery=3Da.$=3Dn),n});
+
+------------lxKrnHtxJfhltemRg8xXAp
+Content-Disposition: inline; filename=app.js
+Content-Type: application/javascript; charset=utf-8; name=app.js
+Content-Location: http://expressjs.com/app.js
+Content-Transfer-Encoding: Base64
+
+Cm8gPSAkOwoKLy8gbWlzYyBqdW5rCgpvKGZ1bmN0aW9uKCl7CiAgdmFyIHdpZHRo
+ID0gd2luZG93LmlubmVyV2lkdGg7CiAgdmFyIGhlaWdodCA9IHdpbmRvdy5pbm5l
+ckhlaWdodDsKICB2YXIgZG9jID0gbyhkb2N1bWVudCk7CgogIC8vIC5vbmxvYWQK
+ICBvKCdodG1sJykuYWRkQ2xhc3MoJ29ubG9hZCcpOwoKICAvLyB0b3AgbGluawog
+IG8oJyN0b3AnKS5jbGljayhmdW5jdGlvbihlKXsKICAgIG8oJ2JvZHknKS5hbmlt
+YXRlKHsgc2Nyb2xsVG9wOiAwIH0sICdmYXN0Jyk7CiAgICBlLnByZXZlbnREZWZh
+dWx0KCk7CiAgfSk7CgogIC8vIHNjcm9sbGluZyBsaW5rcwogIHZhciBhZGRlZDsK
+ICBkb2Muc2Nyb2xsKGZ1bmN0aW9uKGUpewogICAgaWYgKGRvYy5zY3JvbGxUb3Ao
+KSA+IDUpIHsKICAgICAgaWYgKGFkZGVkKSByZXR1cm47CiAgICAgIGFkZGVkID0g
+dHJ1ZTsKICAgICAgbygnYm9keScpLmFkZENsYXNzKCdzY3JvbGwnKTsKICAgIH0g
+ZWxzZSB7CiAgICAgIG8oJ2JvZHknKS5yZW1vdmVDbGFzcygnc2Nyb2xsJyk7CiAg
+ICAgIGFkZGVkID0gZmFsc2U7CiAgICB9CiAgfSkKCiAgLy8gaGlnaGxpZ2h0IGNv
+ZGUKICBvKCdwcmUuanMgY29kZScpLmVhY2goZnVuY3Rpb24oKXsKICAgIG8odGhp
+cykuaHRtbChoaWdobGlnaHQobyh0aGlzKS50ZXh0KCkpKTsKICB9KQp9KQoKLy8g
+YWN0aXZlIG1lbnUganVuawoKbyhmdW5jdGlvbigpewogIHZhciBwcmV2OwogIHZh
+ciBuID0gMDsKCiAgdmFyIGhlYWRpbmdzID0gbygnaDMnKS5tYXAoZnVuY3Rpb24o
+aSwgZWwpewogICAgcmV0dXJuIHsKICAgICAgdG9wOiBvKGVsKS5vZmZzZXQoKS50
+b3AsCiAgICAgIGlkOiBlbC5pZAogICAgfQogIH0pOwoKICBmdW5jdGlvbiBjbG9z
+ZXN0KCkgewogICAgdmFyIGg7CiAgICB2YXIgdG9wID0gbyh3aW5kb3cpLnNjcm9s
+bFRvcCgpOwogICAgdmFyIGkgPSBoZWFkaW5ncy5sZW5ndGg7CiAgICB3aGlsZSAo
+aS0tKSB7CiAgICAgIGggPSBoZWFkaW5nc1tpXTsKICAgICAgaWYgKHRvcCA+PSBo
+LnRvcCAtIDEpIHJldHVybiBoOwogICAgfQogIH0KCiAgbyhkb2N1bWVudCkuc2Ny
+b2xsKGZ1bmN0aW9uKCl7CiAgICB2YXIgaCA9IGNsb3Nlc3QoKTsKICAgIGlmICgh
+aCkgcmV0dXJuOwoKICAgIGlmIChwcmV2KSB7CiAgICAgIHByZXYucmVtb3ZlQ2xh
+c3MoJ2FjdGl2ZScpOwogICAgICBwcmV2LnBhcmVudCgpLnBhcmVudCgpLnJlbW92
+ZUNsYXNzKCdhY3RpdmUnKTsKICAgIH0KCiAgICB2YXIgYSA9IG8oJ2FbaHJlZj0i
+IycgKyBoLmlkICsgJyJdJyk7CiAgICBhLmFkZENsYXNzKCdhY3RpdmUnKTsKICAg
+IGEucGFyZW50KCkucGFyZW50KCkuYWRkQ2xhc3MoJ2FjdGl2ZScpOwoKICAgIHBy
+ZXYgPSBhOwogIH0pCn0pCgovKioKICogSGlnaGxpZ2h0IHRoZSBnaXZlbiBganNg
+LgogKi8KCmZ1bmN0aW9uIGhpZ2hsaWdodChqcykgewogIHJldHVybiBqcwogICAg
+LnJlcGxhY2UoLzwvZywgJyZsdDsnKQogICAgLnJlcGxhY2UoLz4vZywgJyZndDsn
+KQogICAgLnJlcGxhY2UoL1wvXC8oLiopL2dtLCAnPHNwYW4gY2xhc3M9ImNvbW1l
+bnQiPi8vJDE8L3NwYW4+JykKICAgIC5yZXBsYWNlKC8oJy4qPycpL2dtLCAnPHNw
+YW4gY2xhc3M9InN0cmluZyI+JDE8L3NwYW4+JykKICAgIC5yZXBsYWNlKC8oXGQr
+XC5cZCspL2dtLCAnPHNwYW4gY2xhc3M9Im51bWJlciI+JDE8L3NwYW4+JykKICAg
+IC5yZXBsYWNlKC8oXGQrKS9nbSwgJzxzcGFuIGNsYXNzPSJudW1iZXIiPiQxPC9z
+cGFuPicpCiAgICAucmVwbGFjZSgvXGJuZXcgKihcdyspL2dtLCAnPHNwYW4gY2xh
+c3M9ImtleXdvcmQiPm5ldzwvc3Bhbj4gPHNwYW4gY2xhc3M9ImluaXQiPiQxPC9z
+cGFuPicpCiAgICAucmVwbGFjZSgvXGIoZnVuY3Rpb258bmV3fHRocm93fHJldHVy
+bnx2YXJ8aWZ8ZWxzZSlcYi9nbSwgJzxzcGFuIGNsYXNzPSJrZXl3b3JkIj4kMTwv
+c3Bhbj4nKQp9Cg==
+
+------------lxKrnHtxJfhltemRg8xXAp
+Content-Disposition: inline; filename=retina.js
+Content-Type: application/javascript; charset=utf-8; name=retina.js
+Content-Location: http://expressjs.com/retina.js
+Content-Transfer-Encoding: Base64
+
+Ly8gcmV0aW5hLmpzLCBhIGhpZ2gtcmVzb2x1dGlvbiBpbWFnZSBzd2FwcGVyICho
+dHRwOi8vcmV0aW5hanMuY29tKSwgdjAuMC4yCgooZnVuY3Rpb24oKXtmdW5jdGlv
+biB0KGUpe3RoaXMucGF0aD1lO3ZhciB0PXRoaXMucGF0aC5zcGxpdCgiLiIpLG49
+dC5zbGljZSgwLHQubGVuZ3RoLTEpLmpvaW4oIi4iKSxyPXRbdC5sZW5ndGgtMV07
+dGhpcy5hdF8yeF9wYXRoPW4rIkAyeC4iK3J9ZnVuY3Rpb24gbihlKXt0aGlzLmVs
+PWUsdGhpcy5wYXRoPW5ldyB0KHRoaXMuZWwuZ2V0QXR0cmlidXRlKCJzcmMiKSk7
+dmFyIG49dGhpczt0aGlzLnBhdGguY2hlY2tfMnhfdmFyaWFudChmdW5jdGlvbihl
+KXtlJiZuLnN3YXAoKX0pfXZhciBlPXR5cGVvZiBleHBvcnRzPT0idW5kZWZpbmVk
+Ij93aW5kb3c6ZXhwb3J0cztlLlJldGluYUltYWdlUGF0aD10LHQuY29uZmlybWVk
+X3BhdGhzPVtdLHQucHJvdG90eXBlLmlzX2V4dGVybmFsPWZ1bmN0aW9uKCl7cmV0
+dXJuISF0aGlzLnBhdGgubWF0Y2goL15odHRwcz9cOi9pKSYmIXRoaXMucGF0aC5t
+YXRjaCgiLy8iK2RvY3VtZW50LmRvbWFpbil9LHQucHJvdG90eXBlLmNoZWNrXzJ4
+X3ZhcmlhbnQ9ZnVuY3Rpb24oZSl7dmFyIG4scj10aGlzO2lmKHRoaXMuaXNfZXh0
+ZXJuYWwoKSlyZXR1cm4gZSghMSk7aWYodGhpcy5hdF8yeF9wYXRoIGluIHQuY29u
+ZmlybWVkX3BhdGhzKXJldHVybiBlKCEwKTtuPW5ldyBYTUxIdHRwUmVxdWVzdCxu
+Lm9wZW4oIkhFQUQiLHRoaXMuYXRfMnhfcGF0aCksbi5vbnJlYWR5c3RhdGVjaGFu
+Z2U9ZnVuY3Rpb24oKXtyZXR1cm4gbi5yZWFkeVN0YXRlIT00P2UoITEpOm4uc3Rh
+dHVzPj0yMDAmJm4uc3RhdHVzPD0zOTk/KHQuY29uZmlybWVkX3BhdGhzLnB1c2go
+ci5hdF8yeF9wYXRoKSxlKCEwKSk6ZSghMSl9LG4uc2VuZCgpfSxlLlJldGluYUlt
+YWdlPW4sbi5wcm90b3R5cGUuc3dhcD1mdW5jdGlvbihlKXtmdW5jdGlvbiBuKCl7
+dC5lbC5jb21wbGV0ZT8odC5lbC5zZXRBdHRyaWJ1dGUoIndpZHRoIix0LmVsLm9m
+ZnNldFdpZHRoKSx0LmVsLnNldEF0dHJpYnV0ZSgiaGVpZ2h0Iix0LmVsLm9mZnNl
+dEhlaWdodCksdC5lbC5zZXRBdHRyaWJ1dGUoInNyYyIsZSkpOnNldFRpbWVvdXQo
+biw1KX10eXBlb2YgZT09InVuZGVmaW5lZCImJihlPXRoaXMucGF0aC5hdF8yeF9w
+YXRoKTt2YXIgdD10aGlzO24oKX0sZS5kZXZpY2VQaXhlbFJhdGlvPjEmJih3aW5k
+b3cub25sb2FkPWZ1bmN0aW9uKCl7dmFyIGU9ZG9jdW1lbnQuZ2V0RWxlbWVudHNC
+eVRhZ05hbWUoImltZyIpLHQ9W10scixpO2ZvcihyPTA7cjxlLmxlbmd0aDtyKysp
+aT1lW3JdLHQucHVzaChuZXcgbihpKSl9KX0pKCk7
+
+------------lxKrnHtxJfhltemRg8xXAp
+Content-Disposition: inline; filename=arrow.png
+Content-Type: image/png; name=arrow.png
+Content-Location: http://expressjs.com/images/arrow.png
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAKCAYAAACE2W/HAAADHmlDQ1BJQ0MgUHJv
+ZmlsZQAAeAGFVN9r01AU/tplnbDhizpnEQk+aJFuZFN0Q5y2a1e6zVrqNrchSJum
+bVyaxiTtfrAH2YtvOsV38Qc++QcM2YNve5INxhRh+KyIIkz2IrOemzRNJ1MDufe7
+3/nuOSfn5F6g+XFa0xQvDxRVU0/FwvzE5BTf8gFeHEMr/GhNi4YWSiZHQA/Tsnnv
+s/MOHsZsdO5v36v+Y9WalQwR8BwgvpQ1xCLhWaBpXNR0E+DWie+dMTXCzUxzWKcE
+CR9nOG9jgeGMjSOWZjQ1QJoJwgfFQjpLuEA4mGng8w3YzoEU5CcmqZIuizyrRVIv
+5WRFsgz28B9zg/JfsKiU6Zut5xCNbZoZTtF8it4fOX1wjOYA1cE/Xxi9QbidcFg2
+46M1fkLNJK4RJr3n7nRpmO1lmpdZKRIlHCS8YlSuM2xp5gsDiZrm0+30UJKwnzS/
+NDNZ8+PtUJUE6zHF9fZLRvS6vdfbkZMH4zU+pynWf0D+vff1corleZLw67QejdX0
+W5I6Vtvb5M2mI8PEd1E/A0hCgo4cZCjgkUIMYZpjxKr4TBYZIkqk0ml0VHmyONY7
+KJOW7RxHeMlfDrheFvVbsrj24Pue3SXXjrwVhcW3o9hR7bWB6bqyE5obf3VhpaNu
+4Te55ZsbbasLCFH+iuWxSF5lyk+CUdd1NuaQU5f8dQvPMpTuJXYSWAy6rPBe+Cps
+Ck+FF8KXv9TIzt6tEcuAcSw+q55TzcbsJdJM0utkuL+K9ULGGPmQMUNanb4kTZyK
+OfLaUAsnBneC6+biXC/XB567zF3h+rkIrS5yI47CF/VFfCHwvjO+Pl+3b4hhp9u+
+02TrozFa67vTkbqisXqUj9sn9j2OqhMZsrG+sX5WCCu0omNqSrN0TwADJW1Ol/MF
+k+8RhAt8iK4tiY+rYleQTysKb5kMXpcMSa9I2S6wO4/tA7ZT1l3maV9zOfMqcOkb
+/cPrLjdVBl4ZwNFzLhegM3XkCbB8XizrFdsfPJ63gJE722OtPW1huos+VqvbdC5b
+HgG7D6vVn8+q1d3n5H8LeKP8BqkjCtbCoV8yAAAACXBIWXMAAAsTAAALEwEAmpwY
+AAABbmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4
+PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNC40LjAiPgogICA8
+cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjIt
+cmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91
+dD0iIgogICAgICAgICAgICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2Vs
+ZW1lbnRzLzEuMS8iPgogICAgICAgICA8ZGM6c3ViamVjdD4KICAgICAgICAgICAg
+PHJkZjpCYWcvPgogICAgICAgICA8L2RjOnN1YmplY3Q+CiAgICAgIDwvcmRmOkRl
+c2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgrlPw1BAAAAx0lE
+QVQoFYWRMQoCMRBFzYJ2gojY2ysIWukh7F3wCN5CvIFgbe8trEU8giC2NsKyanx/
+d6NxXfXDSyYz85OQGGttKSfDWskdxNAH5aRXs4weJovnzHHGLMu5WtJfZBrQePCM
+R+IhyPg0+0bFNVjBBZwigjW04KtxQvEEd/B1ZjGFMnxctUNyA3kTqUR7xh4EwDOl
+O1SZFyBTkdHlltTrkBh1/Aj0ijf4pSvFECo6sQFbkNzO6ep9dDVduRnwqSF0IYJ/
+Uk8bxg8dNpOrMRPDcQAAAABJRU5ErkJggg==
+
+------------lxKrnHtxJfhltemRg8xXAp--
